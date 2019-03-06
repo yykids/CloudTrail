@@ -1,6 +1,6 @@
 ## CloudTrail > 개요
 
-TOAST Cloud CloudTrail은 사용자의 TOAST Cloud 사용 이력을 확인 할 수 있는 상품입니다.
+TOAST CloudTrail은 사용자의 TOAST Cloud 사용 이력을 확인 할 수 있는 상품입니다.
 조직 단위로 제공되는 상품이며, 별도의 활성화 과정 없이 바로 사용하실 수 있는 상품입니다.
 
 ## 특징 및 기능
