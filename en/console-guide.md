@@ -42,7 +42,7 @@ CloudTrail 서비스를 선택하면 다음과 같은 화면이 나타납니다.
 
 ### 상세 보기 기능
 
-![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/EN_004.png)
+![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/EN_004.png)
 
 행을 선택하면, 해당 행이 확장되면서 상세 이벤트가 나타납니다.
 
