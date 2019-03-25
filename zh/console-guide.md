@@ -5,19 +5,19 @@
 CloudTrail은 조직을 활성화하면 기본으로 제공되는 서비스입니다. 따라서 조직을 생성했다면 별도로 처리할 작업은 없습니다.
 조직을 생성한 후 서비스 선택에서 CloudTrail 서비스를 선택하시면 사용할 수 있습니다.
 
-![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/cloudtrail_20190308_01.png)
+![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/KR_001.png)
 
 ### 목록
 
 CloudTrail 서비스를 선택하면 다음과 같은 화면이 나타납니다.
 
-![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/cloudtrail_20190308_02.png)
+![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/KR_002.png)
 
 해당 조직 내에서 사용자 이벤트가 기록되고, 이를 확인할 수 있습니다.
 
 ### 검색 및 정렬 기능
 
-![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/cloudtrail_20190308_03.png)
+![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/KR_003.png)
 
 1. 사용자를 검색합니다. ID(TOAST 회원의 경우 이메일, 조직 내부 회원의 경우 ID)와 이름으로 검색할 수 있습니다.
 2. 프로젝트를 검색합니다. 이름 단위로만 검색할 수 있습니다.
@@ -42,7 +42,7 @@ CloudTrail 서비스를 선택하면 다음과 같은 화면이 나타납니다.
 
 ### 상세 보기 기능
 
-![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/cloudtrail_20190308_04.png)
+![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/KR_004.png)
 
 행을 선택하면, 해당 행이 확장되면서 상세 이벤트가 나타납니다.
 
