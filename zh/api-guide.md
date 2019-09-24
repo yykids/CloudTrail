@@ -1,4 +1,4 @@
-   
+
 ## CloudTrail > API 가이드
 
 > Cloud Trail에 Restful API를 호출해, 사용자가 설정한 조건에 맞는 이벤트를 조회할 수 있다.
@@ -70,7 +70,7 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
 | idNo | String | X | Event를 발생시킨 회원 IdNo (uuid) |
 | eventId | String | O | 조회할 Event의 ID |
 | startDate | Date | O | 조회할 기간의 시작 날짜 |
-| endDate | Date |O  | 조호활 기간의 끝나는 날짜 |
+| endDate | Date |O  | 조회활 기간의 끝나는 날짜 |
 | page | Object | O | 조회 결과의 Page 조건 |
 | page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 |
 | page.limit | Integer | O | 조회 결과의 사이즈 조건 |
