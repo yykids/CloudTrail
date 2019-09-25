@@ -1,19 +1,21 @@
 
-## CloudTrail > API 가이드
+## CloudTrail > API Guide
 
-> Cloud Trail에 Restful API를 호출해, 사용자가 설정한 조건에 맞는 이벤트를 조회할 수 있다.
+> By calling RESTful API to Cloud Trail, events can be queried by user-defined conditions. 
 
 ## URL & Appkey
-RESTFUL API를 사용하려면 AppKey가 필요하다.
-[CONSOLE] 의 우측 상단에서 발급된 Key 정보를 확인 할 수 있다.
+AppKey is required to use RESTful API. 
+Check your key information on top right of the [CONSOLE]. 
 ![[그림 1] AppKey & SecretKey 확인](http://static.toastoven.net/prod_cloudtrail/cloudtrail_20190924.png)
-<center>[그림 1] AppKey & SecretKey 확인</center>
-## RESTFUL API 가이드
+
+<center>[Figure 1] Check AppKeys </center>
+
+## RESTful API Guide 
 
 ### Common Response Body
 
-모든 API 요청에 대해 HTTP 응답 코드는 200 으로 응답한다.
-자세한 응답 결과는 Response Body 의 header 항목을 참고한다.
+To all API requests, HTTP sends 200 for response code. 
+Read the header at Response Body for more details of the response result.
 
 ```json
 {
@@ -27,15 +29,15 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
 
 |Key|	Type|	Description|
 |---|---|---|
-|header|	Object|	응답헤더|
-|header.isSuccessful|	boolean|	성공 여부|
-|header.resultCode|	int|	응답 코드. 성공 시 0, 실패 시 에러코드 반환|
-|header.resultMessage|	String|	응답 메시지. 성공 시 "SUCCESS", 실패 시 에러메시지 반환|
+|header|	Object| Response header |
+|header.isSuccessful|	boolean| Successful or not |
+|header.resultCode|	int| Response code: 0 for successful; error code returned if it fails |
+|header.resultMessage|	String| Response message: "SUCCESS" if successful; or, error code returned if it fails. |
 
-### 1. Event 조회
-* 발생한 Event 에 대해서 조회를 합니다. 
-* Event 조회 시, 사용자가 설정한 검색 조건에 의해 결과가 조회됩니다.
-* RequestBody에 이 검색 조건을 포함해야 합니다.
+### 1. Query Events 
+* Query events that occur. 
+* Query events by user-defined search conditions.
+* Request Body must include the search conditions. 
 
 **[Method, URL]**
 
@@ -47,7 +49,7 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
 
 |Key|	Value|
 |---|---|
-|appKey|	[CONSOLE] 에서 발급받은 AppKey|
+|appKey| Appkey issued on [CONSOLE] |
 
 **[Request Body]**
 
@@ -67,14 +69,14 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
-| idNo | String | X | Event를 발생시킨 회원 IdNo (uuid) |
-| eventId | String | O | 조회할 Event의 ID |
-| startDate | Date | O | 조회할 기간의 시작 날짜 |
-| endDate | Date |O  | 조회할 기간의 끝나는 날짜 |
-| page | Object | O | 조회 결과의 Page 조건 |
-| page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 |
-| page.limit | Integer | O | 조회 결과의 사이즈 조건 |
-| page.page | Integer | O | 조회 결과의 Page중 조회 하고자 하는 Page 조건 |
+| idNo | String | X | ID of the member incurring an event (uuid) |
+| eventId | String | O | ID of an event to query |
+| startDate | Date | O | Start date of query period |
+| endDate | Date |O  | End date of query period |
+| page | Object | O | Page conditions of query result |
+| page.sortBy | String | X | Size sorting conditions of query result |
+| page.limit | Integer | O | Size conditions of query result |
+| page.page | Integer | O | Page conditions to query among result pages |
 
 
 **[Response Body]**
@@ -92,7 +94,7 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
                 "userIdNo": "24bfb870-46da-11e9-aafd-005056ac7022",
                 "userIp":"10.162.5.18",
                 "userAgent":"ReactorNetty/0.8.4.RELEASE",
-                "userName": "홍길동",
+                "userName": "Hong kildong",
                 "userId": "test_email@nhn.com",
                 "eventSourceType": "API",
                 "productId": "M0XnzOFE",
@@ -109,7 +111,7 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
                     "targetMembers": [
                         {
                             "idNo": "9c30dff8-53ba-4f18-8b44-22ab3b1678d7",
-                            "name": "임꺽정",
+                            "name": "Lim kkukjeong",
                             "userCode": "test_user",
                             "emailAddress": "test_email2@nhn.com"
                         }

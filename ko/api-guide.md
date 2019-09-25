@@ -1,19 +1,20 @@
 
 ## CloudTrail > API 가이드
 
-> Cloud Trail에 Restful API를 호출해, 사용자가 설정한 조건에 맞는 이벤트를 조회할 수 있다.
+> Cloud Trail에 RESTful API를 호출해, 사용자가 설정한 조건에 맞는 이벤트를 조회할 수 있습니다.
 
 ## URL & Appkey
-RESTFUL API를 사용하려면 AppKey가 필요하다.
-[CONSOLE] 의 우측 상단에서 발급된 Key 정보를 확인 할 수 있다.
+RESTful API를 사용하려면 AppKey가 필요합니다.
+[CONSOLE] 의 우측 상단에서 발급된 Key 정보를 확인할 수 있습니다.
 ![[그림 1] AppKey & SecretKey 확인](http://static.toastoven.net/prod_cloudtrail/cloudtrail_20190924.png)
-<center>[그림 1] AppKey & SecretKey 확인</center>
-## RESTFUL API 가이드
+<center>[그림 1] AppKey 확인</center>
+
+## RESTful API 가이드
 
 ### Common Response Body
 
-모든 API 요청에 대해 HTTP 응답 코드는 200 으로 응답한다.
-자세한 응답 결과는 Response Body 의 header 항목을 참고한다.
+모든 API 요청에 대해 HTTP 응답 코드는 200입니다.
+자세한 응답 결과는 Response Body의 header 항목을 참고합니다.
 
 ```json
 {
@@ -27,15 +28,15 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
 
 |Key|	Type|	Description|
 |---|---|---|
-|header|	Object|	응답헤더|
+|header|	Object|	응답 헤더|
 |header.isSuccessful|	boolean|	성공 여부|
 |header.resultCode|	int|	응답 코드. 성공 시 0, 실패 시 에러코드 반환|
-|header.resultMessage|	String|	응답 메시지. 성공 시 "SUCCESS", 실패 시 에러메시지 반환|
+|header.resultMessage|	String|	응답 메시지. 성공 시 "SUCCESS", 실패 시 오류 메시지 반환|
 
 ### 1. Event 조회
-* 발생한 Event 에 대해서 조회를 합니다. 
-* Event 조회 시, 사용자가 설정한 검색 조건에 의해 결과가 조회됩니다.
-* RequestBody에 이 검색 조건을 포함해야 합니다.
+* 발생한 이벤트를 조회합니다. 
+* 이벤트 조회 시, 사용자가 설정한 검색 조건으로 조회됩니다.
+* Request Body에 이 검색 조건을 포함해야 합니다.
 
 **[Method, URL]**
 
@@ -67,14 +68,14 @@ RESTFUL API를 사용하려면 AppKey가 필요하다.
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
-| idNo | String | X | Event를 발생시킨 회원 IdNo (uuid) |
-| eventId | String | O | 조회할 Event의 ID |
+| idNo | String | X | 이벤트를 발생시킨 회원 IdNo (uuid) |
+| eventId | String | O | 조회할 이벤트의 ID |
 | startDate | Date | O | 조회할 기간의 시작 날짜 |
 | endDate | Date |O  | 조회할 기간의 끝나는 날짜 |
-| page | Object | O | 조회 결과의 Page 조건 |
+| page | Object | O | 조회 결과의 페이지 조건 |
 | page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 |
 | page.limit | Integer | O | 조회 결과의 사이즈 조건 |
-| page.page | Integer | O | 조회 결과의 Page중 조회 하고자 하는 Page 조건 |
+| page.page | Integer | O | 조회 결과의 페이지 중 조회할 페이지 조건 |
 
 
 **[Response Body]**
