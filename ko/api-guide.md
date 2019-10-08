@@ -55,6 +55,12 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 ```json
 {
     "idNo" : "string",
+    "member" : {
+      "memberType" : "string",    /* TOAST, IAM 중 선택 */
+      "userCode" : "string",      /* IAM member type일 경우 작성 */
+      "emailAddress" : "string",   /* TOAST member type일 경우 작성 */
+      "idNo" : "string" 
+    },
     "eventId" : "string",
     "startDate": "2019-09-01T02:00:00.000Z",
     "endDate": "2019-09-12T03:13:00.000Z",
@@ -65,10 +71,20 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
     }
 } 
 ```
+* 이벤트를 발생시킨 사용자에 대한 검색을 특정하고 싶지 않다면, member의 값은 존재하지 않아야 합니다.
+* TOAST memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
+* 반대로, IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
+* idNo 값이 있을 경우, memberType 과 userCode, emailAddress 값과 관계없이 우선적으로 적용됩니다.
+
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
 | idNo | String | X | 이벤트를 발생시킨 회원 IdNo (uuid) |
+| member | Object | X | 이벤트를 발생시킨 회원 |
+| member.memberType | String | X | 이벤트를 발생시킨 회원의 타입 (TOAST, IAM) |
+| member.userCode | String | X | 이벤트를 발생시킨 회원의 userCode (IAM 회원일 경우) |
+| member.emailAddress | String | X | 이벤트를 발생시킨 회원의 email address (TOAST 회원일 경우)|
+| member.idNo | String | X | 이벤트를 발생시킨 회원 IdNo (uuid) |
 | eventId | String | O | 조회할 이벤트의 ID |
 | startDate | Date | O | 조회할 기간의 시작 날짜 |
 | endDate | Date |O  | 조회할 기간의 끝나는 날짜 |

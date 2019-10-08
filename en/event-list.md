@@ -1,104 +1,105 @@
 ## CloudTrail > 수집되는 이벤트 목록
 
-|이벤트|서비스|
+|Event|Service|
 | --- | --- |
-|스케일링 그룹 예약 작업 생성|기본 인프라 서비스|
-|스케일링 그룹 예약 작업 삭제|기본 인프라 서비스|
-|인스턴스 플로팅 IP 연결|기본 인프라 서비스|
-|플로팅 IP 생성|기본 인프라 서비스|
-|플로팅 IP 삭제|기본 인프라 서비스|
-|인스턴스 플로팅 IP 연결 해제|기본 인프라 서비스|
-|이미지 생성|기본 인프라 서비스|
-|이미지 삭제|기본 인프라 서비스|
-|이미지 정보 변경|기본 인프라 서비스|
-|이미지 공유 변경|기본 인프라 서비스|
-|인스턴스 생성|기본 인프라 서비스|
-|인스턴스 삭제|기본 인프라 서비스|
-|인스턴스 정보 변경|기본 인프라 서비스|
-|인스턴스 재부팅|기본 인프라 서비스|
-|인스턴스 타입 변경|기본 인프라 서비스|
-|인스턴스 시작|기본 인프라 서비스|
-|인스턴스 종료|기본 인프라 서비스|
-|인스턴스 템플릿 생성|기본 인프라 서비스|
-|인스턴스 템플릿 삭제|기본 인프라 서비스|
-|인스턴스 템플릿 변경|기본 인프라 서비스|
-|인스턴스 인터페이스 변경|기본 인프라 서비스|
-|인스턴스 인터페이스 변경|기본 인프라 서비스|
-|인터넷 게이트웨이 생성|기본 인프라 서비스|
-|인터넷 게이트웨이 삭제|기본 인프라 서비스|
-|키페어 생성|기본 인프라 서비스|
-|키페어 삭제|기본 인프라 서비스|
-|로드 밸런서 생성|기본 인프라 서비스|
-|로드 밸런서 삭제|기본 인프라 서비스|
-|로드 밸런서 정보 변경|기본 인프라 서비스|
-|로드 밸런서 리스너 생성|기본 인프라 서비스|
-|로드 밸런서 리스너 삭제|기본 인프라 서비스|
-|로드 밸런서 리스너 변경|기본 인프라 서비스|
-|로드 밸런서 인스턴스 연결 추가|기본 인프라 서비스|
-|로드 밸런서 인스턴스 연결 해제|기본 인프라 서비스|
-|인스턴스 메타데이터 생성|기본 인프라 서비스|
-|인스턴스 메타데이터 삭제|기본 인프라 서비스|
-|인스턴스 메타데이터 변경|기본 인프라 서비스|
-|VPC 피어링 생성|기본 인프라 서비스|
-|VPC 피어링 삭제|기본 인프라 서비스|
-|포트 생성|기본 인프라 서비스|
-|포트 삭제|기본 인프라 서비스|
-|포트 보안 그룹 변경|기본 인프라 서비스|
-|라우팅 테이블 라우트 생성|기본 인프라 서비스|
-|라우팅 테이블 라우트 삭제|기본 인프라 서비스|
-|라우팅 테이블 인터넷 게이트웨이 연결|기본 인프라 서비스|
-|라우팅 테이블 생성|기본 인프라 서비스|
-|라우팅 테이블 삭제|기본 인프라 서비스|
-|라우팅 테이블 인터넷 게이트웨이 연결 해제|기본 인프라 서비스|
-|라우팅 테이블 기본 지정|기본 인프라 서비스|
-|라우팅 테이블 변경|기본 인프라 서비스|
-|스케일링 그룹 생성|기본 인프라 서비스|
-|스케일링 그룹 삭제|기본 인프라 서비스|
-|스케일링 그룹 변경|기본 인프라 서비스|
-|보안 그룹 생성|기본 인프라 서비스|
-|보안 그룹 삭제|기본 인프라 서비스|
-|보안 그룹 변경|기본 인프라 서비스|
-|보안 정책 생성|기본 인프라 서비스|
-|보안 정책 삭제|기본 인프라 서비스|
-|블록 스토리지 스냅숏 생성|기본 인프라 서비스|
-|블록 스토리지 스냅숏 삭제|기본 인프라 서비스|
-|인스턴스 볼륨 연결|기본 인프라 서비스|
-|블록 스토리지 생성|기본 인프라 서비스|
-|블록 스토리지 삭제|기본 인프라 서비스|
-|인스턴스 볼륨 연결 해제|기본 인프라 서비스|
-|블록 스토리지 정보 변경|기본 인프라 서비스|
-|VPC 생성|기본 인프라 서비스|
-|VPC 삭제|기본 인프라 서비스|
-|VPC 정보 변경|기본 인프라 서비스|
-|VPC 서브넷 라우팅 테이블 연결|기본 인프라 서비스|
-|VPC 서브넷 생성|기본 인프라 서비스|
-|VPC 서브넷 삭제|기본 인프라 서비스|
-|VPC 서브넷 라우팅 테이블 연결 해제|기본 인프라 서비스|
-|VPC 서브넷 변경|기본 인프라 서비스|
-|조직 생성|콘솔|
-|조직 삭제|콘솔|
-|조직 도메인 추가|콘솔|
-|조직 도메인 삭제|콘솔|
-|조직 도메인 수정|콘솔|
-|조직 내부 회원 추가|콘솔|
-|조직 내부 회원 비밀번호 변경 공지 메일 발송|콘솔|
-|조직 내부 회원 정보 수정|콘솔|
-|조직 멤버 추가|콘솔|
-|조직 멤버 삭제|콘솔|
-|조직 멤버 초대|콘솔|
-|조직 멤버 초대 취소|콘솔|
-|조직 멤버 수정|콘솔|
-|조직 서비스 비활성화|콘솔|
-|조직 서비스 활성화|콘솔|
-|조직 정보 수정|콘솔|
-|프로젝트 생성|콘솔|
-|프로젝트 삭제|콘솔|
-|프로젝트 멤버 추가|콘솔|
-|프로젝트 멤버 삭제|콘솔|
-|프로젝트 멤버 초대|콘솔|
-|프로젝트 멤버 초대 취소|콘솔|
-|프로젝트 멤버 권한 수정|콘솔|
-|프로젝트 멤버 삭제|콘솔|
-|프로젝트 서비스 비활성화|콘솔|
-|프로젝트 서비스 활성화|콘솔|
-|프로젝트 수정|콘솔|
+|Create Schedule for Scaling Group|Default Infrastructure Service|
+|Delete Schedule for Scaling Group|Default Infrastructure Service|
+|Associate Instance Floating IP |Default Infrastructure Service|
+|Create Floating IP|Default Infrastructure Service|
+|Delete Floating IP|Default Infrastructure Service|
+|Disassociate Instance Floating IP|Default Infrastructure Service|
+|Create Image|Default Infrastructure Service|
+|Delete Image|Default Infrastructure Service|
+|Change Image Information|Default Infrastructure Service|
+|Create Image Sharing|Default Infrastructure Service|
+|Delete Image Sharing|Default Infrastructure Service|
+|Create Instance|Default Infrastructure Service|
+|Delete Instance |Default Infrastructure Service|
+|Change Instance Information|Default Infrastructure Service|
+|Reboot Instance|Default Infrastructure Service|
+|Change Instance Type|Default Infrastructure Service|
+|Start Instance|Default Infrastructure Service|
+|Close Instance|Default Infrastructure Service|
+|Create Instance Template|Default Infrastructure Service|
+|Delete Instance Template|Default Infrastructure Service|
+|Change Instance Template |Default Infrastructure Service|
+|Create Instance Interface|Default Infrastructure Service|
+|Delete Instance Interface|Default Infrastructure Service|
+|Create Internet Gateway|Default Infrastructure Service|
+|Delete Internet Gateway |Default Infrastructure Service|
+|Create Keypair|Default Infrastructure Service|
+|Delete Keypair|Default Infrastructure Service|
+|Create Load Balancer|Default Infrastructure Service|
+|Delete Load Balancer|Default Infrastructure Service|
+|Change Load Balancer Information|Default Infrastructure Service|
+|Create Load Balancer Listener|Default Infrastructure Service|
+|Delete Load Balancer Listener|Default Infrastructure Service|
+|Change Load Balancer Listener|Default Infrastructure Service|
+|Attach Load Balancer Instance|Default Infrastructure Service|
+|Detach Load Balancer Instance |Default Infrastructure Service|
+|Change Status of Load Balancer Instance |Default Infrastructure Service|
+|Create Instance Metadata|Default Infrastructure Service|
+|Delete Instance Metadata|Default Infrastructure Service|
+|Change Instance Metadata|Default Infrastructure Service|
+|Create VPC Peering|Default Infrastructure Service|
+|Delete VPC Peering|Default Infrastructure Service|
+|Create Port|Default Infrastructure Service|
+|Delete Port|Default Infrastructure Service|
+|Change Port Security Group|Default Infrastructure Service|
+|Create Route in Routing Table|Default Infrastructure Service|
+|Delete Route in Routing Table  |Default Infrastructure Service|
+|Connect Routing Table over Internet Gateway|Default Infrastructure Service|
+|Create Routing Table |Default Infrastructure Service|
+|Delete Routing Table |Default Infrastructure Service|
+|Disconnect Routing Table over Internet Gateway|Default Infrastructure Service|
+|Set Default Routing Table |Default Infrastructure Service|
+|Change Routing Table |Default Infrastructure Service|
+|Create Scaling Group|Default Infrastructure Service|
+|Delete Scaling Group|Default Infrastructure Service|
+|Change Scaling Group|Default Infrastructure Service|
+|Create Security Group|Default Infrastructure Service|
+|Delete Security Group|Default Infrastructure Service|
+|Change Security Group|Default Infrastructure Service|
+|Create Security Policy|Default Infrastructure Service|
+|Delete Security Policy |Default Infrastructure Service|
+|Create Block Storage Snapshot |Default Infrastructure Service|
+|Delete Block Storage Snapshot|Default Infrastructure Service|
+|Connect Instance Volume|Default Infrastructure Service|
+|Create Block Storage|Default Infrastructure Service|
+|Delete Block Storage|Default Infrastructure Service|
+|Disconnect Instance Volume |Default Infrastructure Service|
+|Change Block Storage Information|Default Infrastructure Service|
+|Create VPC|Default Infrastructure Service|
+|Delete VPC|Default Infrastructure Service|
+|Change VPC Information|Default Infrastructure Service|
+|Connect Routing Table over VPC Subnet|Default Infrastructure Service|
+|Create VPC Subnet|Default Infrastructure Service|
+|Delete VPC Subnet |Default Infrastructure Service|
+|Disconnect Routing Table over VPC Subnet|Default Infrastructure Service|
+|Change VPC Subnet|Default Infrastructure Service|
+|IAM Login|Console|
+|IAM 멤버 권한 변경|Console|
+|Add Organization Domain |Console|
+|Modify Organization Domain|Console|
+|Add Organization Member|Console|
+|Send Notification Mail to Organization Members to Change Password|Console| 
+|Modify Organization Member Information |Console|
+|Add Organization Member |Console|
+|Delete Organization Member|Console|
+|Invite Organization Member|Console|
+|Cancel Organization Member Invitation|Console|  
+|Modify Organization Member  |Console|
+|Disable Organization Service |Console|
+|Enable Organization Service|Console|
+|Modify Organization Information|Console|
+|Create Project|Console|
+|Delete Project|Console|
+|Add Project Member |Console|
+|Delete Project Member|Console|
+|Invite Project Member|Console|
+|Cancel Project Member Invitation|Console|
+|Modify Project Member Authority|Console|
+|Delete Project Member|Console|
+|Disable Project Service|Console|
+|Enable Project Service|Console|
+|Modify Project|Console|
