@@ -105,27 +105,27 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
     "page": {
         "content": [
             {
-                "eventTime": "2019-09-04T10:31:49.348+0000",
-                "userIdNo": "24bfb870-46da-11e9-aafd-005056ac7022",
-                "userIp":"10.162.5.18",
+                "eventTime": "2019-11-01T10:31:49.348+0000",
+                "userIdNo": "String",
+                "userIp":"10.00.00.000",
                 "userAgent":"ReactorNetty/0.8.4.RELEASE",
                 "userName": "홍길동",
                 "userId": "test_email@nhn.com",
                 "eventSourceType": "API",
                 "productId": "M0XnzOFE",
-                "region": "string",
-                "orgId": "Y4PbNFUlBsRgAxcU",
-                "projectId": "string",
-                "projectName": "string",
-                "appKey": "string",
-                "tenantId": "string",
+                "region": "String",
+                "orgId": "String",
+                "projectId": "String",
+                "projectName": "String",
+                "appKey": "String",
+                "tenantId": "String",
                 "eventId": "event_id.iam.member.role.update",
-                "request": "{\n\t\"id\" : \"2\",\n\t\"productId\" : \"M0XnzOFE\",\n\t\"uuid\" : \"24bfb870-46da-11e9-aafd-005056ac7022\"\n\t\n}",
+                "request": "{\n\t\"id\" : \"2\",\n\t\"productId\" : \"M0XnzOFE\",\n\t\"uuid\" : \"String\"\n\t\n}",
                 "response": "{\"header\":{\"resultCode\":0,\"resultMessage\":\"SUCCESS\",\"isSuccessful\":true}}",
                 "eventTarget": {
                     "targetMembers": [
                         {
-                            "idNo": "9c30dff8-53ba-4f18-8b44-22ab3b1678d7",
+                            "idNo": "String",
                             "name": "임꺽정",
                             "userCode": "test_user",
                             "emailAddress": "test_email2@nhn.com"
@@ -134,20 +134,31 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
                 }
             },
         ],
-        "pageable": "INSTANCE",
-        "totalPages": 1,
-        "totalElements": 1,
-        "last": true,
-        "size": 0,
-        "number": 0,
-        "numberOfElements": 1,
-        "first": true,
-        "sort": {
-            "sorted": false,
-            "unsorted": true,
-            "empty": true
-        },
-        "empty": false
     }
 }
 ```
+| Key | Type | Description |
+| --- | --- | --- |
+| eventTime | Date | 이벤트 발생 시간 |
+| userIdNo | Object | 이벤트를 발생시킨 회원의 uuid |
+| userName | String |  이벤트를 발생시킨 회원의 이름|
+| UserId | String | 이벤트를 발생시킨 회원의 ID (Toast 계정일 경우, 이메일 형식) |
+| userIp | String | 이벤트를 발생시킨 회원의 IP |
+| userAgent | String | 이벤트를 발생시킨 회원의 Agent |
+| eventSourceType | String | 이벤트를 발생시킨 주체의 타입 |
+| productId | String | 이벤트가 발생한 상품 ID |
+| region | String | 이벤트가 발생한 리전 |
+| orgId | String | 이벤트가 발생한 조직 ID |
+| projectId | String | 이벤트가 발생한 프로젝트 ID |
+| projectName | String | 이벤트가 발생한 프로젝트 이름 |
+| appKey | String | 이벤트가 발생한 앱키 |
+| tenantId | String | 이벤트가 발생한 테넌트 ID |
+| eventId | String | 이벤트 ID |
+| request | String | 발생한 이벤트의 요청 내용 |
+| response | String | 발생한 이벤트의 응답 내용 |
+| eventTarget | Object | 발생한 이벤트의 대상 |
+| eventTarget.targetMembers | Object | 발생한 이벤트의 대상 회원 |
+| targetMembers.idNo | String | 발생한 이벤트의 대상 회원의 uuid |
+| targetMembers.name | String | 발생한 이벤트의 대상 회원의 이름 |
+| targetMembers.userCode | Integer | 발생한 이벤트의 대상 회원의 ID (IAM 회원일 경우) |
+| targetMembers.emailAddress | Integer | 발생한 이벤트의 대상 회원의 이메일 주소 (TOAST 회원일 경우) |
