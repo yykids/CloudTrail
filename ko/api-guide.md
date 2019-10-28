@@ -1,11 +1,11 @@
 
 ## CloudTrail > API 가이드
 
-> Cloud Trail에 RESTful API를 호출해, 사용자가 설정한 조건에 맞는 이벤트를 조회할 수 있습니다.
+> CloudTrail에 RESTful API를 호출해, 사용자가 설정한 조건에 맞는 이벤트를 조회할 수 있습니다.
 
 ## URL & Appkey
 RESTful API를 사용하려면 AppKey가 필요합니다.
-[CONSOLE] 의 우측 상단에서 발급된 Key 정보를 확인할 수 있습니다.
+[CONSOLE]의 우측 상단에서 발급된 Key 정보를 확인할 수 있습니다.
 ![[그림 1] AppKey & SecretKey 확인](http://static.toastoven.net/prod_cloudtrail/cloudtrail_20190924.png)
 <center>[그림 1] AppKey 확인</center>
 
@@ -30,7 +30,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 |---|---|---|
 |header|	Object|	응답 헤더|
 |header.isSuccessful|	boolean|	성공 여부|
-|header.resultCode|	int|	응답 코드. 성공 시 0, 실패 시 에러코드 반환|
+|header.resultCode|	int|	응답 코드. 성공 시 0, 실패 시 오류 코드 반환|
 |header.resultMessage|	String|	응답 메시지. 성공 시 "SUCCESS", 실패 시 오류 메시지 반환|
 
 ### 1. Event 조회
@@ -48,7 +48,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 
 |Key|	Value|
 |---|---|
-|appKey|	[CONSOLE] 에서 발급받은 AppKey|
+|appKey|	[CONSOLE]에서 발급받은 AppKey|
 
 **[Request Body]**
 
@@ -71,7 +71,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
     }
 } 
 ```
-* 이벤트를 발생시킨 사용자에 대한 검색을 특정하고 싶지 않다면, member의 값은 존재하지 않아야 합니다.
+* member에 값을 지정하지 않으면 전체 이벤트 목록을 조회할 수 있습니다.
 * TOAST memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
 * 반대로, IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
 * idNo 값이 있을 경우, memberType 과 userCode, emailAddress 값과 관계없이 우선적으로 적용됩니다.
