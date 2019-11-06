@@ -1,8 +1,12 @@
 
 ## CloudTrail > 릴리스 노트
 
-### 2019.09.24
+### 2019.10.29
+#### 기능 개선
+* Cloud Trail Event 조회 시, Event를 발생 시킨 사용자의 대한 검색 조건이 개선되었습니다.
+    * 자세한 사항은 메뉴얼 참고: [링크](http://alpha-docs.toast.com/ko/CloudTrail/ko/api-guide/)
 
+### 2019.09.24
 #### 기능 추가
 * Cloud Trail에서 Event 조회 Restful API를 제공합니다.
     * 자세한 사항은 메뉴얼 참고: [링크](http://beta-docs.toast.com/ko/CloudTrail/ko/api-guide/)
