@@ -66,6 +66,11 @@ Read the header at Response Body for more details of the response result.
     }
 } 
 ```
+* member에 값을 지정하지 않으면 전체 이벤트 목록을 조회할 수 있습니다.
+* TOAST memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
+* 반대로, IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
+* idNo 값이 있을 경우, memberType 과 userCode, emailAddress 값과 관계없이 우선적으로 적용됩니다.
+* eventId에 대한 자세한 정보는 메뉴얼 참고 : [링크](http://alpha-docs.toast.com/en/CloudTrail/en/event-list/)
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
