@@ -1,105 +1,105 @@
 ## CloudTrail > 수집되는 이벤트 목록
 
-|Event|Service|
-| --- | --- |
-|Create Schedule for Scaling Group|Default Infrastructure Service|
-|Delete Schedule for Scaling Group|Default Infrastructure Service|
-|Associate Instance Floating IP |Default Infrastructure Service|
-|Create Floating IP|Default Infrastructure Service|
-|Delete Floating IP|Default Infrastructure Service|
-|Disassociate Instance Floating IP|Default Infrastructure Service|
-|Create Image|Default Infrastructure Service|
-|Delete Image|Default Infrastructure Service|
-|Change Image Information|Default Infrastructure Service|
-|Create Image Sharing|Default Infrastructure Service|
-|Delete Image Sharing|Default Infrastructure Service|
-|Create Instance|Default Infrastructure Service|
-|Delete Instance |Default Infrastructure Service|
-|Change Instance Information|Default Infrastructure Service|
-|Reboot Instance|Default Infrastructure Service|
-|Change Instance Type|Default Infrastructure Service|
-|Start Instance|Default Infrastructure Service|
-|Close Instance|Default Infrastructure Service|
-|Create Instance Template|Default Infrastructure Service|
-|Delete Instance Template|Default Infrastructure Service|
-|Change Instance Template |Default Infrastructure Service|
-|Create Instance Interface|Default Infrastructure Service|
-|Delete Instance Interface|Default Infrastructure Service|
-|Create Internet Gateway|Default Infrastructure Service|
-|Delete Internet Gateway |Default Infrastructure Service|
-|Create Keypair|Default Infrastructure Service|
-|Delete Keypair|Default Infrastructure Service|
-|Create Load Balancer|Default Infrastructure Service|
-|Delete Load Balancer|Default Infrastructure Service|
-|Change Load Balancer Information|Default Infrastructure Service|
-|Create Load Balancer Listener|Default Infrastructure Service|
-|Delete Load Balancer Listener|Default Infrastructure Service|
-|Change Load Balancer Listener|Default Infrastructure Service|
-|Attach Load Balancer Instance|Default Infrastructure Service|
-|Detach Load Balancer Instance |Default Infrastructure Service|
-|Change Status of Load Balancer Instance |Default Infrastructure Service|
-|Create Instance Metadata|Default Infrastructure Service|
-|Delete Instance Metadata|Default Infrastructure Service|
-|Change Instance Metadata|Default Infrastructure Service|
-|Create VPC Peering|Default Infrastructure Service|
-|Delete VPC Peering|Default Infrastructure Service|
-|Create Port|Default Infrastructure Service|
-|Delete Port|Default Infrastructure Service|
-|Change Port Security Group|Default Infrastructure Service|
-|Create Route in Routing Table|Default Infrastructure Service|
-|Delete Route in Routing Table  |Default Infrastructure Service|
-|Connect Routing Table over Internet Gateway|Default Infrastructure Service|
-|Create Routing Table |Default Infrastructure Service|
-|Delete Routing Table |Default Infrastructure Service|
-|Disconnect Routing Table over Internet Gateway|Default Infrastructure Service|
-|Set Default Routing Table |Default Infrastructure Service|
-|Change Routing Table |Default Infrastructure Service|
-|Create Scaling Group|Default Infrastructure Service|
-|Delete Scaling Group|Default Infrastructure Service|
-|Change Scaling Group|Default Infrastructure Service|
-|Create Security Group|Default Infrastructure Service|
-|Delete Security Group|Default Infrastructure Service|
-|Change Security Group|Default Infrastructure Service|
-|Create Security Policy|Default Infrastructure Service|
-|Delete Security Policy |Default Infrastructure Service|
-|Create Block Storage Snapshot |Default Infrastructure Service|
-|Delete Block Storage Snapshot|Default Infrastructure Service|
-|Connect Instance Volume|Default Infrastructure Service|
-|Create Block Storage|Default Infrastructure Service|
-|Delete Block Storage|Default Infrastructure Service|
-|Disconnect Instance Volume |Default Infrastructure Service|
-|Change Block Storage Information|Default Infrastructure Service|
-|Create VPC|Default Infrastructure Service|
-|Delete VPC|Default Infrastructure Service|
-|Change VPC Information|Default Infrastructure Service|
-|Connect Routing Table over VPC Subnet|Default Infrastructure Service|
-|Create VPC Subnet|Default Infrastructure Service|
-|Delete VPC Subnet |Default Infrastructure Service|
-|Disconnect Routing Table over VPC Subnet|Default Infrastructure Service|
-|Change VPC Subnet|Default Infrastructure Service|
-|IAM Login|Console|
-|IAM 멤버 권한 변경|Console|
-|Add Organization Domain |Console|
-|Modify Organization Domain|Console|
-|Add Organization Member|Console|
-|Send Notification Mail to Organization Members to Change Password|Console| 
-|Modify Organization Member Information |Console|
-|Add Organization Member |Console|
-|Delete Organization Member|Console|
-|Invite Organization Member|Console|
-|Cancel Organization Member Invitation|Console|  
-|Modify Organization Member  |Console|
-|Disable Organization Service |Console|
-|Enable Organization Service|Console|
-|Modify Organization Information|Console|
-|Create Project|Console|
-|Delete Project|Console|
-|Add Project Member |Console|
-|Delete Project Member|Console|
-|Invite Project Member|Console|
-|Cancel Project Member Invitation|Console|
-|Modify Project Member Authority|Console|
-|Delete Project Member|Console|
-|Disable Project Service|Console|
-|Enable Project Service|Console|
-|Modify Project|Console|
+|Event|Event ID|Service|
+| --- | --- | --- |
+|Create Schedule for Scaling Group|event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
+|Delete Schedule for Scaling Group|event_id.iaas.autoscale_schedule.delete|Default Infrastructure Service|
+|Associate Instance Floating IP |event_id.iaas.floating_ip.attach|Default Infrastructure Service|
+|Create Floating IP|event_id.iaas.floating_ip.create|Default Infrastructure Service|
+|Delete Floating IP|event_id.iaas.floating_ip.delete|Default Infrastructure Service|
+|Disassociate Instance Floating IP|event_id.iaas.floating_ip.detach|Default Infrastructure Service|
+|Create Image|event_id.iaas.image.create|Default Infrastructure Service|
+|Delete Image|event_id.iaas.image.delete|Default Infrastructure Service|
+|Change Image Information|event_id.iaas.image.update|Default Infrastructure Service|
+|Create Image Sharing|event_id.iaas.image_member.create|Default Infrastructure Service|
+|Delete Image Sharing|event_id.iaas.image_member.delete|Default Infrastructure Service|
+|Create Instance|event_id.iaas.instance.create|Default Infrastructure Service|
+|Delete Instance|event_id.iaas.instance.delete|Default Infrastructure Service|
+|Change Instance Information|event_id.iaas.instance.update|Default Infrastructure Service|
+|Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
+|Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
+|Start Instance|event_id.iaas.instance_action.start|Default Infrastructure Service|
+|Close Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
+|Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
+|Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
+|Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
+|Create Instance Interface|event_id.iaas.interface.create|Default Infrastructure Service|
+|Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
+|Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
+|Delete Internet Gateway|event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
+|Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
+|Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
+|Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
+|Delete Load Balancer|event_id.iaas.loadbalancer.delete|Default Infrastructure Service|
+|Change Load Balancer Information|event_id.iaas.loadbalancer.update|Default Infrastructure Service|
+|Create Load Balancer Listener|event_id.iaas.loadbalancer_listener.create|Default Infrastructure Service|
+|Delete Load Balancer Listener|event_id.iaas.loadbalancer_listener.delete|Default Infrastructure Service|
+|Change Load Balancer Listener|event_id.iaas.loadbalancer_listener.update|Default Infrastructure Service|
+|Attach Load Balancer Instance|event_id.iaas.loadbalancer_member.create|Default Infrastructure Service|
+|Detach Load Balancer Instance|event_id.iaas.loadbalancer_member.delete|Default Infrastructure Service|
+|Change Status of Load Balancer Instance|event_id.iaas.loadbalancer_member.update|Default Infrastructure Service|
+|Create Instance Metadata|event_id.iaas.metadata.create|Default Infrastructure Service|
+|Delete Instance Metadata|event_id.iaas.metadata.delete|Default Infrastructure Service|
+|Change Instance Metadata|event_id.iaas.metadata.update|Default Infrastructure Service|
+|Create VPC Peering|event_id.iaas.peering.create|Default Infrastructure Service|
+|Delete VPC Peering|event_id.iaas.peering.delete|Default Infrastructure Service|
+|Create Port|event_id.iaas.port.create|Default Infrastructure Service|
+|Delete Port|event_id.iaas.port.delete|Default Infrastructure Service|
+|Change Port Security Group|event_id.iaas.port.update|Default Infrastructure Service|
+|Create Route in Routing Table|event_id.iaas.route.create|Default Infrastructure Service|
+|Delete Route in Routing Table|event_id.iaas.route.delete|Default Infrastructure Service|
+|Connect Routing Table over Internet Gateway|event_id.iaas.routing_table.attach_gateway|Default Infrastructure Service|
+|Create Routing Table|event_id.iaas.routing_table.create|Default Infrastructure Service|
+|Delete Routing Table|event_id.iaas.routing_table.delete|Default Infrastructure Service|
+|Disconnect Routing Table over Internet Gateway|event_id.iaas.routing_table.detach_gateway|Default Infrastructure Service|
+|Set Default Routing Table|event_id.iaas.routing_table.set_as_default|Default Infrastructure Service|
+|Change Routing Table|event_id.iaas.routing_table.update|Default Infrastructure Service|
+|Create Scaling Group|event_id.iaas.scaling_group.create|Default Infrastructure Service|
+|Delete Scaling Group|event_id.iaas.scaling_group.delete|Default Infrastructure Service|
+|Change Scaling Group|event_id.iaas.scaling_group.update|Default Infrastructure Service|
+|Create Security Group|event_id.iaas.security_group.create|Default Infrastructure Service|
+|Delete Security Group|event_id.iaas.security_group.delete|Default Infrastructure Service|
+|Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
+|Create Security Policy|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
+|Delete Security Policy|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
+|Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
+|Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
+|Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|
+|Create Block Storage|event_id.iaas.volume.create|Default Infrastructure Service|
+|Delete Block Storage|event_id.iaas.volume.delete|Default Infrastructure Service|
+|Disconnect Instance Volume|event_id.iaas.volume.detach|Default Infrastructure Service|
+|Change Block Storage Information|event_id.iaas.volume.update|Default Infrastructure Service|
+|Create VPC|event_id.iaas.vpc.create|Default Infrastructure Service|
+|Delete VPC|event_id.iaas.vpc.delete|Default Infrastructure Service|
+|Change VPC Information|event_id.iaas.vpc.update|Default Infrastructure Service|
+|Connect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.attach_routingtable|Default Infrastructure Service|
+|Create VPC Subnet|event_id.iaas.vpc_subnet.creat|Default Infrastructure Service|
+|Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
+|Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
+|Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
+|IAM Login|event_id.iam.login|Console|
+|IAM 멤버 권한 변경|event_id.iam.member.role.update|Console|
+|Add Organization Domain|event_id.org.domain.add|Console|
+|Modify Organization Domain|event_id.org.domain.update|Console|
+|Add Organization Member|event_id.org.iam.member.add|Console|
+|Send Notification Mail to Organization Members to Change Password|event_id.org.iam.member.send_mail|Console| 
+|Modify Organization Member Information|event_id.org.iam.member.update|Console|
+|Add Organization Member|event_id.org.member.add|Console|
+|Delete Organization Member|event_id.org.member.delete|Console|
+|Invite Organization Member|event_id.org.member.invite|Console|
+|Cancel Organization Member Invitation|event_id.org.member.invite_cancel|Console|  
+|Modify Organization Member|event_id.org.member.update|Console|
+|Disable Organization Service|event_id.org.product.disable|Console|
+|Enable Organization Service|event_id.org.product.enable|Console|
+|Modify Organization Information|event_id.org.update|Console|
+|Create Project|event_id.project.create|Console|
+|Delete Project|event_id.project.delete|Console|
+|Add Project Member|event_id.project.member.add|Console|
+|Delete Project Member|event_id.project.member.delete|Console|
+|Invite Project Member|event_id.project.member.invite|Console|
+|Cancel Project Member Invitation|event_id.project.member.invite_cancel|Console|
+|Modify Project Member Authority|event_id.project.member.update|Console|
+|Delete Project Member|event_id.project.members.delete|Console|
+|Disable Project Service|event_id.project.product.disable|Console|
+|Enable Project Service|event_id.project.product.enable|Console|
+|Modify Project|event_id.project.update|Console|
