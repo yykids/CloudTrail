@@ -56,6 +56,12 @@ Read the header at Response Body for more details of the response result.
 ```json
 {
     "idNo" : "string",
+    "member" : {
+      "memberType" : "string",    /* TOAST / IAM */
+      "userCode" : "string",      /* In Case IAM member type */
+      "emailAddress" : "string",   /* In Case TOAST member type */
+      "idNo" : "string" 
+    },
     "eventId" : "string",
     "startDate": "2019-09-01T02:00:00.000Z",
     "endDate": "2019-09-12T03:13:00.000Z",
@@ -66,11 +72,11 @@ Read the header at Response Body for more details of the response result.
     }
 } 
 ```
-* member에 값을 지정하지 않으면 전체 이벤트 목록을 조회할 수 있습니다.
-* TOAST memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
-* 반대로, IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
-* idNo 값이 있을 경우, memberType 과 userCode, emailAddress 값과 관계없이 우선적으로 적용됩니다.
-* eventId에 대한 자세한 정보는 메뉴얼 참고 : [링크](http://alpha-docs.toast.com/en/CloudTrail/en/event-list/)
+* In order not to specify event-incurring user, member must not exist. 
+* For TOAST memberType, emailAddress is required, while userCode must not exist. 
+* By contrast, for IAM memberType, userCode is required, while emailAddress must not exist. 
+* idNO, if available, is to be applied beforehand, regardless of userCode or emailAddress. 
+* Refer to the manual for information on eventId : [링크](http://alpha-docs.toast.com/en/CloudTrail/en/event-list/)
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
@@ -122,7 +128,7 @@ Read the header at Response Body for more details of the response result.
                         }
                     ]
                 }
-            },
+            }
         ],
         "pageable": "INSTANCE",
         "totalPages": 1,
@@ -141,3 +147,28 @@ Read the header at Response Body for more details of the response result.
     }
 }
 ```
+| Key | Type | Description |
+| --- | --- | --- |
+| eventTime | Date | Time when event is incurred |
+| userIdNo | Object | UUID of event-incurring member |
+| userName | String | Name of event-incurring member |
+| UserId | String | ID of event-incurring member (email format for TOAST account) |
+| userIp | String | IP of event-incurring member |
+| userAgent | String | Agent of event-incurring member |
+| eventSourceType | String | Type of event-incurring subject |
+| productId | String | ID of product in which event is incurred |
+| region | String | Region where event is incurred |
+| orgId | String | ID of organization where event is incurred |
+| projectId | String | ID of project in which event is incurred |
+| projectName | String | Name of project in which event is incurred |
+| appKey | String | Appkey in which event is incurred |
+| tenantId | String | ID of tenant where event is incurred |
+| eventId | String | ID of event |
+| request | String | Request of incurred event |
+| response | String | Response of incurred event |
+| eventTarget | Object | Target of incurred event |
+| eventTarget.targetMembers | Object | Target member of incurred event |
+| targetMembers.idNo | String | UUID of target member incurred with event |
+| targetMembers.name | String | Name of target member incurred with event |
+| targetMembers.userCode | Integer | ID of target member incurred with event (for IAM members) |
+| targetMembers.emailAddress | Integer | Email address of target member incurred with event (for TOAST members) |
