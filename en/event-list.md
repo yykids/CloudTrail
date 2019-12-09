@@ -77,6 +77,27 @@
 |Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
+|DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
+|DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
+|DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
+|DB 인스턴스 관리 정보 변경|event_id.rds_for_mysql.instance.management.update|RDS for MySQL|
+|DB 인스턴스 Configuration 변경|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL|
+|DB 인스턴스 백업|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL|
+|DB 인스턴스 복원|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL|
+|DB 인스턴스 복제|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL|
+|DB 인스턴스 재시작|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL|
+|DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
+|DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
+|DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|백업 삭제|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
+|알림 생성|event_id.rds_for_mysql.notification.create|RDS for MySQL|
+|알림 변경|event_id.rds_for_mysql.notification.update|RDS for MySQL|
+|알림 삭제|event_id.rds_for_mysql.notification.delete|RDS for MySQL|
+|알림 활성화|event_id.rds_for_mysql.notification.enable|RDS for MySQL|
+|알림 비활성화|event_id.rds_for_mysql.notification.disable|RDS for MySQL|
+|수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
+|수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
+|수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
 |IAM Login|event_id.iam.login|Console|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|Console|
 |Add Organization Domain|event_id.org.domain.add|Console|
