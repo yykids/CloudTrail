@@ -77,6 +77,27 @@
 |VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|基本インフラサービス|
 |VPCサブネットルーティングテーブル接続の解除|event_id.iaas.vpc_subnet.detach_routingtable|基本インフラサービス|
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
+|DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL|
+|DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
+|DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
+|DBインスタンス管理情報を変更|event_id.rds_for_mysql.instance.management.update|RDS for MySQL|
+|DBインスタンスのConfigurationを変更|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL|
+|DBインスタンスのバックアップ	|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL|
+|DBインスタンスの復元|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL|
+|DBインスタンスのコピー|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL|
+|DBインスタンスの再起動|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL|
+|DBインスタンスの昇格|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
+|DBインスタンスのストレージを拡張|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
+|DBインスタンスの容量を確保|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|バックアップの削除|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
+|通知の作成|event_id.rds_for_mysql.notification.create|RDS for MySQL|
+|通知の変更|event_id.rds_for_mysql.notification.update|RDS for MySQL|
+|通知の削除|event_id.rds_for_mysql.notification.delete|RDS for MySQL|
+|通知の有効化|event_id.rds_for_mysql.notification.enable|RDS for MySQL|
+|通知の無効化|event_id.rds_for_mysql.notification.disable|RDS for MySQL|
+|受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
+|受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
+|受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
