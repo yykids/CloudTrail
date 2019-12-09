@@ -4,7 +4,7 @@
 ### 2019.12.10
 #### 이벤트 추가
 * RDS for MySQL 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼 참고: [링크](http://beta-docs.toast.com/ko/CloudTrail/ko/event-list/)
+    * 자세한 사항은 메뉴얼 참고: [링크](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
 
 ### 2019.10.29
 #### 기능 개선
