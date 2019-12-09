@@ -1,6 +1,11 @@
 
 ## CloudTrail > 릴리스 노트
 
+### 2019.12.10
+#### 이벤트 추가
+* RDS for MySQL 서비스 관련 이벤트가 추가되었습니다.
+    * 자세한 사항은 메뉴얼 참고: [링크](http://beta-docs.toast.com/ko/CloudTrail/ko/event-list/)
+
 ### 2019.10.29
 #### 기능 개선
 * Cloud Trail Event 조회 시, Event를 발생 시킨 사용자의 대한 검색 조건이 개선되었습니다.
