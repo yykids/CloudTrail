@@ -77,20 +77,20 @@
 |VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|基本インフラサービス|
 |VPCサブネットルーティングテーブル接続の解除|event_id.iaas.vpc_subnet.detach_routingtable|基本インフラサービス|
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
-|event_id.object_storage.account.look_up|アカウントの照会|Object Storage|
-|event_id.object_storage.account.metadata.update|アカウントメタデータの登録/修正|Object Storage|
-|event_id.object_storage.container.look_up|コンテナリストの照会|Object Storage|
-|event_id.object_storage.container.look_up|コンテナの照会|Object Storage|
-|event_id.object_storage.container.create|コンテナの作成|Object Storage|
-|event_id.object_storage.container.delete|コンテナの削除|Object Storage|
-|event_id.object_storage.container.metadata.update|コンテナメタデータの登録/修正|Object Storage|
-|event_id.object_storage.object.look_up|オブジェクトリストの照会|Object Storage|
-|event_id.object_storage.object.look_up|オブジェクトの照会|Object Storage|
-|event_id.object_storage.object.upload|オブジェクトのアップロード|Object Storage|
-|event_id.object_storage.object.download|オブジェクトのダウンロード|Object Storage|
-|event_id.object_storage.object.copy|オブジェクトのコピー|Object Storage|
-|event_id.object_storage.object.delete|オブジェクトの削除|Object Storage|
-|event_id.object_storage.object.metadata.update|オブジェクトメタデータの登録/修正|Object Storage|
+|アカウントの照会|event_id.object_storage.account.look_up|Object Storage|
+|アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
+|コンテナリストの照会|event_id.object_storage.container.look_up|Object Storage|
+|コンテナの照会|event_id.object_storage.container.look_up|Object Storage|
+|コンテナの作成|event_id.object_storage.container.create|Object Storage|
+|コンテナの削除|event_id.object_storage.container.delete|Object Storage|
+|コンテナメタデータの登録/修正|event_id.object_storage.container.metadata.update|Object Storage|
+|オブジェクトリストの照会|event_id.object_storage.object.look_up|Object Storage|
+|オブジェクトの照会|event_id.object_storage.object.look_up|Object Storage|
+|オブジェクトのアップロード|event_id.object_storage.object.upload|Object Storage|
+|オブジェクトのダウンロード|event_id.object_storage.object.download|Object Storage|
+|オブジェクトのコピー|event_id.object_storage.object.copy|Object Storage|
+|オブジェクトの削除|event_id.object_storage.object.delete|Object Storage|
+|オブジェクトメタデータの登録/修正|event_id.object_storage.object.metadata.update|Object Storage|
 |DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
@@ -113,7 +113,7 @@
 |受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
 |IAM ログイン|event_id.iam.login|コンソール|
-|IAM 멤버 권한 변경|event_id.iam.member.role.update|コンソール|
+|IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
 |組織ドメインの修正|event_id.org.domain.update|コンソール|
 |組織内部会員の追加|event_id.org.iam.member.add|コンソール|
