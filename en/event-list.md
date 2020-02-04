@@ -77,6 +77,20 @@
 |Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
+|event_id.object_storage.account.look_up|Query Account|Object Storage|
+|event_id.object_storage.account.metadata.update|Register/Modify Account Metadata|Object Storage|
+|event_id.object_storage.container.look_up|List Containers|Object Storage|
+|event_id.object_storage.container.look_up|Query Containers|Object Storage|
+|event_id.object_storage.container.create|Create Containers|Object Storage|
+|event_id.object_storage.container.delete|Delete Containers|Object Storage|
+|event_id.object_storage.container.metadata.update|Register/Modify Container Metadata|Object Storage|
+|event_id.object_storage.object.look_up|List Objects|Object Storage|
+|event_id.object_storage.object.look_up|Query Objects|Object Storage|
+|event_id.object_storage.object.upload|Upload objects|Object Storage|
+|event_id.object_storage.object.download|Download objects|Object Storage|
+|event_id.object_storage.object.copy|Copy objects|Object Storage|
+|event_id.object_storage.object.delete|Delete objects|Object Storage|
+|event_id.object_storage.object.metadata.update|Register/Modify Object Metadata|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|

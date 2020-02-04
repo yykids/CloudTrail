@@ -77,6 +77,20 @@
 |VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|基本インフラサービス|
 |VPCサブネットルーティングテーブル接続の解除|event_id.iaas.vpc_subnet.detach_routingtable|基本インフラサービス|
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
+|event_id.object_storage.account.look_up|アカウントの照会|Object Storage|
+|event_id.object_storage.account.metadata.update|アカウントメタデータの登録/修正|Object Storage|
+|event_id.object_storage.container.look_up|コンテナリストの照会|Object Storage|
+|event_id.object_storage.container.look_up|コンテナの照会|Object Storage|
+|event_id.object_storage.container.create|コンテナの作成|Object Storage|
+|event_id.object_storage.container.delete|コンテナの削除|Object Storage|
+|event_id.object_storage.container.metadata.update|コンテナメタデータの登録/修正|Object Storage|
+|event_id.object_storage.object.look_up|オブジェクトリストの照会|Object Storage|
+|event_id.object_storage.object.look_up|オブジェクトの照会|Object Storage|
+|event_id.object_storage.object.upload|オブジェクトのアップロード|Object Storage|
+|event_id.object_storage.object.download|オブジェクトのダウンロード|Object Storage|
+|event_id.object_storage.object.copy|オブジェクトのコピー|Object Storage|
+|event_id.object_storage.object.delete|オブジェクトの削除|Object Storage|
+|event_id.object_storage.object.metadata.update|オブジェクトメタデータの登録/修正|Object Storage|
 |DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
