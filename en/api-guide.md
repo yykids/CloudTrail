@@ -76,7 +76,7 @@ Read the header at Response Body for more details of the response result.
 * For TOAST memberType, emailAddress is required, while userCode must not exist. 
 * By contrast, for IAM memberType, userCode is required, while emailAddress must not exist. 
 * idNO, if available, is to be applied beforehand, regardless of userCode or emailAddress. 
-* Refer to the manual for information on eventId : [링크](http://beta-docs.toast.com/en/CloudTrail/en/event-list/)
+* Refer to the manual for more details on event IDs : [링크](http://beta-docs.toast.com/en/CloudTrail/en/event-list/)
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
