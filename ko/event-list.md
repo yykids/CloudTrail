@@ -77,6 +77,20 @@
 |VPC 서브넷 삭제|event_id.iaas.vpc_subnet.delete|기본 인프라 서비스|
 |VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|기본 인프라 서비스|
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
+|event_id.object_storage.account.look_up|어카운트 조회|Object Storage|
+|event_id.object_storage.account.metadata.update|어카운트 메타데이터 등록/수정|Object Storage|
+|event_id.object_storage.container.look_up|컨테이너 목록 조회|Object Storage|
+|event_id.object_storage.container.look_up|컨테이너 조회|Object Storage|
+|event_id.object_storage.container.create|컨테이너 생성|Object Storage|
+|event_id.object_storage.container.delete|컨테이너 삭제|Object Storage|
+|event_id.object_storage.container.metadata.update|컨테이너 메타데이터 등록/수정|Object Storage|
+|event_id.object_storage.object.look_up|오브젝트 목록 조회|Object Storage|
+|event_id.object_storage.object.look_up|오브젝트 조회|Object Storage|
+|event_id.object_storage.object.upload|오브젝트 업로드|Object Storage|
+|event_id.object_storage.object.download|오브젝트 다운로드|Object Storage|
+|event_id.object_storage.object.copy|오브젝트 복사|Object Storage|
+|event_id.object_storage.object.delete|오브젝트 삭제|Object Storage|
+|event_id.object_storage.object.metadata.update|오브젝트 메타데이터 등록/수정|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
