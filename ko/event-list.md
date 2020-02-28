@@ -159,6 +159,33 @@
 |인증서 변경|event_id.skm.cert.update|Secure Key Manager
 |인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager
 |인증서 다운로드|event_id.skm.cert.download|Secure Key Manager
+|아티팩트 생성|event_id.deploy.artifact_create|Deploy|
+|아티팩트 수정|event_id.deploy.artifact_update|Deploy|
+|아티팩트 삭제|event_id.deploy.artifact_delete|Deploy|
+|바이너리 그룹 생성|event_id.deploy.binary_group_create|Deploy|
+|바이너리 그룹 삭제|event_id.deploy.binary_group_delete|Deploy|
+|바이너리 그룹 수정|event_id.deploy.binary_group_update|Deploy|
+|바이너리 업로드|event_id.deploy.binary_upload|Deploy|
+|바이너리 다운로드|event_id.deploy.binary_download|Deploy|
+|바이너리 삭제|event_id.deploy.binary_delete|Deploy|
+|바이너리 수정|event_id.deploy.binary_update|Deploy|
+|서버 그룹 생성|event_id.deploy.server_group_create|Deploy|
+|서버 그룹 삭제|event_id.deploy.server_group_delete|Deploy|
+|서버 그룹 수정|event_id.deploy.server_group_update|Deploy|
+|리소스 그룹 생성|event_id.deploy.resource_group_create|Deploy|
+|리소스 그룹 삭제|event_id.deploy.resource_group_delete|Deploy|
+|리소스 생성|event_id.deploy.resource_create|Deploy|
+|리소스 수정|event_id.deploy.resource_update|Deploy|
+|리소스 최신번전으로 저장|event_id.deploy.resource_save|Deploy|
+|리소스 다운로드|event_id.deploy.resource_download|Deploy|
+|리소스 삭제|event_id.deploy.resource_delete|Deploy|
+|시나리오 생성|event_id.deploy.scenario_create|Deploy|
+|시나리오 복사|event_id.deploy.scenario_copy|Deploy|
+|시나리오 다운로드|event_id.deploy.scenario_download|Deploy|
+|시나리오 업로드|event_id.deploy.scenario_upload|Deploy|
+|시나리오 수정|event_id.deploy.scenario_update|Deploy|
+|시나리오 삭제|event_id.deploy.scenario_delete|Deploy|
+|배포 실행|event_id.deploy.deploy_execute|Deploy|
 |IAM 로그인|event_id.iam.login|콘솔|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
 |조직 도메인 추가|event_id.org.domain.add|콘솔|

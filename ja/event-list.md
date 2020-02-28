@@ -159,6 +159,33 @@
 |認証書 変更|event_id.skm.cert.update|Secure Key Manger|
 |認証書 即時削除|event_id.skm.cert.delete|Secure Key Manger|
 |認証書 ダウンロード|event_id.skm.cert.download|Secure Key Manger|
+|アーティファクト作成|event_id.deploy.artifact_create|Deploy|
+|アーティファクト修正|event_id.deploy.artifact_update|Deploy|
+|アーティファクト削除|event_id.deploy.artifact_delete|Deploy|
+|バイナリグループ作成|event_id.deploy.binary_group_create|Deploy|
+|バイナリグループ削除|event_id.deploy.binary_group_delete|Deploy|
+|バイナリグループ修正|event_id.deploy.binary_group_update|Deploy|
+|バイナリ·アップロード|event_id.deploy.binary_upload|Deploy|
+|バイナリ·ダウンロード|event_id.deploy.binary_download|Deploy|
+|バイナリ削除|event_id.deploy.binary_delete|Deploy|
+|バイナリ修正|event_id.deploy.binary_update|Deploy|
+|サーバーグループ作成|event_id.deploy.server_group_create|Deploy|
+|サーバーグループ削除|event_id.deploy.server_group_delete|Deploy|
+|サーバーグループ修正|event_id.deploy.server_group_update|Deploy|
+|リソースグループ作成|event_id.deploy.resource_group_create|Deploy|
+|リソースグループ削除|event_id.deploy.resource_group_delete|Deploy|
+|リソース作成|event_id.deploy.resource_create|Deploy|
+|リソース修正|event_id.deploy.resource_update|Deploy|
+|リソース保存|event_id.deploy.resource_save|Deploy|
+|リソース·ダウンロード|event_id.deploy.resource_download|Deploy|
+|リソース削除|event_id.deploy.resource_delete|Deploy|
+|シナリオ作成|event_id.deploy.scenario_create|Deploy|
+|シナリオコピー|event_id.deploy.scenario_copy|Deploy|
+|シナリオダウンロード|event_id.deploy.scenario_download|Deploy|
+||event_id.deploy.scenario_upload|Deploy|
+|シナリオ修正|event_id.deploy.scenario_update|Deploy|
+|シナリオ削除|event_id.deploy.scenario_delete|Deploy|
+|配布実行|event_id.deploy.deploy_execute|Deploy|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
