@@ -112,6 +112,53 @@
 |受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
+|キー保存場所 作成|event_id.skm.keystore.create|Secure Key Manger|
+|キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manger|
+|キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manger|
+|機密データ 作成|event_id.skm.secret.create|Secure Key Manger|
+|機密データ 削除|event_id.skm.secret.delete|Secure Key Manger|
+|機密データ 削除リクエスト|event_id.skm.secret.delete_request|Secure Key Manger|
+|機密データ 削除キャンセル|event_id.skm.secret.delete_cancel|Secure Key Manger|
+|機密データ 変更|event_id.skm.secret.update|Secure Key Manger|
+|機密データ 照会|event_id.skm.secret.get|Secure Key Manger|
+|対称鍵 作成|event_id.skm.symmetric.create|Secure Key Manger|
+|対称鍵 即時削除|event_id.skm.symmetric.delete|Secure Key Manger|
+|対称鍵 削除リクエスト|event_id.skm.symmetric.delete_request|Secure Key Manger|
+|対称鍵 削除キャンセル|event_id.skm.symmetric.delete_request_cancel|Secure Key Manger|
+|対称鍵 情報変更|event_id.skm.symmetric.update|Secure Key Manger|
+|対称鍵 即時ローテーション|event_id.skm.symmetric.rotate|Secure Key Manger|
+|対称鍵 バージョン 削除リクエスト|event_id.skm.symmetric_version.delete_request|Secure Key Manger|
+|対称鍵 バージョン 削除リクエストキャンセル|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manger|
+|対称鍵 バージョン 即時削除|event_id.skm.symmetric_version.delete|Secure Key Manger|
+|非対称鍵 作成|event_id.skm.asymmetric.create|Secure Key Manger|
+|非対称鍵 即時削除|event_id.skm.asymmetric.delete|Secure Key Manger|
+|非対称鍵 削除リクエスト|event_id.skm.asymmetric.delete_request|Secure Key Manger|
+|非対称鍵 削除リクエストキャンセル|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manger|
+|非対称鍵 変更|event_id.skm.asymmetric.update|Secure Key Manger|
+|非対称鍵 即時ローテーション|event_id.skm.asymmetric.rotate|Secure Key Manger|
+|非対称鍵 バージョン 削除リクエスト|event_id.skm.asymmetric_version.delete_request|Secure Key Manger|
+|非対称鍵 バージョン 削除リクエストキャンセル|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manger|
+|非対称鍵 バージョン 即時削除|event_id.skm.asymmetric_version.delete|Secure Key Manger|
+|IPv4アドレス 登録|event_id.skm.ipv4.create|Secure Key Manger|
+|IPv4アドレス 削除リクエスト|event_id.skm.ipv4.delete_request|Secure Key Manger|
+|IPv4アドレス 削除リクエストキャンセル|event_id.skm.ipv4.delete_request_cancel|Secure Key Manger|
+|IPv4アドレス 変更|event_id.skm.ipv4.update|Secure Key Manger|
+|IPv4アドレス 即時削除|event_id.skm.ipv4.delete|Secure Key Manger|
+|IPv4アドレス リストダウンロード|event_id.skm.ipv4.download_list|Secure Key Manger|
+|IPv4アドレス 一括登録|event_id.skm.ipv4.create_multi|Secure Key Manger|
+|MACアドレス 登録|event_id.skm.mac.create|Secure Key Manger|
+|MACアドレス 削除リクエスト|event_id.skm.mac.delete_request|Secure Key Manger|
+|MACアドレス 削除リクエストキャンセル|event_id.skm.mac.delete_request_cancel|Secure Key Manger|
+|MACアドレス 変更|event_id.skm.mac.update|Secure Key Manger|
+|MACアドレス 即時削除|event_id.skm.mac.delete|Secure Key Manger|
+|MACアドレス リストダウンロード|event_id.skm.mac.download_list|Secure Key Manger|
+|MACアドレス 一括登録|event_id.skm.mac.create_multi|Secure Key Manger|
+|認証書 登録|event_id.skm.cert.create|Secure Key Manger|
+|認証書 削除リクエスト|event_id.skm.cert.delete_request|Secure Key Manger|
+|認証書 削除リクエストキャンセル|event_id.skm.cert.delete_request_cancel|Secure Key Manger|
+|認証書 変更|event_id.skm.cert.update|Secure Key Manger|
+|認証書 即時削除|event_id.skm.cert.delete|Secure Key Manger|
+|認証書 ダウンロード|event_id.skm.cert.download|Secure Key Manger|
 |IAM ログイン|event_id.iam.login|コンソール|
 |IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
