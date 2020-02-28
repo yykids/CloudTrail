@@ -91,6 +91,53 @@
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
+|키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager
+|키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager
+|키 저장소 변경|event_id.skm.keystore.update|Secure Key Manager
+|기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager
+|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager
+|기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager
+|기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_cancel|Secure Key Manager
+|기밀 데이터 변경|event_id.skm.secret.update|Secure Key Manager
+|기밀 데이터 조회|event_id.skm.secret.get|Secure Key Manager
+|대칭키 생성|event_id.skm.symmetric.create|Secure Key Manager
+|대칭키 즉시 삭제|event_id.skm.symmetric.delete|Secure Key Manager
+|대칭키 삭제 요청|event_id.skm.symmetric.delete_request|Secure Key Manager
+|대칭키 삭제 요청 취소|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager
+|대칭키 정보 변경|event_id.skm.symmetric.update|Secure Key Manager
+|대칭키 즉시 회전|event_id.skm.symmetric.rotate|Secure Key Manager
+|대칭키 버전 삭제 요청|event_id.skm.symmetric_version.delete_request|Secure Key Manager
+|대칭키 버전 삭제 요청 취소|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager
+|대칭키 버전 즉시 삭제|event_id.skm.symmetric_version.delete|Secure Key Manager
+|비대칭키 생성|event_id.skm.asymmetric.create|Secure Key Manager
+|비대칭키 즉시 삭제|event_id.skm.asymmetric.delete|Secure Key Manager
+|비대칭키 삭제 요청|event_id.skm.asymmetric.delete_request|Secure Key Manager
+|비대칭키 삭제 요청 취소|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager
+|비대칭키 변경|event_id.skm.asymmetric.update|Secure Key Manager
+|비대칭키 즉시 회전|event_id.skm.asymmetric.rotate|Secure Key Manager
+|비대칭키 버전 삭제 요청|event_id.skm.asymmetric_version.delete_request|Secure Key Manager
+|비대칭키 버전 삭제 요청 취소|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager
+|비대칭키 버전 즉시 삭제|event_id.skm.asymmetric_version.delete|Secure Key Manager
+|IPv4 주소 등록|event_id.skm.ipv4.create|Secure Key Manager
+|IPv4 주소 삭제 요청|event_id.skm.ipv4.delete_request|Secure Key Manager
+|IPv4 주소 삭제 요청 취소|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager
+|IPv4 주소 변경|event_id.skm.ipv4.update|Secure Key Manager
+|IPv4 주소 즉시 삭제|event_id.skm.ipv4.delete|Secure Key Manager
+|IPv4 주소 목록 다운로드|event_id.skm.ipv4.download_list|Secure Key Manager
+|IPv4 주소 대량 등록|event_id.skm.ipv4.create_multi|Secure Key Manager
+|MAC 주소 등록|event_id.skm.mac.create|Secure Key Manager
+|MAC 주소 삭제 요청|event_id.skm.mac.delete_request|Secure Key Manager
+|MAC 주소 삭제 요청 취소|event_id.skm.mac.delete_request_cancel|Secure Key Manager
+|MAC 주소 변경|event_id.skm.mac.update|Secure Key Manager
+|MAC 주소 즉시 삭제|event_id.skm.mac.delete|Secure Key Manager
+|MAC 주소 목록 다운로드|event_id.skm.mac.download_list|Secure Key Manager
+|MAC 주소 대량 등록|event_id.skm.mac.create_multi|Secure Key Manager
+|인증서 등록|event_id.skm.cert.create|Secure Key Manager
+|인증서 삭제 요청|event_id.skm.cert.delete_request|Secure Key Manager
+|인증서 삭제 요청 취소|event_id.skm.cert.delete_request_cancel|Secure Key Manager
+|인증서 변경|event_id.skm.cert.update|Secure Key Manager
+|인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager
+|인증서 다운로드|event_id.skm.cert.download|Secure Key Manager
 |IAM 로그인|event_id.iam.login|콘솔|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
 |조직 도메인 추가|event_id.org.domain.add|콘솔|
