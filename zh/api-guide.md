@@ -89,7 +89,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 | startDate | Date | O | 조회할 기간의 시작 날짜 |
 | endDate | Date |O  | 조회할 기간의 끝나는 날짜 |
 | page | Object | O | 조회 결과의 페이지 조건 |
-| page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 |
+| page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 (ex. startDate:desc, idNo:asc)|
 | page.limit | Integer | O | 조회 결과의 사이즈 조건 |
 | page.page | Integer | O | 조회 결과의 페이지 중 조회할 페이지 조건 |
 
