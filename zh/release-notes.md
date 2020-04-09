@@ -1,20 +1,25 @@
 
 ## CloudTrail > 릴리스 노트
 
+### 2019.02.25
+#### 이벤트 추가
+* Object Storage 서비스 관련 이벤트가 추가되었습니다.
+    * 자세한 사항은 메뉴얼을 참고합니다: [링크](http://docs.toast.com/zh/CloudTrail/zh/event-list/)
+ 
 ### 2019.12.10
 #### 이벤트 추가
 * RDS for MySQL 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼 참고: [링크](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
+    * 자세한 사항은 메뉴얼을 참고합니다: [링크](http://docs.toast.com/zh/CloudTrail/zh/event-list/)
 
 ### 2019.10.29
 #### 기능 개선
-* Cloud Trail Event 조회 시, Event를 발생 시킨 사용자의 대한 검색 조건이 개선되었습니다.
-    * 자세한 사항은 메뉴얼 참고: [링크](http://docs.toast.com/zh/CloudTrail/zh/api-guide/)
+* CloudTrail 이벤트 조회 시, 이벤트를 발생시킨 사용자 검색 조건이 개선되었습니다.
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](http://docs.toast.com/zh/CloudTrail/zh/api-guide/)
 
 ### 2019.09.24
 #### 기능 추가
 * Cloud Trail에서 Event 조회 Restful API를 제공합니다.
-    * 자세한 사항은 메뉴얼 참고: [링크](http://docs.toast.com/zh/CloudTrail/zh/api-guide/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](http://docs.toast.com/zh/CloudTrail/zh/api-guide/)
     
 #### 기능 개선
 * 검색 조건의 이름(아이디) 에서 기존의 조직 멤버 뿐 아니라 사용자가 설정한 IAM 멤버 조건으로 검색할 수 있습니다.

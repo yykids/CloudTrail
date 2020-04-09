@@ -75,7 +75,7 @@ RESTful APIを使用するにはAppKeyが必要です。
 * TOAST memberTypeの場合、emailAddressの値は必須で、userCodeの値は存在してはいけません。
 * 逆にIAM memberTypeの場合は、 userCodeの値は必須で、emailAddressの値は存在してはいけません。
 * idNo値がある場合、memberTypeとuserCode、emailAddress値と関係なく優先的に適用されます。
-* eventId에 대한 자세한 정보는 메뉴얼 참고 : [링크](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
+* イベントIDの詳細はマニュアルを参照 : [링크](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ RESTful APIを使用するにはAppKeyが必要です。
 | startDate | Date | O | 照会する期間の開始日 |
 | endDate | Date |O  | 照会する期間の終了日 |
 | page | Object | O | 照会結果のページ条件 |
-| page.sortBy | String | X | 照会結果のサイズソート条件 |
+| page.sortBy | String | X | 照会結果のサイズソート条件 (ex. startDate:desc, idNo:asc)|
 | page.limit | Integer | O | 照会結果のサイズ条件 |
 | page.page | Integer | O | 照会結果のページのうち、照会するページの条件 |
 
@@ -132,11 +132,10 @@ RESTful APIを使用するにはAppKeyが必要です。
                         }
                     ]
                 }
-            },
-        ],
+            }
+        ]
     }
 }
-
 ```
 | Key | Type | Description |
 | --- | --- | --- |
