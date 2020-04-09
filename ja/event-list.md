@@ -77,6 +77,20 @@
 |VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|基本インフラサービス|
 |VPCサブネットルーティングテーブル接続の解除|event_id.iaas.vpc_subnet.detach_routingtable|基本インフラサービス|
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
+|アカウントの照会|event_id.object_storage.account.look_up|Object Storage|
+|アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
+|コンテナリストの照会|event_id.object_storage.container.look_up|Object Storage|
+|コンテナの照会|event_id.object_storage.container.look_up|Object Storage|
+|コンテナの作成|event_id.object_storage.container.create|Object Storage|
+|コンテナの削除|event_id.object_storage.container.delete|Object Storage|
+|コンテナメタデータの登録/修正|event_id.object_storage.container.metadata.update|Object Storage|
+|オブジェクトリストの照会|event_id.object_storage.object.look_up|Object Storage|
+|オブジェクトの照会|event_id.object_storage.object.look_up|Object Storage|
+|オブジェクトのアップロード|event_id.object_storage.object.upload|Object Storage|
+|オブジェクトのダウンロード|event_id.object_storage.object.download|Object Storage|
+|オブジェクトのコピー|event_id.object_storage.object.copy|Object Storage|
+|オブジェクトの削除|event_id.object_storage.object.delete|Object Storage|
+|オブジェクトメタデータの登録/修正|event_id.object_storage.object.metadata.update|Object Storage|
 |DBインスタンスの作成|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DBインスタンスの削除|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DBインスタンスの詳細設定を変更|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
@@ -98,8 +112,82 @@
 |受信グループの作成|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |受信グループの変更|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |受信グループの削除|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
+|キー保存場所 作成|event_id.skm.keystore.create|Secure Key Manger|
+|キー保存場所 削除|event_id.skm.keystore.delete|Secure Key Manger|
+|キー保存場所 変更|event_id.skm.keystore.update|Secure Key Manger|
+|機密データ 作成|event_id.skm.secret.create|Secure Key Manger|
+|機密データ 削除|event_id.skm.secret.delete|Secure Key Manger|
+|機密データ 削除リクエスト|event_id.skm.secret.delete_request|Secure Key Manger|
+|機密データ 削除キャンセル|event_id.skm.secret.delete_cancel|Secure Key Manger|
+|機密データ 変更|event_id.skm.secret.update|Secure Key Manger|
+|機密データ 照会|event_id.skm.secret.get|Secure Key Manger|
+|対称鍵 作成|event_id.skm.symmetric.create|Secure Key Manger|
+|対称鍵 即時削除|event_id.skm.symmetric.delete|Secure Key Manger|
+|対称鍵 削除リクエスト|event_id.skm.symmetric.delete_request|Secure Key Manger|
+|対称鍵 削除キャンセル|event_id.skm.symmetric.delete_request_cancel|Secure Key Manger|
+|対称鍵 情報変更|event_id.skm.symmetric.update|Secure Key Manger|
+|対称鍵 即時ローテーション|event_id.skm.symmetric.rotate|Secure Key Manger|
+|対称鍵 バージョン 削除リクエスト|event_id.skm.symmetric_version.delete_request|Secure Key Manger|
+|対称鍵 バージョン 削除リクエストキャンセル|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manger|
+|対称鍵 バージョン 即時削除|event_id.skm.symmetric_version.delete|Secure Key Manger|
+|非対称鍵 作成|event_id.skm.asymmetric.create|Secure Key Manger|
+|非対称鍵 即時削除|event_id.skm.asymmetric.delete|Secure Key Manger|
+|非対称鍵 削除リクエスト|event_id.skm.asymmetric.delete_request|Secure Key Manger|
+|非対称鍵 削除リクエストキャンセル|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manger|
+|非対称鍵 変更|event_id.skm.asymmetric.update|Secure Key Manger|
+|非対称鍵 即時ローテーション|event_id.skm.asymmetric.rotate|Secure Key Manger|
+|非対称鍵 バージョン 削除リクエスト|event_id.skm.asymmetric_version.delete_request|Secure Key Manger|
+|非対称鍵 バージョン 削除リクエストキャンセル|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manger|
+|非対称鍵 バージョン 即時削除|event_id.skm.asymmetric_version.delete|Secure Key Manger|
+|IPv4アドレス 登録|event_id.skm.ipv4.create|Secure Key Manger|
+|IPv4アドレス 削除リクエスト|event_id.skm.ipv4.delete_request|Secure Key Manger|
+|IPv4アドレス 削除リクエストキャンセル|event_id.skm.ipv4.delete_request_cancel|Secure Key Manger|
+|IPv4アドレス 変更|event_id.skm.ipv4.update|Secure Key Manger|
+|IPv4アドレス 即時削除|event_id.skm.ipv4.delete|Secure Key Manger|
+|IPv4アドレス リストダウンロード|event_id.skm.ipv4.download_list|Secure Key Manger|
+|IPv4アドレス 一括登録|event_id.skm.ipv4.create_multi|Secure Key Manger|
+|MACアドレス 登録|event_id.skm.mac.create|Secure Key Manger|
+|MACアドレス 削除リクエスト|event_id.skm.mac.delete_request|Secure Key Manger|
+|MACアドレス 削除リクエストキャンセル|event_id.skm.mac.delete_request_cancel|Secure Key Manger|
+|MACアドレス 変更|event_id.skm.mac.update|Secure Key Manger|
+|MACアドレス 即時削除|event_id.skm.mac.delete|Secure Key Manger|
+|MACアドレス リストダウンロード|event_id.skm.mac.download_list|Secure Key Manger|
+|MACアドレス 一括登録|event_id.skm.mac.create_multi|Secure Key Manger|
+|認証書 登録|event_id.skm.cert.create|Secure Key Manger|
+|認証書 削除リクエスト|event_id.skm.cert.delete_request|Secure Key Manger|
+|認証書 削除リクエストキャンセル|event_id.skm.cert.delete_request_cancel|Secure Key Manger|
+|認証書 変更|event_id.skm.cert.update|Secure Key Manger|
+|認証書 即時削除|event_id.skm.cert.delete|Secure Key Manger|
+|認証書 ダウンロード|event_id.skm.cert.download|Secure Key Manger|
+|アーティファクト作成|event_id.deploy.artifact_create|Deploy|
+|アーティファクト修正|event_id.deploy.artifact_update|Deploy|
+|アーティファクト削除|event_id.deploy.artifact_delete|Deploy|
+|バイナリグループ作成|event_id.deploy.binary_group_create|Deploy|
+|バイナリグループ削除|event_id.deploy.binary_group_delete|Deploy|
+|バイナリグループ修正|event_id.deploy.binary_group_update|Deploy|
+|バイナリ·アップロード|event_id.deploy.binary_upload|Deploy|
+|バイナリ·ダウンロード|event_id.deploy.binary_download|Deploy|
+|バイナリ削除|event_id.deploy.binary_delete|Deploy|
+|バイナリ修正|event_id.deploy.binary_update|Deploy|
+|サーバーグループ作成|event_id.deploy.server_group_create|Deploy|
+|サーバーグループ削除|event_id.deploy.server_group_delete|Deploy|
+|サーバーグループ修正|event_id.deploy.server_group_update|Deploy|
+|リソースグループ作成|event_id.deploy.resource_group_create|Deploy|
+|リソースグループ削除|event_id.deploy.resource_group_delete|Deploy|
+|リソース作成|event_id.deploy.resource_create|Deploy|
+|リソース修正|event_id.deploy.resource_update|Deploy|
+|リソース保存|event_id.deploy.resource_save|Deploy|
+|リソース·ダウンロード|event_id.deploy.resource_download|Deploy|
+|リソース削除|event_id.deploy.resource_delete|Deploy|
+|シナリオ作成|event_id.deploy.scenario_create|Deploy|
+|シナリオコピー|event_id.deploy.scenario_copy|Deploy|
+|シナリオダウンロード|event_id.deploy.scenario_download|Deploy|
+||event_id.deploy.scenario_upload|Deploy|
+|シナリオ修正|event_id.deploy.scenario_update|Deploy|
+|シナリオ削除|event_id.deploy.scenario_delete|Deploy|
+|配布実行|event_id.deploy.deploy_execute|Deploy|
 |IAM ログイン|event_id.iam.login|コンソール|
-|IAM 멤버 권한 변경|event_id.iam.member.role.update|コンソール|
+|IAMメンバーの権限変更|event_id.iam.member.role.update|コンソール|
 |組織ドメインの追加|event_id.org.domain.add|コンソール|
 |組織ドメインの修正|event_id.org.domain.update|コンソール|
 |組織内部会員の追加|event_id.org.iam.member.add|コンソール|

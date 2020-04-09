@@ -1,15 +1,20 @@
 
 ## CloudTrail > 릴리스 노트
 
+### 2019.02.25
+#### More Events
+* Added events related to Object Storage.  
+    * Refer to the manual for more details : [링크](http://docs.toast.com/en/CloudTrail/en/event-list/)
+ 
 ### 2019.12.10
-#### 이벤트 추가
-* RDS for MySQL 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼 참고: [링크](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
+#### More Events
+* Added events related to RDS for MySQL.  
+    * Refer to the manual for more details : [링크](http://docs.toast.com/en/CloudTrail/en/event-list/)
 
 ### 2019.10.29
-#### Feature Updates
-* Cloud Trail Event 조회 시, Event를 발생 시킨 사용자의 대한 검색 조건이 개선되었습니다.
-    * 자세한 사항은 메뉴얼 참고: [링크](http://docs.toast.com/en/CloudTrail/en/api-guide/)
+#### More Features
+* Updated, for the query of CloudTrail events, the search conditions of users who occurred events.
+    * Refer to the manual for more details : [링크](http://docs.toast.com/en/CloudTrail/en/api-guide/)
 
 ### Sept. 24, 2019 
 #### More Features 
@@ -18,7 +23,7 @@
     
 #### Feature Updates
 * Search by name (ID) allows not only the search of existing organization members but user-defined IAM members.
- 
+
 ### 2019.03.12
 #### 신규 서비스 출시
 * TOAST CloudTrail은 사용자의 TOAST 클라우드 사용 이력을 확인할 수 있는 서비스입니다.

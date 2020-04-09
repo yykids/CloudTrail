@@ -73,9 +73,9 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 ```
 * member에 값을 지정하지 않으면 전체 이벤트 목록을 조회할 수 있습니다.
 * TOAST memberType일 경우, emailAddress의 값은 필수이고, userCode의 값은 존재하지 않아야 합니다. 
-* 반대로, IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
-* idNo 값이 있을 경우, memberType 과 userCode, emailAddress 값과 관계없이 우선적으로 적용됩니다.
-* eventId에 대한 자세한 정보는 메뉴얼 참고 : [링크](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
+* 반대로 IAM memberType일 경우, userCode의 값은 필수이고, emailAddress의 값은 존재하지 않아야 합니다.
+* idNo 값이 있을 경우, memberType과 userCode, emailAddress 값과 관계없이 우선으로 적용됩니다.
+* 이벤트 ID에 대한 자세한 정보는 매뉴얼을 참고합니다 : [링크](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 | startDate | Date | O | 조회할 기간의 시작 날짜 |
 | endDate | Date |O  | 조회할 기간의 끝나는 날짜 |
 | page | Object | O | 조회 결과의 페이지 조건 |
-| page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 |
+| page.sortBy | String | X | 조회 결과의 사이즈 정렬 조건 (ex. startDate:desc, idNo:asc)|
 | page.limit | Integer | O | 조회 결과의 사이즈 조건 |
 | page.page | Integer | O | 조회 결과의 페이지 중 조회할 페이지 조건 |
 
@@ -136,7 +136,6 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
         ]
     }
 }
-
 ```
 | Key | Type | Description |
 | --- | --- | --- |
@@ -162,4 +161,4 @@ RESTful API를 사용하려면 AppKey가 필요합니다.
 | targetMembers.idNo | String | 발생한 이벤트의 대상 회원의 uuid |
 | targetMembers.name | String | 발생한 이벤트의 대상 회원의 이름 |
 | targetMembers.userCode | Integer | 발생한 이벤트의 대상 회원의 ID (IAM 회원일 경우) |
-| targetMembers.emailAddress | Integer | 발생한 이벤트의 대상 회원의 이메일 주소 (TOAST 회원일 경우) |
+| targetMembers.emailAddress | String | 발생한 이벤트의 대상 회원의 이메일 주소 (TOAST 회원일 경우) |

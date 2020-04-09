@@ -77,6 +77,20 @@
 |VPC 서브넷 삭제|event_id.iaas.vpc_subnet.delete|기본 인프라 서비스|
 |VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|기본 인프라 서비스|
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
+|어카운트 조회|event_id.object_storage.account.look_up|Object Storage|
+|어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
+|컨테이너 목록 조회|event_id.object_storage.container.look_up|Object Storage|
+|컨테이너 조회|event_id.object_storage.container.look_up|Object Storage|
+|컨테이너 생성|event_id.object_storage.container.create|Object Storage|
+|컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
+|컨테이너 메타데이터 등록/수정|event_id.object_storage.container.metadata.update|Object Storage|
+|오브젝트 목록 조회|event_id.object_storage.object.look_up|Object Storage|
+|오브젝트 조회|event_id.object_storage.object.look_up|Object Storage|
+|오브젝트 업로드|event_id.object_storage.object.upload|Object Storage|
+|오브젝트 다운로드|event_id.object_storage.object.download|Object Storage|
+|오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
+|오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
+|오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
@@ -98,6 +112,80 @@
 |수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
+|키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager
+|키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager
+|키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager
+|기밀 데이터 생성|event_id.skm.secret.create|Secure Key Manager
+|기밀 데이터 삭제|event_id.skm.secret.delete|Secure Key Manager
+|기밀 데이터 삭제 요청|event_id.skm.secret.delete_request|Secure Key Manager
+|기밀 데이터 삭제 요청 취소|event_id.skm.secret.delete_cancel|Secure Key Manager
+|기밀 데이터 정보 변경|event_id.skm.secret.update|Secure Key Manager
+|기밀 데이터 조회|event_id.skm.secret.get|Secure Key Manager
+|대칭키 생성|event_id.skm.symmetric.create|Secure Key Manager
+|대칭키 즉시 삭제|event_id.skm.symmetric.delete|Secure Key Manager
+|대칭키 삭제 요청|event_id.skm.symmetric.delete_request|Secure Key Manager
+|대칭키 삭제 요청 취소|event_id.skm.symmetric.delete_request_cancel|Secure Key Manager
+|대칭키 정보 변경|event_id.skm.symmetric.update|Secure Key Manager
+|대칭키 즉시 회전|event_id.skm.symmetric.rotate|Secure Key Manager
+|대칭키 버전 삭제 요청|event_id.skm.symmetric_version.delete_request|Secure Key Manager
+|대칭키 버전 삭제 요청 취소|event_id.skm.symmetric_version.delete_request_cancel|Secure Key Manager
+|대칭키 버전 즉시 삭제|event_id.skm.symmetric_version.delete|Secure Key Manager
+|비대칭키 생성|event_id.skm.asymmetric.create|Secure Key Manager
+|비대칭키 즉시 삭제|event_id.skm.asymmetric.delete|Secure Key Manager
+|비대칭키 삭제 요청|event_id.skm.asymmetric.delete_request|Secure Key Manager
+|비대칭키 삭제 요청 취소|event_id.skm.asymmetric.delete_request_cancel|Secure Key Manager
+|비대칭키 정보 변경|event_id.skm.asymmetric.update|Secure Key Manager
+|비대칭키 즉시 회전|event_id.skm.asymmetric.rotate|Secure Key Manager
+|비대칭키 버전 삭제 요청|event_id.skm.asymmetric_version.delete_request|Secure Key Manager
+|비대칭키 버전 삭제 요청 취소|event_id.skm.asymmetric_version.delete_request_cancel|Secure Key Manager
+|비대칭키 버전 즉시 삭제|event_id.skm.asymmetric_version.delete|Secure Key Manager
+|IPv4 주소 등록|event_id.skm.ipv4.create|Secure Key Manager
+|IPv4 주소 삭제 요청|event_id.skm.ipv4.delete_request|Secure Key Manager
+|IPv4 주소 삭제 요청 취소|event_id.skm.ipv4.delete_request_cancel|Secure Key Manager
+|IPv4 주소 정보 변경|event_id.skm.ipv4.update|Secure Key Manager
+|IPv4 주소 즉시 삭제|event_id.skm.ipv4.delete|Secure Key Manager
+|IPv4 주소 목록 다운로드|event_id.skm.ipv4.download_list|Secure Key Manager
+|IPv4 주소 대량 등록|event_id.skm.ipv4.create_multi|Secure Key Manager
+|MAC 주소 등록|event_id.skm.mac.create|Secure Key Manager
+|MAC 주소 삭제 요청|event_id.skm.mac.delete_request|Secure Key Manager
+|MAC 주소 삭제 요청 취소|event_id.skm.mac.delete_request_cancel|Secure Key Manager
+|MAC 주소 정보 변경|event_id.skm.mac.update|Secure Key Manager
+|MAC 주소 즉시 삭제|event_id.skm.mac.delete|Secure Key Manager
+|MAC 주소 목록 다운로드|event_id.skm.mac.download_list|Secure Key Manager
+|MAC 주소 대량 등록|event_id.skm.mac.create_multi|Secure Key Manager
+|인증서 등록|event_id.skm.cert.create|Secure Key Manager
+|인증서 삭제 요청|event_id.skm.cert.delete_request|Secure Key Manager
+|인증서 삭제 요청 취소|event_id.skm.cert.delete_request_cancel|Secure Key Manager
+|인증서 정보 변경|event_id.skm.cert.update|Secure Key Manager
+|인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager
+|인증서 다운로드|event_id.skm.cert.download|Secure Key Manager
+|아티팩트 생성|event_id.deploy.artifact_create|Deploy|
+|아티팩트 수정|event_id.deploy.artifact_update|Deploy|
+|아티팩트 삭제|event_id.deploy.artifact_delete|Deploy|
+|바이너리 그룹 생성|event_id.deploy.binary_group_create|Deploy|
+|바이너리 그룹 삭제|event_id.deploy.binary_group_delete|Deploy|
+|바이너리 그룹 수정|event_id.deploy.binary_group_update|Deploy|
+|바이너리 업로드|event_id.deploy.binary_upload|Deploy|
+|바이너리 다운로드|event_id.deploy.binary_download|Deploy|
+|바이너리 삭제|event_id.deploy.binary_delete|Deploy|
+|바이너리 수정|event_id.deploy.binary_update|Deploy|
+|서버 그룹 생성|event_id.deploy.server_group_create|Deploy|
+|서버 그룹 삭제|event_id.deploy.server_group_delete|Deploy|
+|서버 그룹 수정|event_id.deploy.server_group_update|Deploy|
+|리소스 그룹 생성|event_id.deploy.resource_group_create|Deploy|
+|리소스 그룹 삭제|event_id.deploy.resource_group_delete|Deploy|
+|리소스 생성|event_id.deploy.resource_create|Deploy|
+|리소스 수정|event_id.deploy.resource_update|Deploy|
+|리소스 최신번전으로 저장|event_id.deploy.resource_save|Deploy|
+|리소스 다운로드|event_id.deploy.resource_download|Deploy|
+|리소스 삭제|event_id.deploy.resource_delete|Deploy|
+|시나리오 생성|event_id.deploy.scenario_create|Deploy|
+|시나리오 복사|event_id.deploy.scenario_copy|Deploy|
+|시나리오 다운로드|event_id.deploy.scenario_download|Deploy|
+|시나리오 업로드|event_id.deploy.scenario_upload|Deploy|
+|시나리오 수정|event_id.deploy.scenario_update|Deploy|
+|시나리오 삭제|event_id.deploy.scenario_delete|Deploy|
+|배포 실행|event_id.deploy.deploy_execute|Deploy|
 |IAM 로그인|event_id.iam.login|콘솔|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
 |조직 도메인 추가|event_id.org.domain.add|콘솔|
