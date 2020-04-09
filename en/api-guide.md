@@ -171,4 +171,4 @@ Read the header at Response Body for more details of the response result.
 | targetMembers.idNo | String | UUID of target member incurred with event |
 | targetMembers.name | String | Name of target member incurred with event |
 | targetMembers.userCode | Integer | ID of target member incurred with event (for IAM members) |
-| targetMembers.emailAddress | Integer | Email address of target member incurred with event (for TOAST members) |
+| targetMembers.emailAddress | String | Email address of target member incurred with event (for TOAST members) |

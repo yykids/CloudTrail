@@ -4,12 +4,12 @@
 ### 2019.02.25
 #### 이벤트 추가
 * Object Storage 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다: [링크](http://docs.toast.com/zh/CloudTrail/zh/event-list/)
+    * 자세한 사항은 메뉴얼을 참고합니다.: [링크](http://docs.toast.com/zh/CloudTrail/zh/event-list/)
  
 ### 2019.12.10
 #### 이벤트 추가
 * RDS for MySQL 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다: [링크](http://docs.toast.com/zh/CloudTrail/zh/event-list/)
+    * 자세한 사항은 메뉴얼을 참고합니다.: [링크](http://docs.toast.com/zh/CloudTrail/zh/event-list/)
 
 ### 2019.10.29
 #### 기능 개선

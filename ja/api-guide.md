@@ -161,4 +161,4 @@ RESTful APIを使用するにはAppKeyが必要です。
 | targetMembers.idNo | String | 発生したイベントの対象会員のuuid |
 | targetMembers.name | String | 発生したイベントの対象会員の名前 |
 | targetMembers.userCode | Integer | 発生したイベントの対象会員のID (IAM会員の場合) |
-| targetMembers.emailAddress | Integer | 発生したイベントの対象会員のメールアドレス(TOAST会員の場合) |
+| targetMembers.emailAddress | String | 発生したイベントの対象会員のメールアドレス(TOAST会員の場合) |
