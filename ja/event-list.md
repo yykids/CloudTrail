@@ -212,3 +212,18 @@
 |プロジェクトサービスの無効化|event_id.project.product.disable|コンソール|
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
+|サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
+|サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
+|サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|
+|サービスグループ変更|event_id.service_monitoring.modification_service_group|Service Monitoring|
+|シナリオ追加|event_id.service_monitoring.creation_scenario|Service Monitoring|
+|シナリオ変更|event_id.service_monitoring.modification_scenario|Service Monitoring|
+|シナリオ|event_id.service_monitoring.delete_scenario|Service Monitoring|
+|シナリオコピー|event_id.service_monitoring.copy_scenario|Service Monitoring|
+|シナリオテスト|event_id.service_monitoring.simulate_scenario|Service Monitoring|
+|PM登録|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
+|PM変更|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
+|PM削除|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
+|次のグループへ障害を伝える|event_id.service_monitoring.send_next_transmission|Service Monitoring|
+|他のサービスに障害を移管|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
+|障害伝達中|event_id.service_monitoring.send_stop_transmission|Service Monitoring|       

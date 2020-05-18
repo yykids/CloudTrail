@@ -138,3 +138,18 @@
 |Disable Project Service|event_id.project.product.disable|Console|
 |Enable Project Service|event_id.project.product.enable|Console|
 |Modify Project|event_id.project.update|Console|
+|Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
+|Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
+|Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
+|Change Service Group|event_id.service_monitoring.modification_service_group|Service Monitoring|
+|Add Scenario|event_id.service_monitoring.creation_scenario|Service Monitoring|
+|Change Scenario|event_id.service_monitoring.modification_scenario|Service Monitoring|
+|Delete Scenario|event_id.service_monitoring.delete_scenario|Service Monitoring|
+|Copy Scenario|event_id.service_monitoring.copy_scenario|Service Monitoring|
+|Test Scenario|event_id.service_monitoring.simulate_scenario|Service Monitoring|
+|Register PM|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
+|Change PM|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
+|Delete PM|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
+|Transfer Failure to the Next Group|event_id.service_monitoring.send_next_transmission|Service Monitoring|
+|Migrate Failure to Anther Service|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
+|Suspend Failure Transfer|event_id.service_monitoring.send_stop_transmission|Service Monitoring|

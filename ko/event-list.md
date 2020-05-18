@@ -212,3 +212,18 @@
 |프로젝트 서비스 비활성화|event_id.project.product.disable|콘솔|
 |프로젝트 서비스 활성화|event_id.project.product.enable|콘솔|
 |프로젝트 수정|event_id.project.update|콘솔|
+|서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
+|서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
+|서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
+|서비스 그룹 변경|event_id.service_monitoring.modification_service_group|Service Monitoring|
+|시나리오 추가|event_id.service_monitoring.creation_scenario|Service Monitoring|
+|시나리오 변경|event_id.service_monitoring.modification_scenario|Service Monitoring|
+|시나리오 삭제|event_id.service_monitoring.delete_scenario|Service Monitoring|
+|시나리오 복사|event_id.service_monitoring.copy_scenario|Service Monitoring|
+|시나리오 테스트|event_id.service_monitoring.simulate_scenario|Service Monitoring|
+|PM 등록|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
+|PM 변경|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
+|PM 삭제|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
+|다음 그룹으로 장애 전파|event_id.service_monitoring.send_next_transmission|Service Monitoring|
+|다른 서비스로 장애 이관|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
+|장애 전파 중지|event_id.service_monitoring.send_stop_transmission      |Service Monitoring|
