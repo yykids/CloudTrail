@@ -4,22 +4,22 @@
 ### 2019.02.25
 #### More Events
 * Added events related to Object Storage.  
-    * Refer to the manual for more details : [링크](http://beta-docs.toast.com/ko/CloudTrail/ko/event-list/)
+    * Refer to the manual for more details : [Link](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
  
 ### 2019.12.10
 #### More Events
 * Added events related to RDS for MySQL.  
-    * Refer to the manual for more details : [링크](http://beta-docs.toast.com/ko/CloudTrail/ko/event-list/)
+    * Refer to the manual for more details : [Link](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
 
 ### 2019.10.29
 #### More Features
 * Updated, for the query of CloudTrail events, the search conditions of users who occurred events.
-    * Refer to the manual for more details : [링크](http://beta-docs.toast.com/en/CloudTrail/en/api-guide/)
+    * Refer to the manual for more details : [Link](http://docs.toast.com/en/CloudTrail/en/api-guide/)
 
 ### Sept. 24, 2019 
 #### More Features 
 * Restul API is provided for query of events. 
-    * See manual for more details: [Link](http://beta-docs.toast.com/en/CloudTrail/en/api-guide/)
+    * See manual for more details: [Link](http://docs.toast.com/en/CloudTrail/en/api-guide/)
     
 #### Feature Updates
 * Search by name (ID) allows not only the search of existing organization members but user-defined IAM members.
