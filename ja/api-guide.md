@@ -75,7 +75,7 @@ RESTful APIを使用するにはAppKeyが必要です。
 * TOAST memberTypeの場合、emailAddressの値は必須で、userCodeの値は存在してはいけません。
 * 逆にIAM memberTypeの場合は、 userCodeの値は必須で、emailAddressの値は存在してはいけません。
 * idNo値がある場合、memberTypeとuserCode、emailAddress値と関係なく優先的に適用されます。
-* イベントIDの詳細はマニュアルを参照 : [링크](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
+* イベントIDの詳細はマニュアルを参照 : [リンク](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
 
 | Key | Type | Required  | Description |
 | --- | --- | --- | --- |
