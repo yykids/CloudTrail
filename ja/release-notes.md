@@ -4,17 +4,17 @@
 ### 2019.02.25
 #### イベント追加
 * Object Storageサービス関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [링크](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
+    * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
 
 ### 2019.12.10
 #### イベント追加
 * RDS for MySQLサービス関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [링크](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
+    * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
 
 ### 2019.10.29
 #### 機能改善
 * CloudTrailイベント照会時、イベントを発生させたユーザーの検索条件を改善しました。
-    * 詳細はマニュアルを参照: [링크](http://docs.toast.com/ja/CloudTrail/ja/api-guide/)
+    * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ja/CloudTrail/ja/api-guide/)
 
 ### 2019.09.24
 #### 機能追加

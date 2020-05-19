@@ -77,15 +77,15 @@
 |Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
-|Query Account|event_id.object_storage.account.look_up|Object Storage|
+|Query Account|event_id.object_storage.account.lookup|Object Storage|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
-|List Containers|event_id.object_storage.container.look_up|Object Storage|
-|Query Containers|event_id.object_storage.container.look_up|Object Storage|
+|List Containers|event_id.object_storage.container.list_lookup|Object Storage|
+|Query Containers|event_id.object_storage.container.lookup|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
 |Register/Modify Container Metadata|event_id.object_storage.container.metadata.update|Object Storage|
-|List Objects|event_id.object_storage.object.look_up|Object Storage|
-|Query Objects|event_id.object_storage.object.look_up|Object Storage|
+|List Objects|event_id.object_storage.object.list_lookup|Object Storage|
+|Query Objects|event_id.object_storage.object.lookup|Object Storage|
 |Upload objects|event_id.object_storage.object.upload|Object Storage|
 |Download objects|event_id.object_storage.object.download|Object Storage|
 |Copy objects|event_id.object_storage.object.copy|Object Storage|
