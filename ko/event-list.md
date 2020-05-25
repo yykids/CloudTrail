@@ -226,4 +226,4 @@
 |PM 삭제|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
 |다음 그룹으로 장애 전파|event_id.service_monitoring.send_next_transmission|Service Monitoring|
 |다른 서비스로 장애 이관|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
-|장애 전파 중지|event_id.service_monitoring.send_stop_transmission      |Service Monitoring|
+|장애 전파 중지|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
