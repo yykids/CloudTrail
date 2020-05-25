@@ -152,4 +152,4 @@
 |Delete PM|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
 |Transfer Failure to the Next Group|event_id.service_monitoring.send_next_transmission|Service Monitoring|
 |Migrate Failure to Anther Service|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
-|Suspend Failure Transfer|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
+|Suspend Failure Transfers|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
