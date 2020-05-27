@@ -1,11 +1,6 @@
 
 ## CloudTrail > リリースノート
 
-### 2019.02.25
-#### イベント追加
-* Object Storageサービス関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
-
 ### 2019.12.10
 #### イベント追加
 * RDS for MySQLサービス関連イベントを追加しました。
