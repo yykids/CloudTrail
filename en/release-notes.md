@@ -1,11 +1,6 @@
 
 ## CloudTrail > 릴리스 노트
 
-### 2019.02.25
-#### More Events
-* Added events related to Object Storage.  
-    * Refer to the manual for more details : [Link](http://docs.toast.com/en/CloudTrail/en/event-list/)
- 
 ### 2019.12.10
 #### More Events
 * Added events related to RDS for MySQL.  
