@@ -217,7 +217,7 @@
 |バックアップ削除|event_id.easycache.backup.delete|EasyCache|
 |パブリックドメイン設定|event_id.easycache.public_domain.attach|EasyCache|
 |パブリックドメイン解除|event_id.easycache.public_domain.detach|EasyCache|
-|パブリックドメイン更新|event_id.easycache.public_domain.update|EasyCache|
+|ドメイン更新|event_id.easycache.domain.update|EasyCache|
 |レプリケーショングループ作成|event_id.easycache.group.create|EasyCache|
 |レプリケーショングループ削除|event_id.easycache.group.delete|EasyCache|
 |レプリケーショングループ修正|event_id.easycache.group.modify|EasyCache|
