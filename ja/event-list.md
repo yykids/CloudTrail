@@ -212,4 +212,29 @@
 |PM削除|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
 |次のグループへ障害を伝える|event_id.service_monitoring.send_next_transmission|Service Monitoring|
 |他のサービスに障害を移管|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
-|障害伝達中止|event_id.service_monitoring.send_stop_transmission|Service Monitoring|       
+|障害伝達中止|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
+|手動バックアップ|event_id.easycache.backup.manual|EasyCache|
+|バックアップ削除|event_id.easycache.backup.delete|EasyCache|
+|パブリックドメイン設定|event_id.easycache.public_domain.attach|EasyCache|
+|パブリックドメイン解除|event_id.easycache.public_domain.detach|EasyCache|
+|ドメイン更新|event_id.easycache.domain.update|EasyCache|
+|レプリケーショングループ作成|event_id.easycache.group.create|EasyCache|
+|レプリケーショングループ削除|event_id.easycache.group.delete|EasyCache|
+|レプリケーショングループ修正|event_id.easycache.group.modify|EasyCache|
+|レプリケーショングループ再起動|event_id.easycache.group.restart|EasyCache|
+|レプリケーショングループHA再設定|event_id.easycache.group.ha_reset|EasyCache|
+|レプリケーショングループパスワード確認|event_id.easycache.group.password|EasyCache|
+|ノード追加|event_id.easycache.node.create|EasyCache|
+|ノード削除|event_id.easycache.node.delete|EasyCache|
+|マスター昇格|event_id.easycache.node.promote|EasyCache|
+|プロフィル作成|event_id.easycache.profile.create|EasyCache|
+|プロファイル修正|event_id.easycache.profile.update|EasyCache|
+|プロフィル削除|event_id.easycache.profile.delete|EasyCache|
+|アラームルール作成|event_id.easycache.alarm_rule.create|EasyCache|
+|アラームルール修正|event_id.easycache.alarm_rule.update|EasyCache|
+|アラームルール削除|event_id.easycache.alarm_rule.delete|EasyCache|
+|アラームルール有効 / 無効|event_id.easycache.alarm_rule.use_unuse|EasyCache|
+|アラーム受信者グループ作成|event_id.easycache.alarm_receiver_group.create|EasyCache|
+|アラーム受信者グループ修正|event_id.easycache.alarm_receiver_group.update|EasyCache|
+|アラーム受信者グループ削除|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+       

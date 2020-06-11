@@ -139,3 +139,27 @@
 |다음 그룹으로 장애 전파|event_id.service_monitoring.send_next_transmission|Service Monitoring|
 |다른 서비스로 장애 이관|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
 |장애 전파 중지|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
+|수동 백업|event_id.easycache.backup.manual|EasyCache|
+|백업 삭제|event_id.easycache.backup.delete|EasyCache|
+|공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
+|공인 도메인 해제|event_id.easycache.public_domain.detach|EasyCache|
+|도메인 갱신|event_id.easycache.domain.update|EasyCache|
+|복제 그룹 생성|event_id.easycache.group.create|EasyCache|
+|복제 그룹 삭제|event_id.easycache.group.delete|EasyCache|
+|복제 그룹 수정|event_id.easycache.group.modify|EasyCache|
+|복제 그룹 재시작|event_id.easycache.group.restart|EasyCache|
+|복제 그룹 HA 재설정|event_id.easycache.group.ha_reset|EasyCache|
+|복제 그룹 패스워드 확인|event_id.easycache.group.password|EasyCache|
+|노드 추가|event_id.easycache.node.create|EasyCache|
+|노드 삭제|event_id.easycache.node.delete|EasyCache|
+|마스터 승격|event_id.easycache.node.promote|EasyCache|
+|프로필 생성|event_id.easycache.profile.create|EasyCache|
+|프로필 수정|event_id.easycache.profile.update|EasyCache|
+|프로필 삭제|event_id.easycache.profile.delete|EasyCache|
+|알람 규칙 생성|event_id.easycache.alarm_rule.create|EasyCache|
+|알람 규칙 수정|event_id.easycache.alarm_rule.update|EasyCache|
+|알람 규칙 삭제|event_id.easycache.alarm_rule.delete|EasyCache|
+|알람 규칙 사용 / 사용 안함|event_id.easycache.alarm_rule.use_unuse|EasyCache|
+|알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|EasyCache|
+|알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|EasyCache|
+|알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|
