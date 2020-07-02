@@ -184,3 +184,5 @@
 |Change Chart Layout Name|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |Modify Chart Layout|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |Delete Chart Layout|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|

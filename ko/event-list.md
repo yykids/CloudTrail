@@ -258,3 +258,5 @@
 |차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
