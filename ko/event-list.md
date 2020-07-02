@@ -237,3 +237,24 @@
 |알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|EasyCache|
 |알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|EasyCache|
 |알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+|DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
+|DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
+|DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
+|DB 인스턴스 재시작|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|백업을 이용한 DB 인스턴스 복원|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
+|DB 인스턴스 이름 변경|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
+|DB 인스턴스 수정|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
+|DB 인스턴스 시점 복원|event_id.rds_for_sqlserver.db_instance.restore_point_to_time|RDS for MS-SQL|
+|DB 보안 그룹 생성|event_id.rds_for_sqlserver.security_group.create|RDS for MS-SQL|
+|DB 보안 그룹 수정|event_id.rds_for_sqlserver.security_group.modify|RDS for MS-SQL|
+|DB 보안 그룹 삭제|event_id.rds_for_sqlserver.security_group.delete|RDS for MS-SQL|
+|이벤트 구독|event_id.rds_for_sqlserver.event.subscription.create|RDS for MS-SQL|
+|이벤트 구독 수정|event_id.rds_for_sqlserver.event.subscription.modify|RDS for MS-SQL|
+|이벤트 구독 삭제|event_id.rds_for_sqlserver.event.subscription.delete|RDS for MS-SQL|
+|파라미터 그룹 생성|event_id.rds_for_sqlserver.parameter_group.create|RDS for MS-SQL|
+|파라미터 그룹 수정|event_id.rds_for_sqlserver.parameter_group.modify|RDS for MS-SQL|
+|파라미터 그룹 삭제|event_id.rds_for_sqlserver.parameter_group.delete|RDS for MS-SQL|
+|차트 레이아웃 생성|event_id.rds_for_sqlserver.chart_layout.create|RDS for MS-SQL|
+|차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
+|차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
+|차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|

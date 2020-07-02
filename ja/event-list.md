@@ -237,4 +237,25 @@
 |アラーム受信者グループ作成|event_id.easycache.alarm_receiver_group.create|EasyCache|
 |アラーム受信者グループ修正|event_id.easycache.alarm_receiver_group.update|EasyCache|
 |アラーム受信者グループ削除|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+|DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
+|DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
+|DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
+|DBインスタンスの再起動|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|バックアップを利用したDBインスタンスの復元|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
+|DBインスタンス名変更|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
+|DBインスタンス修正|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
+|特定の時点へのDBインスタンスの復元|event_id.rds_for_sqlserver.db_instance.restore_point_to_time|RDS for MS-SQL|
+|DBセキュリティグループ作成|event_id.rds_for_sqlserver.security_group.create|RDS for MS-SQL|
+|DBセキュリティグループ修正|event_id.rds_for_sqlserver.security_group.modify|RDS for MS-SQL|
+|DBセキュリティグループ削除|event_id.rds_for_sqlserver.security_group.delete|RDS for MS-SQL|
+|イベントの購読を作成|event_id.rds_for_sqlserver.event.subscription.create|RDS for MS-SQL|
+|イベントの購読を修正|event_id.rds_for_sqlserver.event.subscription.modify|RDS for MS-SQL|
+|イベントの購読を削除|event_id.rds_for_sqlserver.event.subscription.delete|RDS for MS-SQL|
+|パラメータグループ作成|event_id.rds_for_sqlserver.parameter_group.create|RDS for MS-SQL|
+|パラメータグループ修正|event_id.rds_for_sqlserver.parameter_group.modify|RDS for MS-SQL|
+|パラメータグループ削除|event_id.rds_for_sqlserver.parameter_group.delete|RDS for MS-SQL|
+|チャートレイアウト作成|event_id.rds_for_sqlserver.chart_layout.create|RDS for MS-SQL|
+|チャートレイアウト名変更|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
+|チャートレイアウト修正|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
+|チャートレイアウト削除|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
        
