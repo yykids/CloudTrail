@@ -258,4 +258,6 @@
 |チャートレイアウト名変更|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
 |チャートレイアウト修正|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
 |チャートレイアウト削除|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|シンボルファイルの削除|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|シンボルファイルのアップロード|event_id.logncrash.symbolfile.upload|Log & Crash Search|
        
