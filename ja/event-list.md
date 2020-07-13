@@ -255,6 +255,9 @@
 |アラーム受信者グループ作成|event_id.easycache.alarm_receiver_group.create|EasyCache|
 |アラーム受信者グループ修正|event_id.easycache.alarm_receiver_group.update|EasyCache|
 |アラーム受信者グループ削除|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+|グループインスタンス変更|event_id.easycache.group.modify_flavor|EasyCache|
+|ACL追加|event_id.easycache.acl.create|EasyCache|
+|ACL削除|event_id.easycache.acl.delete|EasyCache|
 |DBインスタンスの作成|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |DBインスタンスの削除|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |DBインスタンスのバックアップ|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
