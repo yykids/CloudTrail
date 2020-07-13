@@ -215,3 +215,10 @@
 |Delete Chart Layout|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|Register Backup Server|event_id.backup.client.register|Backup|
+|Change Backup Server Data|event_id.backup.client.update|Backup|
+|Delete Backup Server|event_id.backup.client.delete|Backup|
+|Register Backup Path|event_id.backup.target.register|Backup|
+|Change Backup Path|event_id.backup.target.update|Backup|
+|Delete Backup Path|event_id.backup.target.delete|Backup|
+|Apply for Restoration|event_id.backup.restoration.apply|Backup|
