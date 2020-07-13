@@ -181,6 +181,9 @@
 |알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|EasyCache|
 |알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|EasyCache|
 |알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+|그룹 인스턴스 변경|event_id.easycache.group.modify_flavor|EasyCache|
+|ACL 추가|event_id.easycache.acl.create|EasyCache|
+|ACL 삭제|event_id.easycache.acl.delete|EasyCache®|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
