@@ -208,3 +208,10 @@
 |차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|백업 서버 등록|event_id.backup.client.register|Backup|
+|백업 서버 정보 변경|event_id.backup.client.update|Backup|
+|백업 서버 삭제|event_id.backup.client.delete|Backup|
+|백업 경로 등록|event_id.backup.target.register|Backup|
+|백업 경로 변경|event_id.backup.target.update|Backup|
+|백업 경로 삭제|event_id.backup.target.delete|Backup|
+|복구 신청|event_id.backup.restoration.apply|Backup|
