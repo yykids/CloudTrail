@@ -278,4 +278,11 @@
 |チャートレイアウト削除|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |シンボルファイルの削除|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |シンボルファイルのアップロード|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|バックアップサーバー登録|event_id.backup.client.register|Backup|
+|バックアップサーバー情報の変更|event_id.backup.client.update|Backup|
+|バックアップサーバー削除|event_id.backup.client.delete|Backup|
+|バックアップパス登録|event_id.backup.target.register|Backup|
+|バックアップパス変更|event_id.backup.target.update|Backup|
+|バックアップパス削除|event_id.backup.target.delete|Backup|
+|復旧申請|event_id.backup.restoration.apply|Backup|
        
