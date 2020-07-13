@@ -201,8 +201,6 @@
 |組織サービスの無効化|event_id.org.product.disable|コンソール|
 |組織サービスの有効化|event_id.org.product.enable|コンソール|
 |組織情報の修正|event_id.org.update|コンソール|
-|組織 アクセス|event_id.org.selected|コンソール|
-|IAM組織 アクセス|event_id.iam.org.selected|コンソール|
 |プロジェクトの作成|event_id.project.create|コンソール|
 |プロジェクトの削除|event_id.project.delete|コンソール|
 |プロジェクトメンバーの追加|event_id.project.member.add|コンソール|
@@ -214,8 +212,6 @@
 |プロジェクトサービスの無効化|event_id.project.product.disable|コンソール|
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
-|プロジェクト アクセス|event_id.project.selected|コンソール|
-|IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
 |サービス削除|event_id.service_monitoring.delete_service|Service Monitoring|

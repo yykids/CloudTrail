@@ -127,8 +127,6 @@
 |Disable Organization Service|event_id.org.product.disable|Console|
 |Enable Organization Service|event_id.org.product.enable|Console|
 |Modify Organization Information|event_id.org.update|Console|
-|Access Organization|event_id.org.selected|Console|
-|Access IAM Organization|event_id.iam.org.selected|Console|
 |Create Project|event_id.project.create|Console|
 |Delete Project|event_id.project.delete|Console|
 |Add Project Member|event_id.project.member.add|Console|
@@ -140,8 +138,6 @@
 |Disable Project Service|event_id.project.product.disable|Console|
 |Enable Project Service|event_id.project.product.enable|Console|
 |Modify Project|event_id.project.update|Console|
-|Access Project|event_id.project.selected|Console|
-|Access IAM Project|event_id.iam.project.selected|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
 |Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
