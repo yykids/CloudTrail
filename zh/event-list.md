@@ -81,7 +81,6 @@
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
 |컨테이너 메타데이터 등록/수정|event_id.object_storage.container.metadata.update|Object Storage|
-|오브젝트 조회|event_id.object_storage.object.lookup|Object Storage|
 |오브젝트 업로드|event_id.object_storage.object.upload|Object Storage|
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
