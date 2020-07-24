@@ -81,7 +81,6 @@
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
 |Register/Modify Container Metadata|event_id.object_storage.container.metadata.update|Object Storage|
-|Query Objects|event_id.object_storage.object.lookup|Object Storage|
 |Upload objects|event_id.object_storage.object.upload|Object Storage|
 |Copy objects|event_id.object_storage.object.copy|Object Storage|
 |Delete objects|event_id.object_storage.object.delete|Object Storage|

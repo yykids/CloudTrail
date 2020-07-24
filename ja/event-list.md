@@ -81,7 +81,6 @@
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|
 |コンテナメタデータの登録/修正|event_id.object_storage.container.metadata.update|Object Storage|
-|オブジェクトの照会|event_id.object_storage.object.lookup|Object Storage|
 |オブジェクトのアップロード|event_id.object_storage.object.upload|Object Storage|
 |オブジェクトのコピー|event_id.object_storage.object.copy|Object Storage|
 |オブジェクトの削除|event_id.object_storage.object.delete|Object Storage|
