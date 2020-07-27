@@ -135,16 +135,16 @@
 |Enable Project Service|event_id.project.product.enable|Console|
 |Modify Project|event_id.project.update|Console|
 |Access Project|event_id.project.selected|Console|
-|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
-|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
+|Create Common Role Group|event_id.org.role_group.create|Console|
+|Modify Common Role Group|event_id.org.role_group.update|Console|
+|Delete Common Role Group|event_id.org.role_group.delete|Console|
+|Add Common Role Group Role|event_id.org.role_group.assign.roles|Console|
+|Delete Common Role Group Role|event_id.org.role_group.remove.roles|Console|
+|Create Project Role Group|event_id.project.role_group.create|Console|
+|Modify Project Role Group|event_id.project.role_group.update|Console|
+|Delete Project Role Group|event_id.project.role_group.delete|Console|
+|Add Project Role Group Role|event_id.project.role_group.assign.roles|Console|
+|Delete Project Role Group Role|event_id.project.role_group.remove.roles|Console|
 |Access IAM Project|event_id.iam.project.selected|Console|
 |Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
 |Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
