@@ -4,6 +4,7 @@
 ### 2020.07.28
 #### More Events
 * Added events related to Object Storage.  
+* Added events related to Role Group.  
     * Refer to the manual for more details : [Link](http://docs.toast.com/en/CloudTrail/en/event-list/)
  
 ### 2019.12.10
