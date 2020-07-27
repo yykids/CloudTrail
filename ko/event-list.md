@@ -195,6 +195,8 @@
 |조직 서비스 비활성화|event_id.org.product.disable|콘솔|
 |조직 서비스 활성화|event_id.org.product.enable|콘솔|
 |조직 정보 수정|event_id.org.update|콘솔|
+|조직 접속|event_id.org.selected|콘솔|
+|IAM 조직 접속|event_id.iam.org.selected|콘솔|
 |프로젝트 생성|event_id.project.create|콘솔|
 |프로젝트 삭제|event_id.project.delete|콘솔|
 |프로젝트 멤버 추가|event_id.project.member.add|콘솔|
@@ -206,6 +208,8 @@
 |프로젝트 서비스 비활성화|event_id.project.product.disable|콘솔|
 |프로젝트 서비스 활성화|event_id.project.product.enable|콘솔|
 |프로젝트 수정|event_id.project.update|콘솔|
+|프로젝트 접속|event_id.project.selected|콘솔|
+|IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
 |서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
