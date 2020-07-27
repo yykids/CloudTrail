@@ -209,6 +209,16 @@
 |프로젝트 서비스 활성화|event_id.project.product.enable|콘솔|
 |프로젝트 수정|event_id.project.update|콘솔|
 |프로젝트 접속|event_id.project.selected|콘솔|
+|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
+|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
 |IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
 |서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
 |서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
