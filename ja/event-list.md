@@ -209,16 +209,16 @@
 |プロジェクトサービスの有効化|event_id.project.product.enable|コンソール|
 |プロジェクトの修正|event_id.project.update|コンソール|
 |プロジェクト アクセス|event_id.project.selected|コンソール|
-|공통 권한 그룹 생성|event_id.org.role_group.create|コンソール|
-|공통 권한 그룹 수정|event_id.org.role_group.update|コンソール|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|コンソール|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|コンソール|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|コンソール|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|コンソール|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|コンソール|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|コンソール|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|コンソール|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|コンソール|
+|共通ロールグループ作成|event_id.org.role_group.create|コンソール|
+|共通ロールグループ修正|event_id.org.role_group.update|コンソール|
+|共通ロールグループ削除|event_id.org.role_group.delete|コンソール|
+|共通ロールグループ権限追加|event_id.org.role_group.assign.roles|コンソール|
+|共通ロールグループ権限削除|event_id.org.role_group.remove.roles|コンソール|
+|プロジェクトロールグループ作成|event_id.project.role_group.create|コンソール|
+|プロジェクトロールグループ修正|event_id.project.role_group.update|コンソール|
+|プロジェクトロールグループ削除|event_id.project.role_group.delete|コンソール|
+|プロジェクトロールグループ権限追加|event_id.project.role_group.assign.roles|コンソール|
+|プロジェクトロールグループ権限削除|event_id.project.role_group.remove.roles|コンソール|
 |IAMプロジェクト アクセス|event_id.iam.project.selected|コンソール|
 |サービス作成|event_id.service_monitoring.creation_service|Service Monitoring|
 |サービス変更|event_id.service_monitoring.modification_service|Service Monitoring|
