@@ -4,6 +4,7 @@
 ### 2020.07.28
 #### 이벤트 추가
 * Object Storage 서비스 관련 이벤트가 추가되었습니다.
+* 권한 그룹 관련 이벤트가 추가되었습니다.
     * 자세한 사항은 메뉴얼을 참고합니다: [링크](http://docs.toast.com/ko/CloudTrail/ko/event-list/)
  
 ### 2019.12.10
