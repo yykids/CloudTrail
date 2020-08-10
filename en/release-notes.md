@@ -1,6 +1,12 @@
 
 ## CloudTrail > 릴리스 노트
 
+### 2020.08.25
+#### More Events
+* Added events related to Default Infrastructure Service.
+* Added events related to Backup Service.
+    * Refer to the manual for more details : [Link](http://docs.toast.com/en/CloudTrail/en/event-list/)
+    
 ### 2020.07.28
 #### More Events
 * Added events related to Object Storage.  
