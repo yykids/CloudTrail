@@ -77,6 +77,13 @@
 |Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
+|클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
+|클러스터 수정|event_id.iaas.cluster.update|기본 인프라 서비스|
+|클러스터 크기 조정|event_id.iaas.cluster.resize|기본 인프라 서비스|
+|클러스터 업그레이드|event_id.iaas.cluster.upgrade|기본 인프라 서비스|
+|클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
+|노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
+|노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
