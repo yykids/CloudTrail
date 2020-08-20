@@ -77,6 +77,13 @@
 |VPCサブネットの削除|event_id.iaas.vpc_subnet.delete|基本インフラサービス|
 |VPCサブネットルーティングテーブル接続の解除|event_id.iaas.vpc_subnet.detach_routingtable|基本インフラサービス|
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
+|クラスター作成|event_id.iaas.cluster.create|基本インフラサービス|
+|クラスター修正|event_id.iaas.cluster.update|基本インフラサービス|
+|クラスターサイズ調整|event_id.iaas.cluster.resize|基本インフラサービス|
+|クラスターアップグレード|event_id.iaas.cluster.upgrade|基本インフラサービス|
+|クラスター削除|event_id.iaas.cluster.delete|基本インフラサービス|
+|ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
+|ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
 |アカウントメタデータの登録/修正|event_id.object_storage.account.metadata.update|Object Storage|
 |コンテナの作成|event_id.object_storage.container.create|Object Storage|
 |コンテナの削除|event_id.object_storage.container.delete|Object Storage|

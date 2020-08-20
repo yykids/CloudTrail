@@ -77,6 +77,13 @@
 |Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
 |Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
 |Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
+|Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
+|Update Cluster|event_id.iaas.cluster.update|Default Infrastructure Service|
+|Resize Cluster|event_id.iaas.cluster.resize|Default Infrastructure Service|
+|Upgrade Cluster|event_id.iaas.cluster.upgrade|Default Infrastructure Service|
+|Delete Cluster|event_id.iaas.cluster.delete|Default Infrastructure Service|
+|Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
+|Delete Node Group	|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
 |Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
 |Create Containers|event_id.object_storage.container.create|Object Storage|
 |Delete Containers|event_id.object_storage.container.delete|Object Storage|
