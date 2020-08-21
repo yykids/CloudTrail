@@ -79,8 +79,6 @@
 |VPCサブネットの変更|event_id.iaas.vpc_subnet.update|基本インフラサービス|
 |クラスター作成|event_id.iaas.cluster.create|基本インフラサービス|
 |クラスター修正|event_id.iaas.cluster.update|基本インフラサービス|
-|クラスターサイズ調整|event_id.iaas.cluster.resize|基本インフラサービス|
-|クラスターアップグレード|event_id.iaas.cluster.upgrade|基本インフラサービス|
 |クラスター削除|event_id.iaas.cluster.delete|基本インフラサービス|
 |ノードグループ作成|event_id.iaas.nodegroup.create|基本インフラサービス|
 |ノードグループ削除|event_id.iaas.nodegroup.delete|基本インフラサービス|
