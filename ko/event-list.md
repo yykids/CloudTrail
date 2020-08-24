@@ -78,7 +78,6 @@
 |VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|기본 인프라 서비스|
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
 |클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
-|클러스터 수정|event_id.iaas.cluster.update|기본 인프라 서비스|
 |클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
 |노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
 |노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
