@@ -290,7 +290,6 @@
 |シンボルファイルの削除|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |シンボルファイルのアップロード|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |バックアップサーバー登録|event_id.backup.client.register|Backup|
-|バックアップサーバー情報の変更|event_id.backup.client.update|Backup|
 |バックアップサーバー削除|event_id.backup.client.delete|Backup|
 |バックアップパス登録|event_id.backup.target.register|Backup|
 |バックアップパス変更|event_id.backup.target.update|Backup|
