@@ -169,7 +169,7 @@
 |백업 삭제|event_id.easycache.backup.delete|EasyCache|
 |공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
 |공인 도메인 해제|event_id.easycache.public_domain.detach|EasyCache|
-|공인 도메인 갱신|event_id.easycache.public_domain.update|EasyCache|
+|도메인 갱신|event_id.easycache.domain.update|EasyCache|
 |복제 그룹 생성|event_id.easycache.group.create|EasyCache|
 |복제 그룹 삭제|event_id.easycache.group.delete|EasyCache|
 |복제 그룹 수정|event_id.easycache.group.modify|EasyCache|
