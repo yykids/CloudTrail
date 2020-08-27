@@ -295,3 +295,21 @@
 |백업 경로 변경|event_id.backup.target.update|Backup|
 |백업 경로 삭제|event_id.backup.target.delete|Backup|
 |복구 신청|event_id.backup.restoration.apply|Backup|
+| DNS Zone 생성 | event_id.dnsplus.zone.create | DNS Plus |
+| DNS Zone 수정 | event_id.dnsplus.zone.update | DNS Plus |
+| DNS Zone 삭제 | event_id.dnsplus.zone.delete | DNS Plus |
+| 레코드 세트 생성 | event_id.dnsplus.recordset.create | DNS Plus |
+| 레코드 세트 수정 | event_id.dnsplus.recordset.update | DNS Plus |
+| 레코드 세트 삭제 | event_id.dnsplus.recordset.delete | DNS Plus |
+| GSLB 생성 | event_id.dnsplus.gslb.create | DNS Plus |
+| GSLB 수정 | event_id.dnsplus.gslb.update | DNS Plus |
+| GSLB 삭제 | event_id.dnsplus.gslb.delete | DNS Plus |
+| Pool 연결 | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
+| Pool 연결 수정 | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
+| Pool 연결 해제 | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
+| Pool 생성 | event_id.dnsplus.pool.create | DNS Plus |
+| Pool 수정 | event_id.dnsplus.pool.update | DNS Plus |
+| Pool 삭제 | event_id.dnsplus.pool.delete | DNS Plus |
+| 헬스 체크 생성 | event_id.dnsplus.health_check.create | DNS Plus |
+| 헬스 체크 수정 | event_id.dnsplus.health_check.update | DNS Plus |
+| 헬스 체크 삭제 | event_id.dnsplus.health_check.delete | DNS Plus |

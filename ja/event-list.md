@@ -295,4 +295,21 @@
 |バックアップパス変更|event_id.backup.target.update|Backup|
 |バックアップパス削除|event_id.backup.target.delete|Backup|
 |復旧申請|event_id.backup.restoration.apply|Backup|
-       
+| DNS Zone作成 | event_id.dnsplus.zone.create | DNS Plus |
+| DNS Zone修正 | event_id.dnsplus.zone.update | DNS Plus |
+| DNS Zone削除 | event_id.dnsplus.zone.delete | DNS Plus |
+| レコードセット作成 | event_id.dnsplus.recordset.create | DNS Plus |
+| レコードセット修正 | event_id.dnsplus.recordset.update | DNS Plus |
+| レコードセット削除 | event_id.dnsplus.recordset.delete | DNS Plus |
+| GSLB作成 | event_id.dnsplus.gslb.create | DNS Plus |
+| GSLB修正 | event_id.dnsplus.gslb.update | DNS Plus |
+| GSLB削除 | event_id.dnsplus.gslb.delete | DNS Plus |
+| Pool接続 | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
+| Pool接続修正 | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
+| Pool接続解除 | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
+| Pool作成 | event_id.dnsplus.pool.create | DNS Plus |
+| Pool修正 | event_id.dnsplus.pool.update | DNS Plus |
+| Pool削除 | event_id.dnsplus.pool.delete | DNS Plus |
+| ヘルスチェック作成 | event_id.dnsplus.health_check.create | DNS Plus |
+| ヘルスチェック修正 | event_id.dnsplus.health_check.update | DNS Plus |
+| ヘルスチェック削除 | event_id.dnsplus.health_check.delete | DNS Plus |

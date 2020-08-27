@@ -3,6 +3,11 @@
 
 ### 2020.08.25
 #### イベント追加
+* Object Storageサービス関連イベントを追加しました。
+    * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
+    
+### 2020.08.25
+#### イベント追加
 * 基本インフサービス関連イベントを追加しました。
 * Backupサービス関連イベントを追加しました。
     * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ja/CloudTrail/ja/event-list/)

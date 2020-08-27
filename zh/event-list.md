@@ -221,3 +221,21 @@
 |백업 경로 변경|event_id.backup.target.update|Backup|
 |백업 경로 삭제|event_id.backup.target.delete|Backup|
 |복구 신청|event_id.backup.restoration.apply|Backup|
+| 创建DNS Zone | event_id.dnsplus.zone.create | DNS Plus |
+| 修改DNS Zone | event_id.dnsplus.zone.update | DNS Plus |
+| 删除DNS Zone | event_id.dnsplus.zone.delete | DNS Plus |
+| 创建记录集合 | event_id.dnsplus.recordset.create | DNS Plus |
+| 修改记录集合 | event_id.dnsplus.recordset.update | DNS Plus |
+| 删除记录集合 | event_id.dnsplus.recordset.delete | DNS Plus |
+| 创建GSLB | event_id.dnsplus.gslb.create | DNS Plus |
+| 修改GSLB | event_id.dnsplus.gslb.update | DNS Plus |
+| 删除GSLB | event_id.dnsplus.gslb.delete | DNS Plus |
+| 连接Pool | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
+| 修改Pool连接 | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
+| 断开Pool连接 | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
+| 创建Pool | event_id.dnsplus.pool.create | DNS Plus |
+| 修改Pool | event_id.dnsplus.pool.update | DNS Plus |
+| 删除Pool | event_id.dnsplus.pool.delete | DNS Plus |
+| 创建健康检查 | event_id.dnsplus.health_check.create | DNS Plus |
+| 修改健康检查 | event_id.dnsplus.health_check.update | DNS Plus |
+| 删除健康检查 | event_id.dnsplus.health_check.delete | DNS Plus |
