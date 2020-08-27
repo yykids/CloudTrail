@@ -1,5 +1,10 @@
 
 ## CloudTrail > リリースノート
+
+### 2020.09.22
+#### イベント追加
+* DNS Plusサービス関連イベントを追加しました。
+    * 詳細はマニュアルを参照: [リンク](http://docs.toast.com/ja/CloudTrail/ja/event-list/)
     
 ### 2020.08.25
 #### イベント追加
