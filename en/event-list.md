@@ -221,3 +221,21 @@
 |Change Backup Path|event_id.backup.target.update|Backup|
 |Delete Backup Path|event_id.backup.target.delete|Backup|
 |Apply for Restoration|event_id.backup.restoration.apply|Backup|
+| Create DNS Zone | event_id.dnsplus.zone.create | DNS Plus |
+| Modify DNS Zone | event_id.dnsplus.zone.update | DNS Plus |
+| Delete DNS Zone | event_id.dnsplus.zone.delete | DNS Plus |
+| Create Record Set | event_id.dnsplus.recordset.create | DNS Plus |
+| Modify Record Set | event_id.dnsplus.recordset.update | DNS Plus |
+| Delete Record Set | event_id.dnsplus.recordset.delete | DNS Plus |
+| Create GSLB | event_id.dnsplus.gslb.create | DNS Plus |
+| Modify GSLB | event_id.dnsplus.gslb.update | DNS Plus |
+| Delete GSLB | event_id.dnsplus.gslb.delete | DNS Plus |
+| Connect Pools | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
+| Modify Pool Connection | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
+| Disconnect Pools | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
+| Create Pools | event_id.dnsplus.pool.create | DNS Plus |
+| Modify Pools | event_id.dnsplus.pool.update | DNS Plus |
+| Delete Pools | event_id.dnsplus.pool.delete | DNS Plus |
+| Create Health Checks | event_id.dnsplus.health_check.create | DNS Plus |
+| Modify Health Checks | event_id.dnsplus.health_check.update | DNS Plus |
+| Delete Health Checks | event_id.dnsplus.health_check.delete | DNS Plus |
