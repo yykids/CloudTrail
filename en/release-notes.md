@@ -1,5 +1,5 @@
 
-## CloudTrail > 릴리스 노트
+## CloudTrail > ReleaseNotes
 
 ### 2020.09.22
 #### More Events
