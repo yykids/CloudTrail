@@ -4,34 +4,34 @@
 ### 2020.09.22
 #### イベント追加
 * DNS Plusサービス関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [リンク](/ja/CloudTrail/ja/event-list/)
+    * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
     
 ### 2020.08.25
 #### イベント追加
 * 基本インフサービス関連イベントを追加しました。
 * Backupサービス関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [リンク](/ja/CloudTrail/ja/event-list/)
+    * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
 
 ### 2020.07.28
 #### イベント追加
 * Object Storageサービス関連イベントを追加しました。
 * ロールグループ関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [リンク](/ja/CloudTrail/ja/event-list/)
+    * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
 
 ### 2019.12.10
 #### イベント追加
 * RDS for MySQLサービス関連イベントを追加しました。
-    * 詳細はマニュアルを参照: [リンク](/ja/CloudTrail/ja/event-list/)
+    * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
 
 ### 2019.10.29
 #### 機能改善
 * CloudTrailイベント照会時、イベントを発生させたユーザーの検索条件を改善しました。
-    * 詳細はマニュアルを参照: [リンク](/ja/CloudTrail/ja/api-guide/)
+    * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/api-guide/)
 
 ### 2019.09.24
 #### 機能追加
 * Cloud TrailでEvent照会Restful APIを提供します。
-    * 詳細は、マニュアルを参照：[リンク](/ja/CloudTrail/ja/api-guide/)
+    * 詳細は、マニュアルを参照：[リンク](/CloudTrail/ja/api-guide/)
     
 #### 機能改善
 * 検索条件の名前(ID)で、既存の組織メンバーだけでなく、ユーザーが設定したIAMメンバー条件で検索できます。

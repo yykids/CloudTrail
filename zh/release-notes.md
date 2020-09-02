@@ -4,34 +4,34 @@
 ### 2020.09.22
 #### More Events
 * Added events related to DNS Plus Service.
-    * Refer to the manual for more details : [Link](/zh/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
 
 ### 2020.08.25
 #### More Events
 * Added events related to Default Infrastructure Service.
 * Added events related to Backup Service.
-    * Refer to the manual for more details : [Link](/zh/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
     
 ### 2020.07.28
 #### More Events
 * Added events related to Object Storage.  
 * Added events related to Role Group.  
-    * Refer to the manual for more details : [Link](/zh/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
  
 ### 2019.12.10
 #### More Events
 * Added events related to RDS for MySQL.  
-    * Refer to the manual for more details : [Link](/zh/CloudTrail/zh/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
 
 ### 2019.10.29
 #### More Features
 * Updated, for the query of CloudTrail events, the search conditions of users who occurred events.
-    * Refer to the manual for more details : [Link](/zh/CloudTrail/zh/api-guide/)
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/api-guide/)
 
 ### Sept. 24, 2019 
 #### More Features 
 * Restul API is provided for query of events. 
-    * See manual for more details: [Link](/zh/CloudTrail/zh/api-guide/)
+    * See manual for more details: [Link](/CloudTrail/zh/api-guide/)
     
 #### Feature Updates
 * Search by name (ID) allows not only the search of existing organization members but user-defined IAM members.
