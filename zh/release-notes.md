@@ -4,24 +4,24 @@
 ### 2020.09.22
 #### 이벤트 추가
 * DNS Plus 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다.: [링크](/ko/CloudTrail/ko/event-list/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/ko/CloudTrail/ko/event-list/)
 
 ### 2020.08.25
 #### 이벤트 추가
 * 기본 인프라 서비스 관련 이벤트가 추가되었습니다.
 * Backup 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다.: [링크](/zh/CloudTrail/zh/event-list/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/zh/CloudTrail/zh/event-list/)
     
 ### 2020.07.28
 #### 이벤트 추가
 * Object Storage 서비스 관련 이벤트가 추가되었습니다.
 * 권한 그룹 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다: [링크](/zh/CloudTrail/zh/event-list/)
+    * 자세한 사항은 매뉴얼을 참고합니다: [링크](/zh/CloudTrail/zh/event-list/)
  
 ### 2019.12.10
 #### 이벤트 추가
 * RDS for MySQL 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다: [링크](/zh/CloudTrail/zh/event-list/)
+    * 자세한 사항은 매뉴얼을 참고합니다: [링크](/zh/CloudTrail/zh/event-list/)
 
 ### 2019.10.29
 #### 기능 개선

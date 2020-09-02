@@ -1,94 +1,94 @@
 ## CloudTrail > 수집되는 이벤트 목록
 
-|이벤트|이벤트 ID|서비스|
+|Event|Event ID|Service|
 | --- | --- | --- |
-|스케일링 그룹 예약 작업 생성|event_id.iaas.autoscale_schedule.create|기본 인프라 서비스|
-|스케일링 그룹 예약 작업 삭제|event_id.iaas.autoscale_schedule.delete|기본 인프라 서비스|
-|인스턴스 플로팅 IP 연결|event_id.iaas.floating_ip.attach|기본 인프라 서비스|
-|플로팅 IP 생성|event_id.iaas.floating_ip.create|기본 인프라 서비스|
-|플로팅 IP 삭제|event_id.iaas.floating_ip.delete|기본 인프라 서비스|
-|인스턴스 플로팅 IP 연결 해제|event_id.iaas.floating_ip.detach|기본 인프라 서비스|
-|이미지 생성|event_id.iaas.image.create|기본 인프라 서비스|
-|이미지 삭제|event_id.iaas.image.delete|기본 인프라 서비스|
-|이미지 정보 변경|event_id.iaas.image.update|기본 인프라 서비스|
-|이미지 공유 추가|event_id.iaas.image_member.create|기본 인프라 서비스|
-|이미지 공유 삭제|event_id.iaas.image_member.delete|기본 인프라 서비스|
-|인스턴스 생성|event_id.iaas.instance.create|기본 인프라 서비스|
-|인스턴스 삭제|event_id.iaas.instance.delete|기본 인프라 서비스|
-|인스턴스 정보 변경|event_id.iaas.instance.update|기본 인프라 서비스|
-|인스턴스 재부팅|event_id.iaas.instance_action.reboot|기본 인프라 서비스|
-|인스턴스 타입 변경|event_id.iaas.instance_action.resize|기본 인프라 서비스|
-|인스턴스 시작|event_id.iaas.instance_action.start|기본 인프라 서비스|
-|인스턴스 종료|event_id.iaas.instance_action.stop|기본 인프라 서비스|
-|인스턴스 템플릿 생성|event_id.iaas.instance_template.create|기본 인프라 서비스|
-|인스턴스 템플릿 삭제|event_id.iaas.instance_template.delete|기본 인프라 서비스|
-|인스턴스 템플릿 변경|event_id.iaas.instance_template.update|기본 인프라 서비스|
-|인스턴스 인터페이스 추가|event_id.iaas.interface.create|기본 인프라 서비스|
-|인스턴스 인터페이스 삭제|event_id.iaas.interface.delete|기본 인프라 서비스|
-|인터넷 게이트웨이 생성|event_id.iaas.internet_gateway.create|기본 인프라 서비스|
-|인터넷 게이트웨이 삭제|event_id.iaas.internet_gateway.delete|기본 인프라 서비스|
-|키페어 생성|event_id.iaas.keypair.create|기본 인프라 서비스|
-|키페어 삭제|event_id.iaas.keypair.delete|기본 인프라 서비스|
-|로드 밸런서 생성|event_id.iaas.loadbalancer.create|기본 인프라 서비스|
-|로드 밸런서 삭제|event_id.iaas.loadbalancer.delete|기본 인프라 서비스|
-|로드 밸런서 정보 변경|event_id.iaas.loadbalancer.update|기본 인프라 서비스|
-|로드 밸런서 리스너 생성|event_id.iaas.loadbalancer_listener.create|기본 인프라 서비스|
-|로드 밸런서 리스너 삭제|event_id.iaas.loadbalancer_listener.delete|기본 인프라 서비스|
-|로드 밸런서 리스너 변경|event_id.iaas.loadbalancer_listener.update|기본 인프라 서비스|
-|로드 밸런서 인스턴스 연결 추가|event_id.iaas.loadbalancer_member.create|기본 인프라 서비스|
-|로드 밸런서 인스턴스 연결 해제|event_id.iaas.loadbalancer_member.delete|기본 인프라 서비스|
-|로드 밸런서 인스턴스 활성 상태 변경|event_id.iaas.loadbalancer_member.update|기본 인프라 서비스|
-|인스턴스 메타데이터 생성|event_id.iaas.metadata.create|기본 인프라 서비스|
-|인스턴스 메타데이터 삭제|event_id.iaas.metadata.delete|기본 인프라 서비스|
-|인스턴스 메타데이터 변경|event_id.iaas.metadata.update|기본 인프라 서비스|
-|VPC 피어링 생성|event_id.iaas.peering.create|기본 인프라 서비스|
-|VPC 피어링 삭제|event_id.iaas.peering.delete|기본 인프라 서비스|
-|포트 생성|event_id.iaas.port.create|기본 인프라 서비스|
-|포트 삭제|event_id.iaas.port.delete|기본 인프라 서비스|
-|포트 보안 그룹 변경|event_id.iaas.port.update|기본 인프라 서비스|
-|라우팅 테이블 라우트 생성|event_id.iaas.route.create|기본 인프라 서비스|
-|라우팅 테이블 라우트 삭제|event_id.iaas.route.delete|기본 인프라 서비스|
-|라우팅 테이블 인터넷 게이트웨이 연결|event_id.iaas.routing_table.attach_gateway|기본 인프라 서비스|
-|라우팅 테이블 생성|event_id.iaas.routing_table.create|기본 인프라 서비스|
-|라우팅 테이블 삭제|event_id.iaas.routing_table.delete|기본 인프라 서비스|
-|라우팅 테이블 인터넷 게이트웨이 연결 해제|event_id.iaas.routing_table.detach_gateway|기본 인프라 서비스|
-|라우팅 테이블 기본 지정|event_id.iaas.routing_table.set_as_default|기본 인프라 서비스|
-|라우팅 테이블 변경|event_id.iaas.routing_table.update|기본 인프라 서비스|
-|스케일링 그룹 생성|event_id.iaas.scaling_group.create|기본 인프라 서비스|
-|스케일링 그룹 삭제|event_id.iaas.scaling_group.delete|기본 인프라 서비스|
-|스케일링 그룹 변경|event_id.iaas.scaling_group.update|기본 인프라 서비스|
-|보안 그룹 생성|event_id.iaas.security_group.create|기본 인프라 서비스|
-|보안 그룹 삭제|event_id.iaas.security_group.delete|기본 인프라 서비스|
-|보안 그룹 변경|event_id.iaas.security_group.update|기본 인프라 서비스|
-|보안 정책 생성|event_id.iaas.security_group_rule.create|기본 인프라 서비스|
-|보안 정책 삭제|event_id.iaas.security_group_rule.delete|기본 인프라 서비스|
-|블록 스토리지 스냅숏 생성|event_id.iaas.snapshot.create|기본 인프라 서비스|
-|블록 스토리지 스냅숏 삭제|event_id.iaas.snapshot.delete|기본 인프라 서비스|
-|인스턴스 볼륨 연결|event_id.iaas.volume.attach|기본 인프라 서비스|
-|블록 스토리지 생성|event_id.iaas.volume.create|기본 인프라 서비스|
-|블록 스토리지 삭제|event_id.iaas.volume.delete|기본 인프라 서비스|
-|인스턴스 볼륨 연결 해제|event_id.iaas.volume.detach|기본 인프라 서비스|
-|블록 스토리지 정보 변경|event_id.iaas.volume.update|기본 인프라 서비스|
-|VPC 생성|event_id.iaas.vpc.create|기본 인프라 서비스|
-|VPC 삭제|event_id.iaas.vpc.delete|기본 인프라 서비스|
-|VPC 정보 변경|event_id.iaas.vpc.update|기본 인프라 서비스|
-|VPC 서브넷 라우팅 테이블 연결|event_id.iaas.vpc_subnet.attach_routingtable|기본 인프라 서비스|
-|VPC 서브넷 생성|event_id.iaas.vpc_subnet.create|기본 인프라 서비스|
-|VPC 서브넷 삭제|event_id.iaas.vpc_subnet.delete|기본 인프라 서비스|
-|VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|기본 인프라 서비스|
-|VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
-|클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
-|클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
-|노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
-|노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
-|어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
-|컨테이너 생성|event_id.object_storage.container.create|Object Storage|
-|컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
-|컨테이너 메타데이터 등록/수정|event_id.object_storage.container.metadata.update|Object Storage|
-|오브젝트 업로드|event_id.object_storage.object.upload|Object Storage|
-|오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
-|오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
-|오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
+|Create Schedule for Scaling Group|event_id.iaas.autoscale_schedule.create|Default Infrastructure Service|
+|Delete Schedule for Scaling Group|event_id.iaas.autoscale_schedule.delete|Default Infrastructure Service|
+|Associate Instance Floating IP |event_id.iaas.floating_ip.attach|Default Infrastructure Service|
+|Create Floating IP|event_id.iaas.floating_ip.create|Default Infrastructure Service|
+|Delete Floating IP|event_id.iaas.floating_ip.delete|Default Infrastructure Service|
+|Disassociate Instance Floating IP|event_id.iaas.floating_ip.detach|Default Infrastructure Service|
+|Create Image|event_id.iaas.image.create|Default Infrastructure Service|
+|Delete Image|event_id.iaas.image.delete|Default Infrastructure Service|
+|Change Image Information|event_id.iaas.image.update|Default Infrastructure Service|
+|Create Image Sharing|event_id.iaas.image_member.create|Default Infrastructure Service|
+|Delete Image Sharing|event_id.iaas.image_member.delete|Default Infrastructure Service|
+|Create Instance|event_id.iaas.instance.create|Default Infrastructure Service|
+|Delete Instance|event_id.iaas.instance.delete|Default Infrastructure Service|
+|Change Instance Information|event_id.iaas.instance.update|Default Infrastructure Service|
+|Reboot Instance|event_id.iaas.instance_action.reboot|Default Infrastructure Service|
+|Change Instance Type|event_id.iaas.instance_action.resize|Default Infrastructure Service|
+|Start Instance|event_id.iaas.instance_action.start|Default Infrastructure Service|
+|Close Instance|event_id.iaas.instance_action.stop|Default Infrastructure Service|
+|Create Instance Template|event_id.iaas.instance_template.create|Default Infrastructure Service|
+|Delete Instance Template|event_id.iaas.instance_template.delete|Default Infrastructure Service|
+|Change Instance Template|event_id.iaas.instance_template.update|Default Infrastructure Service|
+|Create Instance Interface|event_id.iaas.interface.create|Default Infrastructure Service|
+|Delete Instance Interface|event_id.iaas.interface.delete|Default Infrastructure Service|
+|Create Internet Gateway|event_id.iaas.internet_gateway.create|Default Infrastructure Service|
+|Delete Internet Gateway|event_id.iaas.internet_gateway.delete|Default Infrastructure Service|
+|Create Keypair|event_id.iaas.keypair.create|Default Infrastructure Service|
+|Delete Keypair|event_id.iaas.keypair.delete|Default Infrastructure Service|
+|Create Load Balancer|event_id.iaas.loadbalancer.create|Default Infrastructure Service|
+|Delete Load Balancer|event_id.iaas.loadbalancer.delete|Default Infrastructure Service|
+|Change Load Balancer Information|event_id.iaas.loadbalancer.update|Default Infrastructure Service|
+|Create Load Balancer Listener|event_id.iaas.loadbalancer_listener.create|Default Infrastructure Service|
+|Delete Load Balancer Listener|event_id.iaas.loadbalancer_listener.delete|Default Infrastructure Service|
+|Change Load Balancer Listener|event_id.iaas.loadbalancer_listener.update|Default Infrastructure Service|
+|Attach Load Balancer Instance|event_id.iaas.loadbalancer_member.create|Default Infrastructure Service|
+|Detach Load Balancer Instance|event_id.iaas.loadbalancer_member.delete|Default Infrastructure Service|
+|Change Status of Load Balancer Instance|event_id.iaas.loadbalancer_member.update|Default Infrastructure Service|
+|Create Instance Metadata|event_id.iaas.metadata.create|Default Infrastructure Service|
+|Delete Instance Metadata|event_id.iaas.metadata.delete|Default Infrastructure Service|
+|Change Instance Metadata|event_id.iaas.metadata.update|Default Infrastructure Service|
+|Create VPC Peering|event_id.iaas.peering.create|Default Infrastructure Service|
+|Delete VPC Peering|event_id.iaas.peering.delete|Default Infrastructure Service|
+|Create Port|event_id.iaas.port.create|Default Infrastructure Service|
+|Delete Port|event_id.iaas.port.delete|Default Infrastructure Service|
+|Change Port Security Group|event_id.iaas.port.update|Default Infrastructure Service|
+|Create Route in Routing Table|event_id.iaas.route.create|Default Infrastructure Service|
+|Delete Route in Routing Table|event_id.iaas.route.delete|Default Infrastructure Service|
+|Connect Routing Table over Internet Gateway|event_id.iaas.routing_table.attach_gateway|Default Infrastructure Service|
+|Create Routing Table|event_id.iaas.routing_table.create|Default Infrastructure Service|
+|Delete Routing Table|event_id.iaas.routing_table.delete|Default Infrastructure Service|
+|Disconnect Routing Table over Internet Gateway|event_id.iaas.routing_table.detach_gateway|Default Infrastructure Service|
+|Set Default Routing Table|event_id.iaas.routing_table.set_as_default|Default Infrastructure Service|
+|Change Routing Table|event_id.iaas.routing_table.update|Default Infrastructure Service|
+|Create Scaling Group|event_id.iaas.scaling_group.create|Default Infrastructure Service|
+|Delete Scaling Group|event_id.iaas.scaling_group.delete|Default Infrastructure Service|
+|Change Scaling Group|event_id.iaas.scaling_group.update|Default Infrastructure Service|
+|Create Security Group|event_id.iaas.security_group.create|Default Infrastructure Service|
+|Delete Security Group|event_id.iaas.security_group.delete|Default Infrastructure Service|
+|Change Security Group|event_id.iaas.security_group.update|Default Infrastructure Service|
+|Create Security Policy|event_id.iaas.security_group_rule.create|Default Infrastructure Service|
+|Delete Security Policy|event_id.iaas.security_group_rule.delete|Default Infrastructure Service|
+|Create Block Storage Snapshot|event_id.iaas.snapshot.create|Default Infrastructure Service|
+|Delete Block Storage Snapshot|event_id.iaas.snapshot.delete|Default Infrastructure Service|
+|Connect Instance Volume|event_id.iaas.volume.attach|Default Infrastructure Service|
+|Create Block Storage|event_id.iaas.volume.create|Default Infrastructure Service|
+|Delete Block Storage|event_id.iaas.volume.delete|Default Infrastructure Service|
+|Disconnect Instance Volume|event_id.iaas.volume.detach|Default Infrastructure Service|
+|Change Block Storage Information|event_id.iaas.volume.update|Default Infrastructure Service|
+|Create VPC|event_id.iaas.vpc.create|Default Infrastructure Service|
+|Delete VPC|event_id.iaas.vpc.delete|Default Infrastructure Service|
+|Change VPC Information|event_id.iaas.vpc.update|Default Infrastructure Service|
+|Connect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.attach_routingtable|Default Infrastructure Service|
+|Create VPC Subnet|event_id.iaas.vpc_subnet.creat|Default Infrastructure Service|
+|Delete VPC Subnet|event_id.iaas.vpc_subnet.delet|Default Infrastructure Service|
+|Disconnect Routing Table over VPC Subnet|event_id.iaas.vpc_subnet.detach_routingtable|Default Infrastructure Service|
+|Change VPC Subnet|event_id.iaas.vpc_subnet.update|Default Infrastructure Service|
+|Create Cluster|event_id.iaas.cluster.create|Default Infrastructure Service|
+|Delete Cluster|event_id.iaas.cluster.delete|Default Infrastructure Service|
+|Create Node Group|event_id.iaas.nodegroup.create|Default Infrastructure Service|
+|Delete Node Group	|event_id.iaas.nodegroup.delete|Default Infrastructure Service|
+|Register/Modify Account Metadata|event_id.object_storage.account.metadata.update|Object Storage|
+|Create Containers|event_id.object_storage.container.create|Object Storage|
+|Delete Containers|event_id.object_storage.container.delete|Object Storage|
+|Register/Modify Container Metadata|event_id.object_storage.container.metadata.update|Object Storage|
+|Upload objects|event_id.object_storage.object.upload|Object Storage|
+|Copy objects|event_id.object_storage.object.copy|Object Storage|
+|Delete objects|event_id.object_storage.object.delete|Object Storage|
+|Register/Modify Object Metadata|event_id.object_storage.object.metadata.update|Object Storage|
 |DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
 |DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
 |DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
@@ -110,61 +110,61 @@
 |수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
 |수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
 |수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
-|IAM 로그인|event_id.iam.login|콘솔|
-|IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
-|조직 도메인 추가|event_id.org.domain.add|콘솔|
-|조직 도메인 수정|event_id.org.domain.update|콘솔|
-|조직 내부 회원 추가|event_id.org.iam.member.add|콘솔|
-|조직 내부 회원 비밀번호 변경 공지 메일 발송|event_id.org.iam.member.send_mail|콘솔|
-|조직 내부 회원 정보 수정|event_id.org.iam.member.update|콘솔|
-|조직 멤버 추가|event_id.org.member.add|콘솔|
-|조직 멤버 삭제|event_id.org.member.delete|콘솔|
-|조직 멤버 초대|event_id.org.member.invite|콘솔|
-|조직 멤버 초대 취소|event_id.org.member.invite_cancel|콘솔|
-|조직 멤버 수정|event_id.org.member.update|콘솔|
-|조직 서비스 비활성화|event_id.org.product.disable|콘솔|
-|조직 서비스 활성화|event_id.org.product.enable|콘솔|
-|조직 정보 수정|event_id.org.update|콘솔|
-|조직 접속|event_id.org.selected|콘솔|
-|IAM 조직 접속|event_id.iam.org.selected|콘솔|
-|프로젝트 생성|event_id.project.create|콘솔|
-|프로젝트 삭제|event_id.project.delete|콘솔|
-|프로젝트 멤버 추가|event_id.project.member.add|콘솔|
-|프로젝트 멤버 삭제|event_id.project.member.delete|콘솔|
-|프로젝트 멤버 초대|event_id.project.member.invite|콘솔|
-|프로젝트 멤버 초대 취소|event_id.project.member.invite_cancel|콘솔|
-|프로젝트 멤버 권한 수정|event_id.project.member.update|콘솔|
-|프로젝트 멤버 삭제|event_id.project.members.delete|콘솔|
-|프로젝트 서비스 비활성화|event_id.project.product.disable|콘솔|
-|프로젝트 서비스 활성화|event_id.project.product.enable|콘솔|
-|프로젝트 수정|event_id.project.update|콘솔|
-|프로젝트 접속|event_id.project.selected|콘솔|
-|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
-|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
-|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
-|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
-|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
-|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
-|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
-|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
-|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
-|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
-|IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
-|서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
-|서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
-|서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
-|서비스 그룹 변경|event_id.service_monitoring.modification_service_group|Service Monitoring|
-|시나리오 추가|event_id.service_monitoring.creation_scenario|Service Monitoring|
-|시나리오 변경|event_id.service_monitoring.modification_scenario|Service Monitoring|
-|시나리오 삭제|event_id.service_monitoring.delete_scenario|Service Monitoring|
-|시나리오 복사|event_id.service_monitoring.copy_scenario|Service Monitoring|
-|시나리오 테스트|event_id.service_monitoring.simulate_scenario|Service Monitoring|
-|PM 등록|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
-|PM 변경|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
-|PM 삭제|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
-|다음 그룹으로 장애 전파|event_id.service_monitoring.send_next_transmission|Service Monitoring|
-|다른 서비스로 장애 이관|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
-|장애 전파 중지|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
+|IAM Login|event_id.iam.login|Console|
+|Change Authority for IAM Members|event_id.iam.member.role.update|Console|
+|Add Organization Domain|event_id.org.domain.add|Console|
+|Modify Organization Domain|event_id.org.domain.update|Console|
+|Add Organization Member|event_id.org.iam.member.add|Console|
+|Send Notification Mail to Organization Members to Change Password|event_id.org.iam.member.send_mail|Console| 
+|Modify Organization Member Information|event_id.org.iam.member.update|Console|
+|Add Organization Member|event_id.org.member.add|Console|
+|Delete Organization Member|event_id.org.member.delete|Console|
+|Invite Organization Member|event_id.org.member.invite|Console|
+|Cancel Organization Member Invitation|event_id.org.member.invite_cancel|Console|  
+|Modify Organization Member|event_id.org.member.update|Console|
+|Disable Organization Service|event_id.org.product.disable|Console|
+|Enable Organization Service|event_id.org.product.enable|Console|
+|Modify Organization Information|event_id.org.update|Console|
+|Access Organization|event_id.org.selected|Console|
+|Access IAM Organization|event_id.iam.org.selected|Console|
+|Create Project|event_id.project.create|Console|
+|Delete Project|event_id.project.delete|Console|
+|Add Project Member|event_id.project.member.add|Console|
+|Delete Project Member|event_id.project.member.delete|Console|
+|Invite Project Member|event_id.project.member.invite|Console|
+|Cancel Project Member Invitation|event_id.project.member.invite_cancel|Console|
+|Modify Project Member Authority|event_id.project.member.update|Console|
+|Delete Project Member|event_id.project.members.delete|Console|
+|Disable Project Service|event_id.project.product.disable|Console|
+|Enable Project Service|event_id.project.product.enable|Console|
+|Modify Project|event_id.project.update|Console|
+|Access Project|event_id.project.selected|Console|
+|Create Common Role Group|event_id.org.role_group.create|Console|
+|Modify Common Role Group|event_id.org.role_group.update|Console|
+|Delete Common Role Group|event_id.org.role_group.delete|Console|
+|Add Common Role Group Role|event_id.org.role_group.assign.roles|Console|
+|Delete Common Role Group Role|event_id.org.role_group.remove.roles|Console|
+|Create Project Role Group|event_id.project.role_group.create|Console|
+|Modify Project Role Group|event_id.project.role_group.update|Console|
+|Delete Project Role Group|event_id.project.role_group.delete|Console|
+|Add Project Role Group Role|event_id.project.role_group.assign.roles|Console|
+|Delete Project Role Group Role|event_id.project.role_group.remove.roles|Console|
+|Access IAM Project|event_id.iam.project.selected|Console|
+|Create Service|event_id.service_monitoring.creation_service|Service Monitoring|
+|Change Service|event_id.service_monitoring.modification_service|Service Monitoring|
+|Delete Service|event_id.service_monitoring.delete_service|Service Monitoring|
+|Change Service Group|event_id.service_monitoring.modification_service_group|Service Monitoring|
+|Add Scenario|event_id.service_monitoring.creation_scenario|Service Monitoring|
+|Change Scenario|event_id.service_monitoring.modification_scenario|Service Monitoring|
+|Delete Scenario|event_id.service_monitoring.delete_scenario|Service Monitoring|
+|Copy Scenario|event_id.service_monitoring.copy_scenario|Service Monitoring|
+|Test Scenario|event_id.service_monitoring.simulate_scenario|Service Monitoring|
+|Register PM|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
+|Change PM|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
+|Delete PM|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
+|Transfer Failure to the Next Group|event_id.service_monitoring.send_next_transmission|Service Monitoring|
+|Migrate Failure to Anther Service|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
+|Suspend Failure Transfers|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
 |수동 백업|event_id.easycache.backup.manual|EasyCache|
 |백업 삭제|event_id.easycache.backup.delete|EasyCache|
 |공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
@@ -191,51 +191,51 @@
 |알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|
 |그룹 인스턴스 변경|event_id.easycache.group.modify_flavor|EasyCache|
 |ACL 추가|event_id.easycache.acl.create|EasyCache|
-|ACL 삭제|event_id.easycache.acl.delete|EasyCache|
-|DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
-|DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
-|DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
-|DB 인스턴스 재시작|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
-|백업을 이용한 DB 인스턴스 복원|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
-|DB 인스턴스 이름 변경|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
-|DB 인스턴스 수정|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
-|DB 인스턴스 시점 복원|event_id.rds_for_sqlserver.db_instance.restore_point_to_time|RDS for MS-SQL|
-|DB 보안 그룹 생성|event_id.rds_for_sqlserver.security_group.create|RDS for MS-SQL|
-|DB 보안 그룹 수정|event_id.rds_for_sqlserver.security_group.modify|RDS for MS-SQL|
-|DB 보안 그룹 삭제|event_id.rds_for_sqlserver.security_group.delete|RDS for MS-SQL|
-|이벤트 구독|event_id.rds_for_sqlserver.event.subscription.create|RDS for MS-SQL|
-|이벤트 구독 수정|event_id.rds_for_sqlserver.event.subscription.modify|RDS for MS-SQL|
-|이벤트 구독 삭제|event_id.rds_for_sqlserver.event.subscription.delete|RDS for MS-SQL|
-|파라미터 그룹 생성|event_id.rds_for_sqlserver.parameter_group.create|RDS for MS-SQL|
-|파라미터 그룹 수정|event_id.rds_for_sqlserver.parameter_group.modify|RDS for MS-SQL|
-|파라미터 그룹 삭제|event_id.rds_for_sqlserver.parameter_group.delete|RDS for MS-SQL|
-|차트 레이아웃 생성|event_id.rds_for_sqlserver.chart_layout.create|RDS for MS-SQL|
-|차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
-|차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
-|차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|ACL 삭제|event_id.easycache.acl.delete|EasyCache®|
+|Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
+|Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
+|Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
+|Restart Database Instance|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|Restore Database Instance from Backup|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
+|Change Database Instance Name|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
+|Modify Database Instance|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
+|Restore Database Instance to a Point in Time|event_id.rds_for_sqlserver.db_instance.restore_point_to_time|RDS for MS-SQL|
+|Create Database Security Group|event_id.rds_for_sqlserver.security_group.create|RDS for MS-SQL|
+|Modify Database Security Group|event_id.rds_for_sqlserver.security_group.modify|RDS for MS-SQL|
+|Delete Database Security Group|event_id.rds_for_sqlserver.security_group.delete|RDS for MS-SQL|
+|Subscribe to Event|event_id.rds_for_sqlserver.event.subscription.create|RDS for MS-SQL|
+|Modify Event Subscription|event_id.rds_for_sqlserver.event.subscription.modify|RDS for MS-SQL|
+|Delete Event Subscription|event_id.rds_for_sqlserver.event.subscription.delete|RDS for MS-SQL|
+|Create Parameter Group|event_id.rds_for_sqlserver.parameter_group.create|RDS for MS-SQL|
+|Modify Parameter Group|event_id.rds_for_sqlserver.parameter_group.modify|RDS for MS-SQL|
+|Delete Parameter Group|event_id.rds_for_sqlserver.parameter_group.delete|RDS for MS-SQL|
+|Create Chart Layout|event_id.rds_for_sqlserver.chart_layout.create|RDS for MS-SQL|
+|Change Chart Layout Name|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
+|Modify Chart Layout|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
+|Delete Chart Layout|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
 |Upload Symbol Files|event_id.logncrash.symbolfile.delete|Log & Crash Search|
 |Delete Symbol Files|event_id.logncrash.symbolfile.upload|Log & Crash Search|
-|백업 서버 등록|event_id.backup.client.register|Backup|
-|백업 서버 삭제|event_id.backup.client.delete|Backup|
-|백업 경로 등록|event_id.backup.target.register|Backup|
-|백업 경로 변경|event_id.backup.target.update|Backup|
-|백업 경로 삭제|event_id.backup.target.delete|Backup|
-|복구 신청|event_id.backup.restoration.apply|Backup|
-| 创建DNS Zone | event_id.dnsplus.zone.create | DNS Plus |
-| 修改DNS Zone | event_id.dnsplus.zone.update | DNS Plus |
-| 删除DNS Zone | event_id.dnsplus.zone.delete | DNS Plus |
-| 创建记录集合 | event_id.dnsplus.recordset.create | DNS Plus |
-| 修改记录集合 | event_id.dnsplus.recordset.update | DNS Plus |
-| 删除记录集合 | event_id.dnsplus.recordset.delete | DNS Plus |
-| 创建GSLB | event_id.dnsplus.gslb.create | DNS Plus |
-| 修改GSLB | event_id.dnsplus.gslb.update | DNS Plus |
-| 删除GSLB | event_id.dnsplus.gslb.delete | DNS Plus |
-| 连接Pool | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
-| 修改Pool连接 | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
-| 断开Pool连接 | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
-| 创建Pool | event_id.dnsplus.pool.create | DNS Plus |
-| 修改Pool | event_id.dnsplus.pool.update | DNS Plus |
-| 删除Pool | event_id.dnsplus.pool.delete | DNS Plus |
-| 创建健康检查 | event_id.dnsplus.health_check.create | DNS Plus |
-| 修改健康检查 | event_id.dnsplus.health_check.update | DNS Plus |
-| 删除健康检查 | event_id.dnsplus.health_check.delete | DNS Plus |
+|Register Backup Server|event_id.backup.client.register|Backup|
+|Delete Backup Server|event_id.backup.client.delete|Backup|
+|Register Backup Path|event_id.backup.target.register|Backup|
+|Change Backup Path|event_id.backup.target.update|Backup|
+|Delete Backup Path|event_id.backup.target.delete|Backup|
+|Apply for Restoration|event_id.backup.restoration.apply|Backup|
+|创建DNS Zone|event_id.dnsplus.zone.create|DNS Plus|
+|修改DNS Zone|event_id.dnsplus.zone.update|DNS Plus|
+|删除DNS Zone|event_id.dnsplus.zone.delete|DNS Plus|
+|创建记录集合|event_id.dnsplus.recordset.create|DNS Plus|
+|修改记录集合|event_id.dnsplus.recordset.update|DNS Plus|
+|删除记录集合|event_id.dnsplus.recordset.delete|DNS Plus|
+|创建GSLB|event_id.dnsplus.gslb.create|DNS Plus|
+|修改GSLB|event_id.dnsplus.gslb.update|DNS Plus|
+|删除GSLB|event_id.dnsplus.gslb.delete|DNS Plus|
+|连接Pool|event_id.dnsplus.gslb_connected_pool.create|DNS Plus|
+|修改Pool连接|event_id.dnsplus.gslb_connected_pool.update|DNS Plus|
+|断开Pool连接|event_id.dnsplus.gslb_connected_pool.delete|DNS Plus|
+|创建Pool|event_id.dnsplus.pool.create|DNS Plus|
+|修改Pool|event_id.dnsplus.pool.update|DNS Plus|
+|删除Pool|event_id.dnsplus.pool.delete|DNS Plus|
+|创建健康检查|event_id.dnsplus.health_check.create|DNS Plus|
+|修改健康检查|event_id.dnsplus.health_check.update|DNS Plus|
+|删除健康检查|event_id.dnsplus.health_check.delete|DNS Plus|

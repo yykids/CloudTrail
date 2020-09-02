@@ -4,7 +4,7 @@
 ### 2020.03.10
 #### 이벤트 추가
 * Object Storage 서비스 관련 이벤트가 추가되었습니다.
-    * 자세한 사항은 메뉴얼을 참고합니다.: [링크](https://gov-docs.toast.com/ko/CloudTrail/ko/event-list-gov/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](https://gov-docs.toast.com/ko/CloudTrail/ko/event-list-gov/)
 
 #### 기능 개선
 * CloudTrail 이벤트 조회 시, 이벤트를 발생시킨 사용자 검색 조건이 개선되었습니다.
