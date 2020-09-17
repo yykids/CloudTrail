@@ -249,7 +249,7 @@
 |복제 그룹 수정|event_id.easycache.group.modify|EasyCache|
 |복제 그룹 재시작|event_id.easycache.group.restart|EasyCache|
 |복제 그룹 HA 재설정|event_id.easycache.group.ha_reset|EasyCache|
-|복제 그룹 패스워드 확인|event_id.easycache.group.password|EasyCache|
+|복제 그룹 비밀번호 확인|event_id.easycache.group.password|EasyCache|
 |노드 추가|event_id.easycache.node.create|EasyCache|
 |노드 삭제|event_id.easycache.node.delete|EasyCache|
 |마스터 승격|event_id.easycache.node.promote|EasyCache|
@@ -259,7 +259,7 @@
 |알람 규칙 생성|event_id.easycache.alarm_rule.create|EasyCache|
 |알람 규칙 수정|event_id.easycache.alarm_rule.update|EasyCache|
 |알람 규칙 삭제|event_id.easycache.alarm_rule.delete|EasyCache|
-|알람 규칙 사용 / 사용 안함|event_id.easycache.alarm_rule.use_unuse|EasyCache|
+|알람 규칙 사용/사용 안함|event_id.easycache.alarm_rule.use_unuse|EasyCache|
 |알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|EasyCache|
 |알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|EasyCache|
 |알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|

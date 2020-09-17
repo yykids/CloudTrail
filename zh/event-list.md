@@ -165,33 +165,33 @@
 |Transfer Failure to the Next Group|event_id.service_monitoring.send_next_transmission|Service Monitoring|
 |Migrate Failure to Anther Service|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
 |Suspend Failure Transfers|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
-|수동 백업|event_id.easycache.backup.manual|EasyCache|
-|백업 삭제|event_id.easycache.backup.delete|EasyCache|
-|공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
-|공인 도메인 해제|event_id.easycache.public_domain.detach|EasyCache|
-|도메인 갱신|event_id.easycache.domain.update|EasyCache|
-|복제 그룹 생성|event_id.easycache.group.create|EasyCache|
-|복제 그룹 삭제|event_id.easycache.group.delete|EasyCache|
-|복제 그룹 수정|event_id.easycache.group.modify|EasyCache|
-|복제 그룹 재시작|event_id.easycache.group.restart|EasyCache|
-|복제 그룹 HA 재설정|event_id.easycache.group.ha_reset|EasyCache|
-|복제 그룹 패스워드 확인|event_id.easycache.group.password|EasyCache|
-|노드 추가|event_id.easycache.node.create|EasyCache|
-|노드 삭제|event_id.easycache.node.delete|EasyCache|
-|마스터 승격|event_id.easycache.node.promote|EasyCache|
-|프로필 생성|event_id.easycache.profile.create|EasyCache|
-|프로필 수정|event_id.easycache.profile.update|EasyCache|
-|프로필 삭제|event_id.easycache.profile.delete|EasyCache|
-|알람 규칙 생성|event_id.easycache.alarm_rule.create|EasyCache|
-|알람 규칙 수정|event_id.easycache.alarm_rule.update|EasyCache|
-|알람 규칙 삭제|event_id.easycache.alarm_rule.delete|EasyCache|
-|알람 규칙 사용 / 사용 안함|event_id.easycache.alarm_rule.use_unuse|EasyCache|
-|알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|EasyCache|
-|알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|EasyCache|
-|알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|
-|그룹 인스턴스 변경|event_id.easycache.group.modify_flavor|EasyCache|
-|ACL 추가|event_id.easycache.acl.create|EasyCache|
-|ACL 삭제|event_id.easycache.acl.delete|EasyCache®|
+|Manual Backup|event_id.easycache.backup.manual|EasyCache|
+|Delete Backup|event_id.easycache.backup.delete|EasyCache|
+|Set up Public Domain|event_id.easycache.public_domain.attach|EasyCache|
+|Cancel Public Domain|event_id.easycache.public_domain.detach|EasyCache|
+|Update Domain|event_id.easycache.domain.update|EasyCache|
+|Create Replication Group|event_id.easycache.group.create|EasyCache|
+|Delete Replication Group|event_id.easycache.group.delete|EasyCache|
+|Modify Replication Group|event_id.easycache.group.modify|EasyCache|
+|Restart Replication Group|event_id.easycache.group.restart|EasyCache|
+|Re-configure HA for Replication Group|event_id.easycache.group.ha_reset|EasyCache|
+|Confirm Password for Replication Group|event_id.easycache.group.password|EasyCache|
+|Add Node|event_id.easycache.node.create|EasyCache|
+|Delete Node|event_id.easycache.node.delete|EasyCache|
+|Promote to Master|event_id.easycache.node.promote|EasyCache|
+|Create Profile|event_id.easycache.profile.create|EasyCache|
+|Update Profile|event_id.easycache.profile.update|EasyCache|
+|Delete Profile|event_id.easycache.profile.delete|EasyCache|
+|Create Alarm Rule|event_id.easycache.alarm_rule.create|EasyCache|
+|Modify Alarm Rule|event_id.easycache.alarm_rule.update|EasyCache|
+|Delete Alarm Rule|event_id.easycache.alarm_rule.delete|EasyCache|
+|Enable/Disable Alarm Rule|event_id.easycache.alarm_rule.use_unuse|EasyCache|
+|Create Alarm Recipient Group|event_id.easycache.alarm_receiver_group.create|EasyCache|
+|Modify Alarm Recipient Group|event_id.easycache.alarm_receiver_group.update|EasyCache|
+|Delete Alarm Recipient Group|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+|Change Group Instance|event_id.easycache.group.modify_flavor|EasyCache|
+|Add ACL|event_id.easycache.acl.create|EasyCache|
+|Delete ACL|event_id.easycache.acl.delete|EasyCache®|
 |Create Database Instance|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
 |Delete Database Instance|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
 |Back Up Database Instance|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
