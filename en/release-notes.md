@@ -1,6 +1,11 @@
 
 ## CloudTrail > ReleaseNotes
 
+### 2020.10.27
+#### More Events
+* Added events related to CDN Service.
+    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
+
 ### 2020.09.22
 #### More Events
 * Added events related to DNS Plus Service.

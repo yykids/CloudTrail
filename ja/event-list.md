@@ -313,3 +313,15 @@
 | ヘルスチェック作成 | event_id.dnsplus.health_check.create | DNS Plus |
 | ヘルスチェック修正 | event_id.dnsplus.health_check.update | DNS Plus |
 | ヘルスチェック削除 | event_id.dnsplus.health_check.delete | DNS Plus |
+|新規証明書の発行|event_id.cdn.certificate.create|CDN|
+|証明書の削除|event_id.cdn.certificate.delete|CDN|
+|null|event_id.cdn.certificate.validation_cancel|CDN|
+|null|event_id.cdn.distribution.create|CDN|
+|null|event_id.cdn.distribution.delete|CDN|
+|null|event_id.cdn.distribution.delete_all|CDN|
+|null|event_id.cdn.distribution.resume|CDN|
+|null|event_id.cdn.distribution.suspend|CDN|
+|null|event_id.cdn.distribution.modify|CDN|
+|null|event_id.cdn.cache_purge|CDN|
+|null|event_id.cdn.cache_purge.item_type|CDN|
+|null|event_id.cdn.cache_purge.all_type|CDN|
