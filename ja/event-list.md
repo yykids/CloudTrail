@@ -315,13 +315,13 @@
 | ヘルスチェック削除 | event_id.dnsplus.health_check.delete | DNS Plus |
 |新規証明書の発行|event_id.cdn.certificate.create|CDN|
 |証明書の削除|event_id.cdn.certificate.delete|CDN|
-|null|event_id.cdn.certificate.validation_cancel|CDN|
-|null|event_id.cdn.distribution.create|CDN|
-|null|event_id.cdn.distribution.delete|CDN|
-|null|event_id.cdn.distribution.delete_all|CDN|
-|null|event_id.cdn.distribution.resume|CDN|
-|null|event_id.cdn.distribution.suspend|CDN|
-|null|event_id.cdn.distribution.modify|CDN|
-|null|event_id.cdn.cache_purge|CDN|
-|null|event_id.cdn.cache_purge.item_type|CDN|
-|null|event_id.cdn.cache_purge.all_type|CDN|
+|証明書検証段階での発行キャンセル|event_id.cdn.certificate.validation_cancel|CDN|
+|CDNサービス作成|event_id.cdn.distribution.create|CDN|
+|CDNサービス削除|event_id.cdn.distribution.delete|CDN|
+|CDNサービス全体削除|event_id.cdn.distribution.delete_all|CDN|
+|CDNサービス再起動|event_id.cdn.distribution.resume|CDN|
+|CDNサービス停止|event_id.cdn.distribution.suspend|CDN|
+|CDNサービス設定変更|event_id.cdn.distribution.modify|CDN|
+|キャッシュ再配布|event_id.cdn.cache_purge.common|CDN|
+|特定ファイルキャッシュ再配布|event_id.cdn.cache_purge.item_type|CDN|
+|全ファイルキャッシュ再配布|event_id.cdn.cache_purge.all_type|CDN|

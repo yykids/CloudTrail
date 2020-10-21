@@ -241,13 +241,13 @@
 | Delete Health Checks | event_id.dnsplus.health_check.delete | DNS Plus |
 |Issue New Certificates|event_id.cdn.certificate.create|CDN|
 |Delete Certificate|event_id.cdn.certificate.delete|CDN|
-|null|event_id.cdn.certificate.validation_cancel|CDN|
-|null|event_id.cdn.distribution.create|CDN|
-|null|event_id.cdn.distribution.delete|CDN|
-|null|event_id.cdn.distribution.delete_all|CDN|
-|null|event_id.cdn.distribution.resume|CDN|
-|null|event_id.cdn.distribution.suspend|CDN|
-|null|event_id.cdn.distribution.modify|CDN|
-|null|event_id.cdn.cache_purge|CDN|
-|null|event_id.cdn.cache_purge.item_type|CDN|
-|null|event_id.cdn.cache_purge.all_type|CDN|
+|인증서 검증 단계에서 발급 취소|event_id.cdn.certificate.validation_cancel|CDN|
+|CDN 서비스 생성|event_id.cdn.distribution.create|CDN|
+|CDN 서비스 삭제|event_id.cdn.distribution.delete|CDN|
+|CDN 서비스 전체 삭제|event_id.cdn.distribution.delete_all|CDN|
+|CDN 서비스 재시작|event_id.cdn.distribution.resume|CDN|
+|CDN 서비스 정지|event_id.cdn.distribution.suspend|CDN|
+|CDN 서비스 설정 수정|event_id.cdn.distribution.modify|CDN|
+|캐시 재배포|event_id.cdn.cache_purge.common|CDN|
+|특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
+|전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|

@@ -322,6 +322,6 @@
 |CDN 서비스 재시작|event_id.cdn.distribution.resume|CDN|
 |CDN 서비스 정지|event_id.cdn.distribution.suspend|CDN|
 |CDN 서비스 설정 수정|event_id.cdn.distribution.modify|CDN|
-|캐시 재배포|event_id.cdn.cache_purge|CDN|
+|캐시 재배포|event_id.cdn.cache_purge.common|CDN|
 |특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
 |전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
