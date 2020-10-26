@@ -77,20 +77,39 @@
 |VPC 서브넷 삭제|event_id.iaas.vpc_subnet.delete|기본 인프라 서비스|
 |VPC 서브넷 라우팅 테이블 연결 해제|event_id.iaas.vpc_subnet.detach_routingtable|기본 인프라 서비스|
 |VPC 서브넷 변경|event_id.iaas.vpc_subnet.update|기본 인프라 서비스|
-|어카운트 조회|event_id.object_storage.account.look_up|Object Storage|
+|클러스터 생성|event_id.iaas.cluster.create|기본 인프라 서비스|
+|클러스터 삭제|event_id.iaas.cluster.delete|기본 인프라 서비스|
+|노드 그룹 생성|event_id.iaas.nodegroup.create|기본 인프라 서비스|
+|노드 그룹 삭제|event_id.iaas.nodegroup.delete|기본 인프라 서비스|
 |어카운트 메타데이터 등록/수정|event_id.object_storage.account.metadata.update|Object Storage|
-|컨테이너 목록 조회|event_id.object_storage.container.look_up|Object Storage|
-|컨테이너 조회|event_id.object_storage.container.look_up|Object Storage|
 |컨테이너 생성|event_id.object_storage.container.create|Object Storage|
 |컨테이너 삭제|event_id.object_storage.container.delete|Object Storage|
 |컨테이너 메타데이터 등록/수정|event_id.object_storage.container.metadata.update|Object Storage|
-|오브젝트 목록 조회|event_id.object_storage.object.look_up|Object Storage|
-|오브젝트 조회|event_id.object_storage.object.look_up|Object Storage|
 |오브젝트 업로드|event_id.object_storage.object.upload|Object Storage|
-|오브젝트 다운로드|event_id.object_storage.object.download|Object Storage|
 |오브젝트 복사|event_id.object_storage.object.copy|Object Storage|
 |오브젝트 삭제|event_id.object_storage.object.delete|Object Storage|
 |오브젝트 메타데이터 등록/수정|event_id.object_storage.object.metadata.update|Object Storage|
+|DB 인스턴스 생성|event_id.rds_for_mysql.instance.create|RDS for MySQL|
+|DB 인스턴스 삭제|event_id.rds_for_mysql.instance.delete|RDS for MySQL|
+|DB 인스턴스 상세 설정 변경|event_id.rds_for_mysql.instance.detail.update|RDS for MySQL|
+|DB 인스턴스 관리 정보 변경|event_id.rds_for_mysql.instance.management.update|RDS for MySQL|
+|DB 인스턴스 Configuration 변경|event_id.rds_for_mysql.instance.configuration.update|RDS for MySQL|
+|DB 인스턴스 백업|event_id.rds_for_mysql.instance_action.backup|RDS for MySQL|
+|DB 인스턴스 복원|event_id.rds_for_mysql.instance_action.restore|RDS for MySQL|
+|DB 인스턴스 복제|event_id.rds_for_mysql.instance_action.replicate|RDS for MySQL|
+|DB 인스턴스 재시작|event_id.rds_for_mysql.instance_action.restart|RDS for MySQL|
+|DB 인스턴스 승격|event_id.rds_for_mysql.instance_action.promote|RDS for MySQL|
+|DB 인스턴스 스토리지 확장|event_id.rds_for_mysql.instance.volume.extend|RDS for MySQL|
+|DB 인스턴스 용량 확보|event_id.rds_for_mysql.instance.volume.secure|RDS for MySQL|
+|백업 삭제|event_id.rds_for_mysql.instance.backup.delete|RDS for MySQL|
+|알림 생성|event_id.rds_for_mysql.notification.create|RDS for MySQL|
+|알림 변경|event_id.rds_for_mysql.notification.update|RDS for MySQL|
+|알림 삭제|event_id.rds_for_mysql.notification.delete|RDS for MySQL|
+|알림 활성화|event_id.rds_for_mysql.notification.enable|RDS for MySQL|
+|알림 비활성화|event_id.rds_for_mysql.notification.disable|RDS for MySQL|
+|수신 그룹 생성|event_id.rds_for_mysql.receiver_group.create|RDS for MySQL|
+|수신 그룹 변경|event_id.rds_for_mysql.receiver_group.update|RDS for MySQL|
+|수신 그룹 삭제|event_id.rds_for_mysql.receiver_group.delete|RDS for MySQL|
 |키 저장소 생성|event_id.skm.keystore.create|Secure Key Manager
 |키 저장소 삭제|event_id.skm.keystore.delete|Secure Key Manager
 |키 저장소 정보 변경|event_id.skm.keystore.update|Secure Key Manager
@@ -138,6 +157,33 @@
 |인증서 정보 변경|event_id.skm.cert.update|Secure Key Manager
 |인증서 즉시 삭제|event_id.skm.cert.delete|Secure Key Manager
 |인증서 다운로드|event_id.skm.cert.download|Secure Key Manager
+|아티팩트 생성|event_id.deploy.artifact_create|Deploy|
+|아티팩트 수정|event_id.deploy.artifact_update|Deploy|
+|아티팩트 삭제|event_id.deploy.artifact_delete|Deploy|
+|바이너리 그룹 생성|event_id.deploy.binary_group_create|Deploy|
+|바이너리 그룹 삭제|event_id.deploy.binary_group_delete|Deploy|
+|바이너리 그룹 수정|event_id.deploy.binary_group_update|Deploy|
+|바이너리 업로드|event_id.deploy.binary_upload|Deploy|
+|바이너리 다운로드|event_id.deploy.binary_download|Deploy|
+|바이너리 삭제|event_id.deploy.binary_delete|Deploy|
+|바이너리 수정|event_id.deploy.binary_update|Deploy|
+|서버 그룹 생성|event_id.deploy.server_group_create|Deploy|
+|서버 그룹 삭제|event_id.deploy.server_group_delete|Deploy|
+|서버 그룹 수정|event_id.deploy.server_group_update|Deploy|
+|리소스 그룹 생성|event_id.deploy.resource_group_create|Deploy|
+|리소스 그룹 삭제|event_id.deploy.resource_group_delete|Deploy|
+|리소스 생성|event_id.deploy.resource_create|Deploy|
+|리소스 수정|event_id.deploy.resource_update|Deploy|
+|리소스 최신번전으로 저장|event_id.deploy.resource_save|Deploy|
+|리소스 다운로드|event_id.deploy.resource_download|Deploy|
+|리소스 삭제|event_id.deploy.resource_delete|Deploy|
+|시나리오 생성|event_id.deploy.scenario_create|Deploy|
+|시나리오 복사|event_id.deploy.scenario_copy|Deploy|
+|시나리오 다운로드|event_id.deploy.scenario_download|Deploy|
+|시나리오 업로드|event_id.deploy.scenario_upload|Deploy|
+|시나리오 수정|event_id.deploy.scenario_update|Deploy|
+|시나리오 삭제|event_id.deploy.scenario_delete|Deploy|
+|배포 실행|event_id.deploy.deploy_execute|Deploy|
 |IAM 로그인|event_id.iam.login|콘솔|
 |IAM 멤버 권한 변경|event_id.iam.member.role.update|콘솔|
 |조직 도메인 추가|event_id.org.domain.add|콘솔|
@@ -153,6 +199,8 @@
 |조직 서비스 비활성화|event_id.org.product.disable|콘솔|
 |조직 서비스 활성화|event_id.org.product.enable|콘솔|
 |조직 정보 수정|event_id.org.update|콘솔|
+|조직 접속|event_id.org.selected|콘솔|
+|IAM 조직 접속|event_id.iam.org.selected|콘솔|
 |프로젝트 생성|event_id.project.create|콘솔|
 |프로젝트 삭제|event_id.project.delete|콘솔|
 |프로젝트 멤버 추가|event_id.project.member.add|콘솔|
@@ -164,3 +212,116 @@
 |프로젝트 서비스 비활성화|event_id.project.product.disable|콘솔|
 |프로젝트 서비스 활성화|event_id.project.product.enable|콘솔|
 |프로젝트 수정|event_id.project.update|콘솔|
+|프로젝트 접속|event_id.project.selected|콘솔|
+|공통 권한 그룹 생성|event_id.org.role_group.create|콘솔|
+|공통 권한 그룹 수정|event_id.org.role_group.update|콘솔|
+|공통 권한 그룹 삭제|event_id.org.role_group.delete|콘솔|
+|공통 권한 그룹 권한 추가|event_id.org.role_group.assign.roles|콘솔|
+|공통 권한 그룹 권한 삭제|event_id.org.role_group.remove.roles|콘솔|
+|프로젝트 권한 그룹 생성|event_id.project.role_group.create|콘솔|
+|프로젝트 권한 그룹 수정|event_id.project.role_group.update|콘솔|
+|프로젝트 권한 그룹 삭제|event_id.project.role_group.delete|콘솔|
+|프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
+|프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
+|IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
+|서비스 생성|event_id.service_monitoring.creation_service|Service Monitoring|
+|서비스 변경|event_id.service_monitoring.modification_service|Service Monitoring|
+|서비스 삭제|event_id.service_monitoring.delete_service|Service Monitoring|
+|서비스 그룹 변경|event_id.service_monitoring.modification_service_group|Service Monitoring|
+|시나리오 추가|event_id.service_monitoring.creation_scenario|Service Monitoring|
+|시나리오 변경|event_id.service_monitoring.modification_scenario|Service Monitoring|
+|시나리오 삭제|event_id.service_monitoring.delete_scenario|Service Monitoring|
+|시나리오 복사|event_id.service_monitoring.copy_scenario|Service Monitoring|
+|시나리오 테스트|event_id.service_monitoring.simulate_scenario|Service Monitoring|
+|PM 등록|event_id.service_monitoring.registration_prevention_maintenance|Service Monitoring|
+|PM 변경|event_id.service_monitoring.modification_prevention_maintenance|Service Monitoring|
+|PM 삭제|event_id.service_monitoring.delete_prevention_maintenance|Service Monitoring|
+|다음 그룹으로 장애 전파|event_id.service_monitoring.send_next_transmission|Service Monitoring|
+|다른 서비스로 장애 이관|event_id.service_monitoring.send_transfer_transmission|Service Monitoring|
+|장애 전파 중지|event_id.service_monitoring.send_stop_transmission|Service Monitoring|
+|수동 백업|event_id.easycache.backup.manual|EasyCache|
+|백업 삭제|event_id.easycache.backup.delete|EasyCache|
+|공인 도메인 설정|event_id.easycache.public_domain.attach|EasyCache|
+|공인 도메인 해제|event_id.easycache.public_domain.detach|EasyCache|
+|도메인 갱신|event_id.easycache.domain.update|EasyCache|
+|복제 그룹 생성|event_id.easycache.group.create|EasyCache|
+|복제 그룹 삭제|event_id.easycache.group.delete|EasyCache|
+|복제 그룹 수정|event_id.easycache.group.modify|EasyCache|
+|복제 그룹 재시작|event_id.easycache.group.restart|EasyCache|
+|복제 그룹 HA 재설정|event_id.easycache.group.ha_reset|EasyCache|
+|복제 그룹 비밀번호 확인|event_id.easycache.group.password|EasyCache|
+|노드 추가|event_id.easycache.node.create|EasyCache|
+|노드 삭제|event_id.easycache.node.delete|EasyCache|
+|마스터 승격|event_id.easycache.node.promote|EasyCache|
+|프로필 생성|event_id.easycache.profile.create|EasyCache|
+|프로필 수정|event_id.easycache.profile.update|EasyCache|
+|프로필 삭제|event_id.easycache.profile.delete|EasyCache|
+|알람 규칙 생성|event_id.easycache.alarm_rule.create|EasyCache|
+|알람 규칙 수정|event_id.easycache.alarm_rule.update|EasyCache|
+|알람 규칙 삭제|event_id.easycache.alarm_rule.delete|EasyCache|
+|알람 규칙 사용/사용 안함|event_id.easycache.alarm_rule.use_unuse|EasyCache|
+|알람 수신자 그룹 생성|event_id.easycache.alarm_receiver_group.create|EasyCache|
+|알람 수신자 그룹 수정|event_id.easycache.alarm_receiver_group.update|EasyCache|
+|알람 수신자 그룹 삭제|event_id.easycache.alarm_receiver_group.delete|EasyCache|
+|그룹 인스턴스 변경|event_id.easycache.group.modify_flavor|EasyCache|
+|ACL 추가|event_id.easycache.acl.create|EasyCache|
+|ACL 삭제|event_id.easycache.acl.delete|EasyCache|
+|DB 인스턴스 생성|event_id.rds_for_sqlserver.db_instance.create|RDS for MS-SQL|
+|DB 인스턴스 삭제|event_id.rds_for_sqlserver.db_instance.delete|RDS for MS-SQL|
+|DB 인스턴스 백업|event_id.rds_for_sqlserver.db_instance.backup|RDS for MS-SQL|
+|DB 인스턴스 재시작|event_id.rds_for_sqlserver.db_instance.restart|RDS for MS-SQL|
+|백업을 이용한 DB 인스턴스 복원|event_id.rds_for_sqlserver.backup.restore_snapshot|RDS for MS-SQL|
+|DB 인스턴스 이름 변경|event_id.rds_for_sqlserver.db_instance.modify_name|RDS for MS-SQL|
+|DB 인스턴스 수정|event_id.rds_for_sqlserver.db_instance.modify|RDS for MS-SQL|
+|DB 인스턴스 시점 복원|event_id.rds_for_sqlserver.db_instance.restore_point_to_time|RDS for MS-SQL|
+|DB 보안 그룹 생성|event_id.rds_for_sqlserver.security_group.create|RDS for MS-SQL|
+|DB 보안 그룹 수정|event_id.rds_for_sqlserver.security_group.modify|RDS for MS-SQL|
+|DB 보안 그룹 삭제|event_id.rds_for_sqlserver.security_group.delete|RDS for MS-SQL|
+|이벤트 구독|event_id.rds_for_sqlserver.event.subscription.create|RDS for MS-SQL|
+|이벤트 구독 수정|event_id.rds_for_sqlserver.event.subscription.modify|RDS for MS-SQL|
+|이벤트 구독 삭제|event_id.rds_for_sqlserver.event.subscription.delete|RDS for MS-SQL|
+|파라미터 그룹 생성|event_id.rds_for_sqlserver.parameter_group.create|RDS for MS-SQL|
+|파라미터 그룹 수정|event_id.rds_for_sqlserver.parameter_group.modify|RDS for MS-SQL|
+|파라미터 그룹 삭제|event_id.rds_for_sqlserver.parameter_group.delete|RDS for MS-SQL|
+|차트 레이아웃 생성|event_id.rds_for_sqlserver.chart_layout.create|RDS for MS-SQL|
+|차트 레이아웃 이름 변경|event_id.rds_for_sqlserver.chart_layout.modify_name|RDS for MS-SQL|
+|차트 레이아웃 수정|event_id.rds_for_sqlserver.chart_layout.modify|RDS for MS-SQL|
+|차트 레이아웃 삭제|event_id.rds_for_sqlserver.chart_layout.delete|RDS for MS-SQL|
+|심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
+|심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
+|백업 서버 등록|event_id.backup.client.register|Backup|
+|백업 서버 삭제|event_id.backup.client.delete|Backup|
+|백업 경로 등록|event_id.backup.target.register|Backup|
+|백업 경로 변경|event_id.backup.target.update|Backup|
+|백업 경로 삭제|event_id.backup.target.delete|Backup|
+|복구 신청|event_id.backup.restoration.apply|Backup|
+| DNS Zone 생성 | event_id.dnsplus.zone.create | DNS Plus |
+| DNS Zone 수정 | event_id.dnsplus.zone.update | DNS Plus |
+| DNS Zone 삭제 | event_id.dnsplus.zone.delete | DNS Plus |
+| 레코드 세트 생성 | event_id.dnsplus.recordset.create | DNS Plus |
+| 레코드 세트 수정 | event_id.dnsplus.recordset.update | DNS Plus |
+| 레코드 세트 삭제 | event_id.dnsplus.recordset.delete | DNS Plus |
+| GSLB 생성 | event_id.dnsplus.gslb.create | DNS Plus |
+| GSLB 수정 | event_id.dnsplus.gslb.update | DNS Plus |
+| GSLB 삭제 | event_id.dnsplus.gslb.delete | DNS Plus |
+| Pool 연결 | event_id.dnsplus.gslb_connected_pool.create | DNS Plus |
+| Pool 연결 수정 | event_id.dnsplus.gslb_connected_pool.update | DNS Plus |
+| Pool 연결 해제 | event_id.dnsplus.gslb_connected_pool.delete | DNS Plus |
+| Pool 생성 | event_id.dnsplus.pool.create | DNS Plus |
+| Pool 수정 | event_id.dnsplus.pool.update | DNS Plus |
+| Pool 삭제 | event_id.dnsplus.pool.delete | DNS Plus |
+| 헬스 체크 생성 | event_id.dnsplus.health_check.create | DNS Plus |
+| 헬스 체크 수정 | event_id.dnsplus.health_check.update | DNS Plus |
+| 헬스 체크 삭제 | event_id.dnsplus.health_check.delete | DNS Plus |
+|신규 인증서 발급|event_id.cdn.certificate.create|CDN|
+|인증서 삭제|event_id.cdn.certificate.delete|CDN|
+|인증서 검증 단계에서 발급 취소|event_id.cdn.certificate.validation_cancel|CDN|
+|CDN 서비스 생성|event_id.cdn.distribution.create|CDN|
+|CDN 서비스 삭제|event_id.cdn.distribution.delete|CDN|
+|CDN 서비스 전체 삭제|event_id.cdn.distribution.delete_all|CDN|
+|CDN 서비스 재시작|event_id.cdn.distribution.resume|CDN|
+|CDN 서비스 정지|event_id.cdn.distribution.suspend|CDN|
+|CDN 서비스 설정 수정|event_id.cdn.distribution.modify|CDN|
+|캐시 재배포|event_id.cdn.cache_purge.common|CDN|
+|특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
+|전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
