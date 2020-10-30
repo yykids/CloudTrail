@@ -129,8 +129,6 @@
 |프로젝트 권한 그룹 권한 추가|event_id.project.role_group.assign.roles|콘솔|
 |프로젝트 권한 그룹 권한 삭제|event_id.project.role_group.remove.roles|콘솔|
 |IAM 프로젝트 접속|event_id.iam.project.selected|콘솔|
-|심벌 파일 삭제|event_id.logncrash.symbolfile.delete|Log & Crash Search|
-|심벌 파일 업로드|event_id.logncrash.symbolfile.upload|Log & Crash Search|
 |백업 서버 등록|event_id.backup.client.register|Backup|
 |백업 서버 삭제|event_id.backup.client.delete|Backup|
 |백업 경로 등록|event_id.backup.target.register|Backup|
