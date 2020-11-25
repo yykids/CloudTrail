@@ -1,6 +1,10 @@
 
 ## CloudTrail > ReleaseNotes
 
+### 2020.12.29
+#### 기능 변경
+* 이름(아이디) 검색 조건에서 "이름 또 아이디 검색" 에서 "이름 검색" 으로 변경되었습니다.
+
 ### 2020.10.27
 #### More Events
 * Added events related to CDN Service.
