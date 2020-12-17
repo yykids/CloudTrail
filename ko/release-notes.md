@@ -7,7 +7,7 @@
     * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/console-guide/)
 #### 이벤트 추가
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
-  * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
+    * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
   
 ### 2020.10.27
 #### 이벤트 추가
