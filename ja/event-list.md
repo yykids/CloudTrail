@@ -325,18 +325,6 @@
 |キャッシュ再配布|event_id.cdn.cache_purge.common|CDN|
 |特定ファイルキャッシュ再配布|event_id.cdn.cache_purge.item_type|CDN|
 |全ファイルキャッシュ再配布|event_id.cdn.cache_purge.all_type|CDN|
-|OpenMetrics 대시보드 차트 생성|event_id.system_monitoring.open_metrics_chart_addition|SystemMonitoring|
-|OpenMetrics 대시보드 차트 변경|event_id.system_monitoring.open_metrics_chart_updating|SystemMonitoring|
-|OpenMetrics 대시보드 차트 삭제|event_id.system_monitoring.open_metrics_chart_deletion|SystemMonitoring|
-|OpenMetrics 대시보드 수집 대상 추가|event_id.system_monitoring.open_metrics_target_addition|SystemMonitoring|
-|OpenMetrics 대시보드 수집 대상 변경|event_id.system_monitoring.open_metrics_target_updating|SystemMonitoring|
-|OpenMetrics 대시보드 수집 대상 삭제|event_id.system_monitoring.open_metrics_target_deletion|SystemMonitoring|
-|OpenMetrics 대시보드 레이아웃 추가|event_id.system_monitoring.open_metrics_layout_addition|SystemMonitoring|
-|OpenMetrics 대시보드 레이아웃 변경|event_id.system_monitoring.open_metrics_layout_updating|SystemMonitoring|
-|OpenMetrics 대시보드 레이아웃 삭제|event_id.system_monitoring.open_metrics_layout_deletion|SystemMonitoring|
-|OpenMetrics 대시보드 작업 공간 추가|event_id.system_monitoring.open_metrics_workspace_addition|SystemMonitoring|
-|OpenMetrics 대시보드 작업 공간 변경|event_id.system_monitoring.open_metrics_workspace_updating|SystemMonitoring|
-|OpenMetrics 대시보드 작업 공간 삭제|event_id.system_monitoring.open_metrics_workspace_deletion|SystemMonitoring|
 |서버 대시보드 차트 추가|event_id.system_monitoring.server_dashboard_chart_addition|SystemMonitoring|
 |서버 대시보드 삭제|event_id.system_monitoring.server_dashboard_chart_deletion|SystemMonitoring|
 |서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|SystemMonitoring|
