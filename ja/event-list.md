@@ -333,6 +333,8 @@
 |사용자 그룹 추가|event_id.system_monitoring.user_group_addition|SystemMonitoring|
 |사용자 그룹 변경|event_id.system_monitoring.user_group_updating|SystemMonitoring|
 |사용자 그룹 삭제|event_id.system_monitoring.user_group_deletion|SystemMonitoring|
+|사용자 그룹에 사용자 추가|event_id.system_monitoring.user_group_user_addition|SystemMonitoring|
+|사용자 그룹에 사용자 삭제|event_id.system_monitoring.user_group_user_deletion|SystemMonitoring|
 |알림 그룹 추가|event_id.system_monitoring.alarm_group_addition|SystemMonitoring|
 |알림 그룹 변경|event_id.system_monitoring.alarm_group_updating|SystemMonitoring|
 |알림 그룹 삭제|event_id.system_monitoring.alarm_group_deletion|SystemMonitoring|
