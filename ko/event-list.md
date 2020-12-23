@@ -325,22 +325,18 @@
 |캐시 재배포|event_id.cdn.cache_purge.common|CDN|
 |특정 파일 캐시 재배포|event_id.cdn.cache_purge.item_type|CDN|
 |전체 파일 캐시 재배포|event_id.cdn.cache_purge.all_type|CDN|
-|서버 대시보드 차트 추가|event_id.system_monitoring.server_dashboard_chart_addition|SystemMonitoring|
-|서버 대시보드 삭제|event_id.system_monitoring.server_dashboard_chart_deletion|SystemMonitoring|
 |서버 대시보드 레이아웃 추가|event_id.system_monitoring.server_dashboard_layout_addition|SystemMonitoring|
 |서버 대시보드 레이아웃 변경|event_id.system_monitoring.server_dashboard_layout_updating|SystemMonitoring|
 |서버 대시보드 레이아웃 삭제|event_id.system_monitoring.server_dashboard_layout_deletion|SystemMonitoring|
 |사용자 그룹 추가|event_id.system_monitoring.user_group_addition|SystemMonitoring|
-|사용자 그룹 변경|event_id.system_monitoring.user_group_updating|SystemMonitoring|
 |사용자 그룹 삭제|event_id.system_monitoring.user_group_deletion|SystemMonitoring|
 |사용자 그룹에 사용자 추가|event_id.system_monitoring.user_group_user_addition|SystemMonitoring|
 |사용자 그룹에 사용자 삭제|event_id.system_monitoring.user_group_user_deletion|SystemMonitoring|
+|사용자 그룹 이름 수정|event_id.system_monitoring.user_group_name_updating|SystemMonitoring|
 |알림 그룹 추가|event_id.system_monitoring.alarm_group_addition|SystemMonitoring|
 |알림 그룹 변경|event_id.system_monitoring.alarm_group_updating|SystemMonitoring|
 |알림 그룹 삭제|event_id.system_monitoring.alarm_group_deletion|SystemMonitoring|
 |알림 설정 추가|event_id.system_monitoring.alarm_config_addition|SystemMonitoring|
 |알림 설정 변경|event_id.system_monitoring.alarm_config_updating|SystemMonitoring|
 |알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|SystemMonitoring|
-|알림 그룹 내 서버 목록 변경|event_id.system_monitoring.alarm_group_server_list_updating|SystemMonitoring|
-|알림 그룹 내 사용자 그룹 변경|event_id.system_monitoring.alarm_group_user_group_updating|SystemMonitoring|
 |이벤트 강제 종료|event_id.system_monitoring.event_force_close|SystemMonitoring|
