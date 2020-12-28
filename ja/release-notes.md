@@ -10,6 +10,8 @@
 #### イベント追加
 * System Monitoringサービス関連イベントが追加されました。
     * 詳細はマニュアルを参照してください。：[リンク](/CloudTrail/ko/event-list/)
+* Certificate Managerサービス関連イベントを追加しました。
+  * 詳細はマニュアルを参照: [リンク](/CloudTrail/ja/event-list/)
   
 ### 2020. 10. 27.
 #### イベント追加

@@ -266,3 +266,19 @@
 |알림 설정 변경|event_id.system_monitoring.alarm_config_updating|SystemMonitoring|
 |알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|SystemMonitoring|
 |이벤트 강제 종료|event_id.system_monitoring.event_force_close|SystemMonitoring|
+|Add Alarm Group|event_id.certificate_manager.alarm_group.create|Certificate Manager|
+|Add Certificate|event_id.certificate_manager.certificate.create|Certificate Manager|
+|Add Domain|event_id.certificate_manager.domain.create|Certificate Manager|
+|Add User Data|event_id.certificate_manager.user_data.create|Certificate Manager|
+|Delete Alarm Group|event_id.certificate_manager.alarm_group.delete|Certificate Manager|
+|Delete Certificate|event_id.certificate_manager.certificate.delete|Certificate Manager|
+|Delete Domain|event_id.certificate_manager.domain.delete|Certificate Manager|
+|Delete User Data|event_id.certificate_manager.user_data.delete|Certificate Manager|
+|Download Certificate|event_id.certificate_manager.certificate.download|Certificate Manager|
+|Edit Alarm|event_id.certificate_manager.alarm.update|Certificate Manager|
+|Edit Alarm Group|event_id.certificate_manager.alarm_group.update|Certificate Manager|
+|Edit Certificate|event_id.certificate_manager.certificate.update|Certificate Manager|
+|Edit Certificate Usage|event_id.certificate_manager.certificate.usage.update|Certificate Manager|
+|Edit Domain|event_id.certificate_manager.domain.update|Certificate Manager|
+|Edit Receiving Group|event_id.certificate_manager.alarm_group_user.update|Certificate Manager|
+|Edit User Data|event_id.certificate_manager.user_data.update|Certificate Manager|
