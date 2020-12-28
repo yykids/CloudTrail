@@ -340,3 +340,19 @@
 |알림 설정 변경|event_id.system_monitoring.alarm_config_updating|SystemMonitoring|
 |알림 설정 삭제|event_id.system_monitoring.alarm_config_deletion|SystemMonitoring|
 |이벤트 강제 종료|event_id.system_monitoring.event_force_close|SystemMonitoring|
+|알림 그룹 추가|event_id.certificate_manager.alarm_group.create|Certificate Manager|
+|알림 그룹 삭제|event_id.certificate_manager.alarm_group.delete|Certificate Manager|
+|알림 그룹 수정|event_id.certificate_manager.alarm_group.update|Certificate Manager|
+|수신 그룹 수정|event_id.certificate_manager.alarm_group_user.update|Certificate Manager|
+|알림 수정|event_id.certificate_manager.alarm.update|Certificate Manager|
+|인증서 추가|event_id.certificate_manager.certificate.create|Certificate Manager|
+|인증서 삭제|event_id.certificate_manager.certificate.delete|Certificate Manager|
+|인증서 다운로드|event_id.certificate_manager.certificate.download|Certificate Manager|
+|인증서 수정|event_id.certificate_manager.certificate.update|Certificate Manager|
+|인증서 사용정보 수정|event_id.certificate_manager.certificate.usage.update|Certificate Manager|
+|도메인 추가|event_id.certificate_manager.domain.create|Certificate Manager|
+|도메인 삭제|event_id.certificate_manager.domain.delete|Certificate Manager|
+|도메인 수정|event_id.certificate_manager.domain.update|Certificate Manager|
+|사용자 데이터 추가|event_id.certificate_manager.user_data.create|Certificate Manager|
+|사용자 데이터 삭제|event_id.certificate_manager.user_data.delete|Certificate Manager|
+|사용자 데이터 수정|event_id.certificate_manager.user_data.update|Certificate Manager|

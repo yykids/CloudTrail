@@ -340,3 +340,19 @@
 |通知設定変更|event_id.system_monitoring.alarm_config_updating|SystemMonitoring|
 |通知設定削除|event_id.system_monitoring.alarm_config_deletion|SystemMonitoring|
 |イベント強制終了|event_id.system_monitoring.event_force_close|SystemMonitoring|
+|ドメインの修正|event_id.certificate_manager.domain.update|Certificate Manager|
+|ユーザーデータの修正|event_id.certificate_manager.user_data.update|Certificate Manager|
+|ドメインの削除|event_id.certificate_manager.domain.delete|Certificate Manager|
+|ユーザーデータの削除|event_id.certificate_manager.user_data.delete|Certificate Manager|
+|受信グループの修正|event_id.certificate_manager.alarm_group_user.update|Certificate Manager|
+|証明書のダウンロード|event_id.certificate_manager.certificate.download|Certificate Manager|
+|証明書の使用情報の修正|event_id.certificate_manager.certificate.usage.update|Certificate Manager|
+|証明書の修正|event_id.certificate_manager.certificate.update|Certificate Manager|
+|証明書の削除|event_id.certificate_manager.certificate.delete|Certificate Manager|
+|証明書の追加|event_id.certificate_manager.certificate.create|Certificate Manager|
+|ドメインの追加|event_id.certificate_manager.domain.create|Certificate Manager|
+|ユーザーデータの追加|event_id.certificate_manager.user_data.create|Certificate Manager|
+|通知グループの修正|event_id.certificate_manager.alarm_group.update|Certificate Manager|
+|通知の修正|event_id.certificate_manager.alarm.update|Certificate Manager|
+|通知グループの削除|event_id.certificate_manager.alarm_group.delete|Certificate Manager|
+|通知グループの追加|event_id.certificate_manager.alarm_group.create|Certificate Manager|

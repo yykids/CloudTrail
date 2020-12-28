@@ -10,11 +10,13 @@
 #### 이벤트 추가
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
     * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
+* Added events related to Certificate Manager.
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
 
 ### 2020. 10. 27.
 #### More Events
 * Added events related to CDN Service.
-    * Refer to the manual for more details : [Link](/CloudTrail/en/event-list/)
+    * Refer to the manual for more details : [Link](/CloudTrail/zh/event-list/)
     
 ### 2020. 09. 22.
 #### More Events
