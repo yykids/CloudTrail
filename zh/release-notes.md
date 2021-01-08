@@ -2,12 +2,14 @@
 ## CloudTrail > ReleaseNotes
 
 ### 2020. 12. 29.
-#### 기능 변경
-* 이름(아이디) 검색 조건에서 **이름이나 아이디 검색**이 **이름 검색**으로 변경되었습니다.
-#### 기능 추가
+#### Feature Updates
+* In the name (ID) search conditions, **Search name or ID** has been changed to **Search name**.
+
+#### More Features
 * 로그 저장/다운로드 설정을 제공합니다.
     * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/console-guide/)
-#### 이벤트 추가
+  
+#### More Events
 * System Monitoring 서비스 관련 이벤트가 추가되었습니다.
     * 자세한 사항은 매뉴얼을 참고합니다.: [링크](/CloudTrail/ko/event-list/)
 * Added events related to Certificate Manager.
