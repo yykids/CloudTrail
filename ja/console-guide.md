@@ -4,19 +4,19 @@
 CloudTrailは、組織を有効にするとデフォルトで提供されるサービスです。したがって、組織を作成している場合は別途行う作業はありません。
 組織を作成した後、サービス選択でCloudTrailサービスを選択すると使用できます。
 
-![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/EN_001.png)
+![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/IMG01_JA.png)
 
 ### リスト
 
 CloudTrailサービスを選択すると、次のような画面が現れます。
 
-![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/EN_002.png)
+![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/IMG02_JA.png)
 
 該当組織内でユーザーイベントが記録され、これを確認できます。
 
 ### 検索およびソート機能
 
-![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/EN_003.png)
+![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/IMG03_JA.png)
 
 1. プロジェクトを検索します。名前単位でのみ検索できます。
 2. ソース(イベントが発生した場所)単位で検索します。
@@ -41,7 +41,7 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
 
 ### 詳細表示機能
 
-![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/EN_004.png)
+![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/IMG04_JA.png)
 
 行を選択すると該当の行が拡張され、詳細イベントが表示されます。
 
@@ -51,7 +51,7 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
 해당 조직 내에서 기록된 사용자 이벤트 로그를 외부 OBS를 통해 저장/다운로드 할 수 있습니다.
 **로그 저장/다운로드 설정** 버튼을 클릭하여 나타나는 팝업에서 사용여부를 체크하여 설정할 수 있습니다.
 
-![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/KR_005.png)
+![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_JA.png)
 
 * 아래부터는 [TOAST OBS](/Storage/Object%20Storage/ko/Overview/)를 이용한 로그 저장/다운로드 방법을 설명합니다.
    * **액세스 키**, **비밀 키**는 [AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)를 이용한 **EC2 자격 증명 등록 및 조회**로 확인 할 수 있습니다.
