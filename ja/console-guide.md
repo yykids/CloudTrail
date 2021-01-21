@@ -47,15 +47,16 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
 
 リクエストとレスポンス結果を表示し、どんなリクエストを送ったかを確認できます。
 
-### 로그 저장/다운로드 설정
-해당 조직 내에서 기록된 사용자 이벤트 로그를 외부 Object Storage를 통해 저장/다운로드 할 수 있습니다.
-**로그 저장/다운로드 설정** 버튼을 클릭한 후 대화 상자에서 사용 여부를 선택합니다.
+
+### ログ保存/ダウンロード設定
+該当組織内で記録されたユーザーイベントログを外部Object Storageへ保存/ダウンロードできます。
+**ログ保存/ダウンロード設定** ボタンを押した後、ダイアログボックスで使用するかどうかを選択します。
 
 ![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_JA.png)
 
-* 아래부터는 [TOAST Object Storage](/Storage/Object%20Storage/ko/Overview/)를 이용한 로그 저장/다운로드 방법을 설명합니다.
-   * **액세스 키**, **비밀 키**는 [AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)를 이용한 **EC2 자격 증명 등록 및 조회**로 확인할 수 있습니다.
-   * **버킷이름**은 로그가 저장될 Object Storage 컨테이너의 이름입니다.
-   * **엔드포인트**, **리전**은 로그를 저장할 Object Storage를 관리할 정보이며, [Amazon S3 호환 API 가이드 - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)에서 확인할 수 있습니다.
-   * 설정이 완료되면 설정한 Object Storage에 로그가 저장됩니다.
-   * 저장된 로그는 2시간~2시간반 후 Object Storage에 업로드된 이후 확인 가능합니다. 
+* 以下では[TOAST Object Storage](/Storage/Object%20Storage/ko/Overview/)を利用したログ保存/ダウンロード方法を説明します。
+   * **アクセスキー**、**シークレットキー**は[AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)を利用した**EC2資格証明登録および照会**で確認できます。
+   * **バケット名**はログが保存されるObject Storageコンテナの名前です。
+   * **エンドポイント**、**リージョン**はログを保存するObject Storageを管理する情報で、[Amazon S3互換APIガイド - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)で確認できます。
+   * 設定が完了すると、設定したObject Storageにログが保存されます。
+   * 保存されたログは2時間～2時間半後、Object Storageにアップロードされてから確認可能です。 
