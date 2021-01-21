@@ -4,32 +4,32 @@
 CloudTrailは、組織を有効にするとデフォルトで提供されるサービスです。したがって、組織を作成している場合は別途行う作業はありません。
 組織を作成した後、サービス選択でCloudTrailサービスを選択すると使用できます。
 
-![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/EN_001.png)
+![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/IMG01_JA.png)
 
 ### リスト
 
 CloudTrailサービスを選択すると、次のような画面が現れます。
 
-![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/EN_002.png)
+![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/IMG02_JA.png)
 
 該当組織内でユーザーイベントが記録され、これを確認できます。
 
 ### 検索およびソート機能
 
-![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/EN_003.png)
+![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/IMG03_JA.png)
 
-1. ユーザーを検索します。 名前で検索できます。
-2. プロジェクトを検索します。名前単位でのみ検索できます。
-3. ソース(イベントが発生した場所)単位で検索します。
+1. プロジェクトを検索します。名前単位でのみ検索できます。
+2. ソース(イベントが発生した場所)単位で検索します。
     - ADMIN_CONSOLE：管理者コンソールで発生したイベント
     - API：システム内部的に発生したイベント 
         - [参考]パッチ作業や予約された作業、アラームなどのイベントが記録されます。
     - USER_CONSOLE：組織内部会員ユーザーコンソールで発生したイベント
-4. サービス単位で検索します。 
+3. サービス単位で検索します。 
     - サービスは複数の項目を検索できます。
     - [参考]サービスはTOASTクラウドサービス単位です。
-5. イベント単位で検索します。
+4. イベント単位で検索します。
     - イベントは複数の項目を検索できます。
+5. 사용자를 검색합니다.
 6. リクエスト、レスポンス値を検索します。
 7. 検索範囲を指定します。24時間、1週間、2ヶ月、3ヶ月単位フィルタが提供され、直接指定できます。
     - [参考]イベントは最大3ヶ月間保存されます。
@@ -41,8 +41,21 @@ CloudTrailサービスを選択すると、次のような画面が現れます�
 
 ### 詳細表示機能
 
-![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/EN_004.png)
+![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/IMG04_JA.png)
 
 行を選択すると該当の行が拡張され、詳細イベントが表示されます。
 
 リクエストとレスポンス結果を表示し、どんなリクエストを送ったかを確認できます。
+
+### ログ保存/ダウンロード設定
+該当組織内で記録されたユーザーイベントログを外部Object Storageへ保存/ダウンロードできます。
+**ログ保存/ダウンロード設定** ボタンを押した後、ダイアログボックスで使用するかどうかを選択します。
+
+![cloudtrail_05](https://static.toastoven.net/prod_cloudtrail/IMG05_JA.png)
+
+* 以下では[TOAST Object Storage](/Storage/Object%20Storage/ko/Overview/)を利用したログ保存/ダウンロード方法を説明します。
+   * **アクセスキー**、**シークレットキー**は[AWS S3 API](/Storage/Object%20Storage/ko/s3-api-guide/#_1)を利用した**EC2資格証明登録および照会**で確認できます。
+   * **バケット名**はログが保存されるObject Storageコンテナの名前です。
+   * **エンドポイント**、**リージョン**はログを保存するObject Storageを管理する情報で、[Amazon S3互換APIガイド - AWS SDK](/Storage/Object%20Storage/ko/s3-api-guide#aws-sdk)で確認できます。
+   * 設定が完了すると、設定したObject Storageにログが保存されます。
+   * 保存されたログは2時間～2時間半後、Object Storageにアップロードされてから確認可能です。 
