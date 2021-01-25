@@ -1,8 +1,8 @@
 
-## CloudTrail > ReleaseNotes
+## CloudTrail > Release Notes
 ### 2021. 01. 26.
-#### 기능 변경
-* 이름 검색 검색 조건에서 **이름 검색**이 **아이디 검색**으로 변경되었습니다.
+#### Feature Updates
+* In name search conditions, **Search Name** has been changed to **Search ID**.
 
 ### 2020. 12. 29.
 #### Feature Updates
