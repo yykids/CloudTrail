@@ -1,49 +1,49 @@
 
-## CloudTrail > 콘솔 사용 가이드
+## CloudTrail > Console Guide
 
-### 시작하기
-CloudTrail은 조직을 활성화하면 기본으로 제공되는 서비스입니다. 따라서 조직을 생성했다면 별도로 처리할 작업은 없습니다.
-조직을 생성한 후 서비스 선택에서 CloudTrail 서비스를 선택하시면 사용할 수 있습니다.
+### Getting Started
+CloudTrail is a service provided by default when an organization is activated. If an organization has already been created, no further action is necessary.
+CloudTrail can be used by selecting it from Select Service after an organization is created.
 
 ![cloudtrail_01](https://static.toastoven.net/prod_cloudtrail/EN_001.png)
 
-### 목록
+### List
 
-CloudTrail 서비스를 선택하면 다음과 같은 화면이 나타납니다.
+The following screen appears when the CloudTrail service is selected.
 
 ![cloudtrail_02](https://static.toastoven.net/prod_cloudtrail/EN_002.png)
 
-해당 조직 내에서 사용자 이벤트가 기록되고, 이를 확인할 수 있습니다.
+User events are logged in the organization and users can view them.
 
-### 검색 및 정렬 기능
+### Searching and sorting
 
 ![cloudtrail_03](https://static.toastoven.net/prod_cloudtrail/EN_003.png)
 
-1. 사용자를 검색합니다. 이름으로 검색할 수 있습니다.
-2. 프로젝트를 검색합니다. 이름 단위로만 검색할 수 있습니다.
-3. 소스(이벤트가 발생한 장소) 단위로 검색합니다.
-    - ADMIN_CONSOLE: 관리자 콘솔에서 발생한 이벤트
-    - API: 시스템 내부적으로 발생한 이벤트 
-        - [참고] 배치 작업이나 예약된 작업, 알람 등의 이벤트가 기록됩니다.
-    - USER_CONSOLE: 조직 내부 회원 사용자 콘솔에서 발생한 이벤트
-4. 서비스 단위로 검색합니다. 
-    - 서비스는 여러 개 항목을 검색할 수 있습니다.
-    - [참고] 서비스는 TOAST 클라우드 서비스 단위입니다.
-5. 이벤트 단위로 검색합니다.
-    - 이벤트는 여러 개 항목을 검색할 수 있습니다.
-6. 요청, 응답값을 검색합니다.
-7. 검색 범주를 지정합니다. 24시간, 1주일, 2개월, 3개월 단위 필터가 제공되며, 직접 지정할 수도 있습니다. 
-    - [참고] 이벤트는 최대 3개월간 저장됩니다.
-8. 목록 표시 단위를 지정합니다. 한 화면에 몇 개의 목록을 표시할지 20, 50, 100개 단위로 설정할 수 있습니다.
+1. Searches for users. Users can be searched by their name.
+2. Searches for projects. They can be searched by name unit only.
+3. Searches by source (the location where event occurred).
+    - ADMIN_CONSOLE: Events occurred in the admin console
+    - API: Events occurred within the system 
+        - [Note] Events such as batch tasks, scheduled tasks, and alarms are logged.
+    - USER_CONSOLE: Events occurred in the console of an insider member
+4. Searches by service. 
+    - Multiple services can be searched for.
+    - [Note] Service is the unit of the TOAST cloud service.
+5. Searches by event.
+    - Multiple events can be searched for.
+6. Searches for requests and response values.
+7. Specifies the scope of a search. The filter options are 24 hours, 1 week, 2 weeks, and 3 months. Users can enter a filter value as well. 
+    - [Note] Events are retained up to 3 months.
+8. Specifies the list display unit. You can display 25, 50, or 100 items at once on the screen.
 
 ---
 
-* 정렬 기능은 시간 항목에서만 사용할 수 있습니다.
+* The sort feature can only be used in the time item.
 
-### 상세 보기 기능
+### Detailed view
 
 ![cloudtrail_04](https://static.toastoven.net/prod_cloudtrail/EN_004.png)
 
-행을 선택하면, 해당 행이 확장되면서 상세 이벤트가 나타납니다.
+When a column is selected, the column is expanded and event details are displayed.
 
-요청과 응답 결과를 표시해 어떠한 요청을 시도했는지 확인할 수 있습니다.
+Shows requests and response results so that users can see the history of attempted requests.
